@@ -1,16 +1,17 @@
-.heading {
-    position: absolute; /**Change this later?*/
+.hero-image {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url('./test.jpg')
+}
+.hero-text {
     color: white;
     font-style: bold;
     font-size: xx-large;
-    top: 50%;
-    left: 50%;
-}
-.hero-image {
-    display: contain;
-}
-.background {
-    background-image: url('./app/public/assets/test.jpg');
-    background-color: aqua;
-    justify-content: center;
+    text-align: center;
 }

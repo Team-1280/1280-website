@@ -1,9 +1,11 @@
 import './Home.css'
 
 const Home = () => (
-    <div className="background">
-        <div className='heading'>1280</div>
-    </div>
+    <section className="hero-image">
+        <div className='hero-text'>
+            testingtesting
+        </div>
+    </section>
 )
 
 export default Home;
