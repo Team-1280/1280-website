@@ -1,0 +1,16 @@
+.heading {
+    position: absolute; /**Change this later?*/
+    color: white;
+    font-style: bold;
+    font-size: xx-large;
+    top: 50%;
+    left: 50%;
+}
+.hero-image {
+    display: contain;
+}
+.background {
+    background-image: url('./app/public/assets/test.jpg');
+    background-color: aqua;
+    justify-content: center;
+}
