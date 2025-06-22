@@ -1,12 +1,19 @@
 .navbar {
-
+    padding: 1rem 2rem;
+    color: black;
 }
 .arrangement {
-
+    justify-content: left;
+    display: flex;
+    align-items: left;
 }
 .links a {
-
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
 }
 .logo {
-    
+
 }
