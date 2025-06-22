@@ -1,8 +1,9 @@
 import './Navbar.css';
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     <nav className="navbar">
+        <div>TESTING NAVBAR</div>
         <div className="arrangement">
             <div className='links'>
                 <Link to='/'>Home</Link>

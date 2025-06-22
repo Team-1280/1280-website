@@ -9,14 +9,16 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Outreach' element={<Outreach />} />
-        <Route path='/Resources' element={<Resources />} />
-      </Routes>
+      <main className='container'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Outreach' element={<Outreach />} />
+          <Route path='/Resources' element={<Resources />} />
+        </Routes>
+      </main>
     </Router>
-  )
+  );
 }
 
 export default App;
