@@ -6,7 +6,12 @@ const Navbar = () => {
         <nav className="navbar">
             <img src='./logo.png' className='logo'/>
             <div className='links'>
-                <Link to='/'>Home</Link>
+                <div className="dropdown">
+                    <Link to='/'>Home</Link>
+                    <div className='drop-menu'>
+
+                    </div>
+                </div>
                 <Link to='/About'>About</Link>
                 <Link to='/Outreach'>Outreach</Link>
                 <Link to='/Resources'>Resources</Link>
