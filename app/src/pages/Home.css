@@ -1,6 +1,6 @@
 .hero-image {
     display: flex;
-    height: 90vh;
+    height: 95vh;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -12,7 +12,7 @@
 }
 .hero-opacity {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     top: 0;
     left: 0;
@@ -28,33 +28,61 @@
 .hero-text img {
     max-width: 30%;
     height: auto;
+    padding: 8rem;
 }
 .mission-background {
-    height: 80vh;
+    height: 60vh;
     justify-content: center;
     align-items: center;
     background-position: center;
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-    background-image: url('./test1.jpg')
+    background-color: #ECF1F2;
+    overflow: auto;
+    text-overflow: ellipsis;
+    padding: 1rem;
 }
 .mission-heading {
     position: absolute;
-    color: white;
-    font-style: bold;
+    color: black;
+    font-weight: bold;
     font-size: xx-large;
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 .mission-text {
     position: absolute;
     text-align: center;
-    color: white;
+    color: black;
     font-size: medium;
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
     font-size: large;
+    max-width: 50vw;
+    line-height: 2;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+.action-calls {
+    background-color: #ECF1F2;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.action-button {
+    background-color: #F4D800;
+    border-radius: 8px;
+    font-size: medium;
+    padding: 1rem;
+    font-weight: bold;
+}
+.action-button:hover{
+    box-shadow: black 2px 2px;
 }
