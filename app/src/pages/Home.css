@@ -1,17 +1,47 @@
 .hero-image {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     background-position: center;
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-    background-image: url('./test.jpg')
+    background-image: url('./test1.jpg')
 }
 .hero-text {
     color: white;
     font-style: bold;
     font-size: xx-large;
     text-align: center;
+    justify-content: center;
+}
+.mission-background {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url('./test1.jpg')
+}
+.mission-heading {
+    position: absolute;
+    color: white;
+    font-style: bold;
+    font-size: xx-large;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mission-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: large;
 }
