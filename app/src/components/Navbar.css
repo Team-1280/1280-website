@@ -5,11 +5,9 @@
     top: 0;
     width: 95%;
     z-index: 1234567; /**No ovelap:)*/
-}
-.arrangement {
-    justify-content: right;
     display: flex;
-    align-items: right;
+    justify-content: space-between;
+    align-items: center;
 }
 .links a {
     color: white;
@@ -18,4 +16,7 @@
 }
 a:hover {
     text-decoration: underline;
+}
+.navbar img {
+    max-width: 5%;
 }
