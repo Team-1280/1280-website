@@ -14,10 +14,34 @@
     padding-left: 1.5rem;
     text-decoration: none;
     font-weight: bold;
+    position: relative;
 }
 a:hover {
     text-decoration: underline;
 }
 .navbar img {
     max-width: 5%;
+}
+.drop-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222;
+    list-style: none;
+    padding: 0.5rem;
+    z-index: 123456;
+    min-width: 160px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block
+}
+.drop-menu link {
+
+}
+.nav-item {
+
+}
+.dropdown {
+
 }

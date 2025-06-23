@@ -5,17 +5,17 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <img src='./logo.png' className='logo'/>
-            <div className='links'>
-                <div className="dropdown">
-                    <Link to='/'>Home</Link>
-                    <div className='drop-menu'>
-
-                    </div>
-                </div>
-                <Link to='/About'>About</Link>
+            <ul className='links'>
+                <Link to='/' className='nav-item'>Home</Link>
+                <Link to='/About' className='nav-item dropdown'>About</Link>
+                    <ul className='drop-menu'>
+                        <Link to='/About'>About Us</Link>
+                        <Link to='/MeetTeam'>Meet the Team</Link>
+                        <Link to='/Contact'>Contact</Link>
+                    </ul>
                 <Link to='/Outreach'>Outreach</Link>
                 <Link to='/Resources'>Resources</Link>
-            </div>
+            </ul>
         </nav>
     )
 }
