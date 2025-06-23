@@ -6,15 +6,28 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    background-repeat: no-repeat;
-    background-image: url('./test1.jpg')
+    background-image: url('./team.png');
+    overflow: hidden;
+    vertical-align: center;
+}
+.hero-opacity {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 .hero-text {
-    color: white;
-    font-style: bold;
-    font-size: xx-large;
     text-align: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.hero-text img {
+    max-width: 30%;
+    height: auto;
 }
 .mission-background {
     height: 80vh;

@@ -1,5 +1,5 @@
 .navbar {
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     background-color: #53565a;
     position: fixed;
     top: 0;
@@ -9,10 +9,12 @@
 .arrangement {
     justify-content: right;
     display: flex;
-    align-items: left;
+    align-items: right;
 }
-.links {
+.links a {
     color: white;
+    padding-left: 1.5rem;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
