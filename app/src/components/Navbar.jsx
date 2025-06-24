@@ -7,14 +7,23 @@ const Navbar = () => {
             <img src='./logo.png' className='logo'/>
             <ul className='links'>
                 <Link to='/' className='nav-item'>Home</Link>
-                <Link to='/About' className='nav-item dropdown'>About</Link>
-                    <ul className='drop-menu'>
+                <div className="dropdown">
+                    <Link to='/About' className='drop-link'>About</Link>
+                    <ul className='dropdown-content'>
                         <Link to='/About'>About Us</Link>
                         <Link to='/MeetTeam'>Meet the Team</Link>
                         <Link to='/Contact'>Contact</Link>
                     </ul>
+                </div>
                 <Link to='/Outreach'>Outreach</Link>
-                <Link to='/Resources'>Resources</Link>
+                <div className="dropdown">
+                    <Link to='/Resources' className='drop-link'>Resources</Link>
+                    <ul className='dropdown-content'>
+                        <Link to='/About'>Robot/Engineering</Link>
+                        <Link to='/MeetTeam'>Join Us</Link>
+                        <Link to='/Contact'>News and Events</Link>
+                    </ul>
+                </div>
             </ul>
         </nav>
     )
