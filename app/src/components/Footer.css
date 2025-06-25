@@ -1,0 +1,49 @@
+.footer-background {
+    padding: 1.5rem 3rem;
+    background-color: #53565a;
+    position: relative;
+    /* position: fixed; */
+    top: 100%;
+    /* width: 90%; */
+    height: 40vh;
+    /* z-index: 1234567; *No ovelap:) */
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 6px 6px 6px 1px rgb(0 0 0 / 20%); */
+    overflow: hidden;
+}
+.contact-header {
+    padding: 0rem;
+    color: white;
+    position: absolute;
+    top: 20%;
+    font-weight: bold;
+    font-size: x-large;
+}
+.contact-text {
+    color: white;
+    /* font-weight: bold; */
+    position: absolute;
+    display: grid;
+    line-height: 1.5;
+}
+.address-line {
+    top: 25%;
+    left: 70%;
+}
+.city {
+    top: 35%;
+    left: 70%;
+}
+.summary {
+    top: 35%;
+    max-width: 40%;;
+}
+.phone {
+    top: 55%;
+    left: 70%;
+}
+.email {
+    top: 65%;
+    left: 70%;
+}

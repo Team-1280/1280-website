@@ -10,6 +10,7 @@ import MeetTeam from './pages/MeetTeam.jsx'
 import News from './pages/News.jsx'
 import RobotEngineering from './pages/RobotEngineering.jsx'
 import SponsorsDonors from './pages/SponsorsDonors.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/Sponsors' element={<SponsorsDonors />} />
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
 }
