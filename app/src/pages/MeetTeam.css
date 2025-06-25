@@ -76,7 +76,7 @@
 }
 .icon-background {
     display: flex;
-    height: 380vh;
+    height: 370vh;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -86,4 +86,57 @@
     overflow: hidden;
     text-overflow: ellipsis;
     padding-top: 1rem;
+}
+.mentor-background {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #222222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 0rem;
+}
+.middle-background {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #222222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 0rem;
+}
+.mentor-header {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.mentor-text {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 2;
+    padding: 1.5rem;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }

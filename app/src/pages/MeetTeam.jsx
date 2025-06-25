@@ -103,6 +103,39 @@ const MeetTeam = () => (
                 </div>
             </div>
         </section>
+        <section>
+            <div className='middle-background'>
+                <div className='mentor-header'>
+                    Our Mentors
+                </div>
+                <div className='mentor-text'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+            </div>
+                <div className='mentor-background'>
+                    <div className='icon-grid'>
+                        <div className='icon-card'>
+                            <img src='./team.png' className='card-image'/>
+                            <button className='card-heading'>
+                                Staff Advisor/Coach
+                            </button>
+                        </div>
+                        <div className='icon-card'>
+                            <img src='./team.png' className='card-image'/>
+                            <button className='card-heading'>
+                                Head Mentor
+                            </button>
+                        </div>
+                        <div className='icon-card'>
+                            <img src='./team.png' className='card-image'/>
+                            <button className='card-heading'>
+                                Team Mentor
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </>
 )
 
