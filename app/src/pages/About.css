@@ -69,4 +69,16 @@
     align-items:center;
     background-color: #ECF1F2;
     box-sizing: border-box;
+    padding: 2rem;
+}
+.middle-heading {
+    font-weight: bold;
+    font-size: xx-large;
+}
+.middle-text {
+    font-weight: bold;
+    font-size: medium;
+    overflow: hidden;
+    padding: 1.5rem;
+    line-height: 2;
 }

@@ -21,11 +21,11 @@ const About = () => (
                 <div className='half image-half'>
                     <img src={TeamImage} alt="Team 1280" />
                 </div>
-                <div className='half text-half'>
-                    <div className='banner-heading'>
+                <div className='text-half half'>
+                    <div className='middle-heading'>
                     Our History
                     </div>
-                    <div className='banner-text'>
+                    <div className='middle-text'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
