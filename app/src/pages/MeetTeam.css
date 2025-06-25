@@ -15,7 +15,7 @@
     position: absolute;
     color: white;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: xxx-large;
     top: 40%;
     left: 50%;
     transform: translateX(-50%);
@@ -117,7 +117,7 @@
     position: absolute;
     color: white;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: xxx-large;
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
@@ -130,7 +130,7 @@
     color: white;
     font-weight: bold;
     font-size: medium;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     line-height: 2;

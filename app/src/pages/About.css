@@ -1,6 +1,6 @@
 .banner-background {
     display: flex;
-    height: 80vh;
+    height: 85vh;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -24,7 +24,7 @@
     position: absolute;
     color: black;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: xxx-large;
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
@@ -34,7 +34,7 @@
     text-align: center;
     color: black;
     font-size: medium;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     font-size: large;

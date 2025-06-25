@@ -26,8 +26,8 @@ function App() {
           <Route path='/Join' element={<Join />} />
           <Route path='/MeetTeam' element={<MeetTeam />} />
           <Route path='/News' element={<News />} />
-          <Route path='/Engineering' element={<RobotEngineering />} />
-          <Route path='/Sponsors' element={<SponsorsDonors />} />
+          <Route path='/RobotEngineering' element={<RobotEngineering />} />
+          <Route path='/SponsorsDonors' element={<SponsorsDonors />} />
         </Routes>
       </main>
       <Footer />
