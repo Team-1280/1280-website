@@ -1,0 +1,40 @@
+.donate-background {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* padding-top: 1rem; */
+    background-color: rgb(244, 216, 0);
+}
+.donate-heading {
+    display: flex;
+    color: white;
+    padding: 2rem;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    position: absolute;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.donate-text {
+    font-weight: bold;
+    font-size: medium;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+    line-height: 2;
+    color: white;
+    max-width: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+}

@@ -76,7 +76,7 @@
     border-radius: 8px;
     width: 200px;
 }
-.middle-heading {
+.mid-heading {
     display: flex;
     color: white;
     padding: 2rem;
@@ -84,8 +84,10 @@
     top: 10%;
     transform: translateX(-50%);
     position: absolute;
+    font-size: xx-large;
+    font-weight: bold;
 }
-.middle-text {
+.mid-text {
     font-weight: bold;
     font-size: medium;
     overflow: hidden;
@@ -98,7 +100,7 @@
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 30%;
     transform: translateX(-50%);
 }
 .black-background {

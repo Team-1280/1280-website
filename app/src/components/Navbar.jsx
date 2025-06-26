@@ -24,6 +24,13 @@ const Navbar = () => {
                         <Link to='/News'>News and Events</Link>
                     </ul>
                 </div>
+                <div className="dropdown">
+                    <Link to='/SponsorsDonors' className='drop-link'>Sponsors</Link>
+                    <ul className='dropdown-content'>
+                        <Link to='/SponsorsDonors'>Our Sponsors</Link>
+                        <Link to='/Donate'>Donate</Link>
+                    </ul>
+                </div>
             </ul>
         </nav>
     )
