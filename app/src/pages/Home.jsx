@@ -6,7 +6,12 @@ const Home = () => (
         <section className="hero-image">
             <div className='hero-opacity'>
                 <div className='hero-text'>
-                    <img src={HeroTextImg} alt="Team 1280" />
+                    <div className='hero-heading'>
+                        San Ramon Valley Robotics – FRC Team 1280
+                    </div>
+                    <div className='hero-subheading'>
+                        Inspiring Innovation. Building Leaders. Competing with Heart.
+                    </div>
                 </div>
             </div>
         </section>
@@ -32,6 +37,17 @@ const Home = () => (
                 <button className='action-button'>
                     Join the Team
                 </button>
+            </div>
+        </section>
+        <section>
+            <div className='about-preview-background'>
+                <div className='about-preview-heading'>
+                    Who We Are
+                </div>
+                <div className='about-preview-subheading'>
+                    FRC Team 1280, the Ragin' C’ Biscuits, is a student-led robotics team based at San Ramon Valley High School in Danville, California. 
+                    Since 2004, we’ve empowered high school students to explore STEM through hands-on engineering, programming, business, and leadership challenges.
+                </div>
             </div>
         </section>
     </>   
