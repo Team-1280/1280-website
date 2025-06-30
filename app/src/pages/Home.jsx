@@ -32,7 +32,7 @@ const Home = () => (
                     Donate to the Team
                 </button>
                 <button className='action-button'>
-                    Learn About Us
+                    About Us
                 </button>
                 <button className='action-button'>
                     Join the Team
@@ -40,7 +40,35 @@ const Home = () => (
             </div>
         </section>
         <section>
-            
+            <div className='about-sample-background'>
+                <div className='about-sample-heading'>
+                    Who We Are
+                </div>
+                <div className='about-sample-subheading'>
+                    FRC Team 1280, the Ragin' C’ Biscuits, is a student-led robotics team based at San Ramon Valley High School in Danville, California. 
+                    Since 2004, we’ve empowered high school students to explore STEM through hands-on engineering, programming, business, and leadership challenges.
+                </div>
+                <div className='about-sample-button'>
+                    Learn More
+                </div>
+            </div>
+        </section>
+        <section>
+            <div className='robot-sample-split-container'>
+                <div className='robot-sample-half robot-sample-image-half'>
+                    <img src={TeamImage} alt="Team 1280" />
+                </div>
+                <div className='robot-sample-text-half half'>
+                    <div className='robot-sample-middle-heading'>
+                    Robot Design & Competition
+                    </div>
+                    <div className='robot-sample-middle-text'>
+                        We build a new robot each year to compete in the FIRST Robotics Competition. 
+                        Students learn CAD, fabrication, electrical wiring, and software development as they take on real-world engineering challenges.
+
+                    </div>
+                </div>
+            </div>
         </section>
     </>   
 )
