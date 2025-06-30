@@ -1,5 +1,4 @@
 import './Home.css'
-import HeroTextImg from '../assets/1280.png'
 
 const Home = () => (
     <> 
@@ -40,13 +39,19 @@ const Home = () => (
             </div>
         </section>
         <section>
-            <div className='about-preview-background'>
-                <div className='about-preview-heading'>
-                    Who We Are
+            <div className='home-about-split-container'>
+                <div className='part image-half-about-split'>
+                    <img src='./team.png' alt="Team 1280"/>
                 </div>
-                <div className='about-preview-subheading'>
-                    FRC Team 1280, the Ragin' C’ Biscuits, is a student-led robotics team based at San Ramon Valley High School in Danville, California. 
-                    Since 2004, we’ve empowered high school students to explore STEM through hands-on engineering, programming, business, and leadership challenges.
+                <div className='text-half-about-split'>
+                    <div className='about-split-heading'>
+                        Who We Are
+                    </div>
+                    <div className='about-split-text'>
+                        FRC Team 1280, the Ragin' C’ Biscuits, is a student-led robotics team based at San Ramon Valley High School in Danville, California. 
+                        Since 2004, we’ve empowered high school students to explore STEM through hands-on engineering, programming, business, and leadership challenges.
+
+                    </div>
                 </div>
             </div>
         </section>

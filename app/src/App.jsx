@@ -29,7 +29,7 @@ function App() {
           <Route path='/News' element={<News />} />
           <Route path='/RobotEngineering' element={<RobotEngineering />} />
           <Route path='/SponsorsDonors' element={<SponsorsDonors />} />
-          <Route path='./Donate' element={<Donate />}/>
+          <Route path='/Donate' element={<Donate />}/>
         </Routes>
       </main>
       <Footer />
