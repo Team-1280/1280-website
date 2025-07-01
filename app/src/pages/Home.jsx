@@ -85,6 +85,26 @@ const Home = () => (
                 </div>
             </div>
         </section>
+        <section>
+            <div className='leadership-sample-split-container'>
+                <div className='leadership-sample-text-half half'>
+                    <div className='leadership-sample-middle-heading'>
+                        Student Leadership
+                    </div>
+                    <div className='leadership-sample-middle-text'>
+                        Every student on Team 1280 has the chance to lead — 
+                        whether it’s managing a subteam, speaking with judges, 
+                        planning outreach, or running training sessions.
+                    </div>
+                    <button className='leadership-sample-button'>
+                        Our Team
+                    </button>
+                </div>
+                <div className='leadership-sample-half leadership-sample-image-half'>
+                    <img src={TeamImage} alt="Team 1280" />
+                </div>
+            </div>
+        </section>
     </>   
 )
 
