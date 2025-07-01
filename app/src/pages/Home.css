@@ -264,14 +264,14 @@
 .leadership-sample-button {
     background-color: rgb(244, 216, 0);
     border-radius: 8px;
-    border-color: black;
+    border-color: white;
     font-size: medium;
     padding: 1rem;
     font-weight: bold;
     text-align: center;
 }
 .leadership-sample-button:hover {
-    box-shadow: black 2px 2px;
+    box-shadow: white 2px 2px;
 }
 .leadership-sample-half {
     flex: 1;
@@ -287,11 +287,45 @@
 .leadership-sample-text-half {
     display: flex;
     flex-direction: column;
-    color: black;
+    color: white;
     justify-content: center;
     text-align: center;
     align-items:center;
-    background-color: #ECF1F2;
+    background-color: #222222;
     box-sizing: border-box;
     padding: 2rem;
+}
+.sponsors-sample-background {
+    background-color: white;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+.sponsors-sample-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    height: 110vh;
+    align-content: center;
+}
+.sponsors-sample-heading {
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+.sponsors-sample-subheading {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    padding: 1rem;
+    /* padding-left: 1.5rem; */
+    /* padding-right: 1.5rem; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    padding-bottom: 1.5rem;
 }

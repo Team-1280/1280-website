@@ -105,6 +105,19 @@ const Home = () => (
                 </div>
             </div>
         </section>
+        <section>
+            <div className='sponsors-sample-background'>
+                <div className='sponsors-sample-heading'>
+                    Sponsors & Partners
+                </div>
+                <div className='sponsors-sample-subheading'>
+                    We are proud to be supported by local businesses and global tech leaders who share our passion for STEM.
+                </div>
+                <div className='sponsors-sample-image'>
+                    <img src='./sponsors.png' alt="1280 Sponsors"/>
+                </div>
+            </div>
+        </section>
     </>   
 )
 
