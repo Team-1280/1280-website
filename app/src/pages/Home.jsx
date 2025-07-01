@@ -60,12 +60,27 @@ const Home = () => (
                 </div>
                 <div className='robot-sample-text-half half'>
                     <div className='robot-sample-middle-heading'>
-                    Robot Design & Competition
+                        Robot Design & Competition
                     </div>
                     <div className='robot-sample-middle-text'>
                         We build a new robot each year to compete in the FIRST Robotics Competition. 
                         Students learn CAD, fabrication, electrical wiring, and software development as they take on real-world engineering challenges.
-
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div className='outreach-sample-background outreach-sample-opacity'>
+                <div className='outreach-sample-box'>
+                    <div className='outreach-sample-heading'>
+                        Community Outreach
+                    </div>
+                    <div className='outreach-sample-subheading'>
+                        We host STEM workshops, mentor younger teams, and work with local schools and organizations to spread 
+                        excitement about robotics and innovation.
+                    </div>
+                    <div className='outreach-sample-button'>
+                        Outreach
                     </div>
                 </div>
             </div>
