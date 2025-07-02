@@ -1,0 +1,26 @@
+.outreach-page-top-background {
+    background-color:#ECF1F2;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+.outreach-page-heading {
+    color: black;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    left: 50%;
+    top: 15%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.outreach-page-subheading {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    left: 50%;
+    top: 25%;
+    position: absolute;
+    transform: translateX(-50%);
+}
