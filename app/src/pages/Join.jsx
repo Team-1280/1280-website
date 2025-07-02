@@ -1,4 +1,4 @@
-import './Join.css'
+import './styles/Join.css'
 
 const Join = () => (
     <>

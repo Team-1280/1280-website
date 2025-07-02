@@ -1,4 +1,4 @@
-import './MeetTeam.css'
+import './styles/MeetTeam.css'
 
 const MeetTeam = () => (
     <>

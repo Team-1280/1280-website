@@ -1,4 +1,4 @@
-import './Home.css'
+import './styles/Home.css'
 import TeamImage from '/team.png'
 
 const Home = () => (

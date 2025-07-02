@@ -1,4 +1,4 @@
-import './About.css'
+import './styles/About.css'
 import TeamImage from '/team.png'
 
 const About = () => (
