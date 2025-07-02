@@ -1,6 +1,6 @@
 .page-background {
     display: flex;
-    height: 80vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -10,6 +10,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     padding-top: 1rem;
+    overflow: hidden;
 }
 .top-header {
     position: absolute;
@@ -22,13 +23,15 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    padding-top: 1.5rem;
 }
 .top-text {
     position: absolute;
     color: white;
     font-weight: bold;
     font-size: medium;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     line-height: 2;
@@ -139,4 +142,44 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+.student-leadership-background {
+    background-color: #222222;
+    position: relative;
+    height: 110vh;
+}
+.student-leadership-left {
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    display: grid;
+    text-align: center;
+    transform: translateX(-50%);
+}
+.student-leadership-heading {
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.student-leadership-subheading {
+    color: white;
+    font-size: medium;
+    line-height: 2;
+}
+.student-leadership-spacer {
+    padding: 1rem;
+}
+.student-leadership-middle {
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.student-leadership-right {
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    transform: translateX(-50%);
+    text-align: center;
 }

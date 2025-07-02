@@ -14,92 +14,136 @@ const MeetTeam = () => (
             </div>
         </section>
         <section>
-            <div className='icon-background'>
-                <div className='icon-grid'>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Team Captain
-                        </button>
+            <div className='student-leadership-background'>
+                <div className='student-leadership-left'>
+                    <div className='student-leadership-heading'>
+                        Rohan Gawde
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Team Captain
-                        </button>
+                    <div className='student-leadership-subheading'>
+                        FRC Team Captain
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Senior Programming Officer
-                        </button>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Briar Chang
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Senior Technical Officer
-                        </button>
+                    <div className='student-leadership-subheading'>
+                        FRC Team Captain
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Chief Financial Officer
-                        </button>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Anthony Le
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Chief Operations Officer
-                        </button>
+                    <div className='student-leadership-subheading'>
+                        Senior Controls Officer
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Driving Officer
-                        </button>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Caeden Cooley
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Junior Programming Officer
-                        </button>
+                    <div className='student-leadership-subheading'>
+                        Senior Mechanical Officer
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Junior Technical Officer
-                        </button>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Gray Garson
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Outreach Manager
-                        </button>
+                    <div className='student-leadership-subheading'>
+                        Junior Controls Officer
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Media Manager
-                        </button>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Miles Malhevy
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Electrical Lead
-                        </button>
+                    <div className='student-leadership-subheading'>
+                        Junior Mechanical Officer
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Design & Fab Lead
-                        </button>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Ren Lin
                     </div>
-                    <div className='icon-card'>
-                        <img src='./team.png' className='card-image'/>
-                        <button className='card-heading'>
-                            Awards Manager
-                        </button>
+                    <div className='student-leadership-subheading'>
+                        Chief Financial Officer
                     </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Max Gardiner
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Chief Operations Officer
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Majd Bohsali
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Driver Officer
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                </div>
+                <div className='student-leadership-right'>
+                    <div className='student-leadership-heading'>
+                        Analisse Corona
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Design & FAB Lead
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Alejandro Morales
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Design & FAB Lead
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Haricharan Sakthivel
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Design & FAB Lead
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Reed Wong
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Electrical Lead
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Nandini Ghata
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Outreach Manager
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Subhamita Palit
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Awards Manager
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Brendan McDermott
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Media Manager
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Chase Harnack
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Media Manager
+                    </div>
+                    <div className='student-leadership-spacer'/>
+                    <div className='student-leadership-heading'>
+                        Yingcheng "Leo" Hao
+                    </div>
+                    <div className='student-leadership-subheading'>
+                        Media Manager
+                    </div>
+                    <div className='student-leadership-spacer'/>
                 </div>
             </div>
         </section>
