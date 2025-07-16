@@ -183,3 +183,6 @@
     transform: translateX(-50%);
     text-align: center;
 }
+.spacer-sponsor {
+    padding-top: 1.5rem;
+}

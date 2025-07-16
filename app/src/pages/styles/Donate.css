@@ -1,6 +1,6 @@
 .donate-background {
     display: flex;
-    height: 80vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -16,11 +16,14 @@
     color: black;
     padding: 2rem;
     left: 50%;
-    top: 30%;
+    top: 20%;
     transform: translateX(-50%);
     position: absolute;
     font-size: xx-large;
     font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+
 }
 .donate-text {
     font-weight: bold;
@@ -35,7 +38,109 @@
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translateX(-50%);
     display: flex;
+}
+.corporate-sponsor-background {
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: #ECF1F2;
+    overflow: auto;
+    text-overflow: scroll;
+    padding: 1rem;
+}
+.corporate-sponsor-heading {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.corporate-sponsor-text {
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: medium;
+    max-width: 50vw;
+    line-height: 2;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+.donate-page-banner-text {
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: medium;
+    max-width: 50vw;
+    line-height: 2;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+.donate-page-donate-button {
+    position: absolute;
+    background-color: #222222;
+    border-radius: 8px;
+    border-color: white;
+    font-size: medium;
+    padding: 1rem;
+    font-weight: bold;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+.new-line-sponsor {
+    text-align: center;
+}
+.parent-contribution-background {
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: #222222;
+    overflow: auto;
+    text-overflow: scroll;
+    padding: 1rem;
+}
+.parent-contribution-heading {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.parent-contribution-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: medium;
+    max-width: 50vw;
+    line-height: 2;
+    padding: 1.5rem;
+    font-weight: bold;
 }
