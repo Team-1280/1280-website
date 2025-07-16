@@ -4,7 +4,7 @@ const Donate = () => {
     return (
         <>
             <section>
-                <div className='top-sponsors-background'>
+                <div className='donate-background'>
                     <div className='donate-heading'>
                         Support Team 1280 – Become a Sponsor
                     </div>
