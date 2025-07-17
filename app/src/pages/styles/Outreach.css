@@ -1,8 +1,15 @@
 .outreach-page-top-background {
-    background-color: black;
-    height: 100vh;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover; 
     position: relative;
-    background-size: cover;
+    background-color: #222222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 1rem;
 }
 .outreach-page-heading {
     color: white;
@@ -10,7 +17,7 @@
     font-weight: bold;
     text-align: center;
     left: 50%;
-    top: 15%;
+    top: 30%;
     position: absolute;
     transform: translateX(-50%);
 }
@@ -20,7 +27,8 @@
     font-weight: bold;
     text-align: center;
     left: 50%;
-    top: 25%;
+    top: 50%;
     position: absolute;
     transform: translateX(-50%);
+    line-height: 2;
 }

@@ -1,6 +1,7 @@
 import './styles/Outreach.css'
 
 const Outreach = () => {
+    return (
     <>
         <section>
             <div className='outreach-page-top-background'>
@@ -14,6 +15,7 @@ const Outreach = () => {
             </div>
         </section>
     </>
+    )
 }
 
 export default Outreach;

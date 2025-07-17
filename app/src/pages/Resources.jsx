@@ -1,7 +1,17 @@
+import "./styles/Resources.css"
+
 const Resources = () => {
-    <div>
-        <h1>testing RESOURCES</h1>
-    </div>
+    return (
+    <>
+        <section>
+            <div className='resources-construction-bg'>
+                <div className='resources-construction-heading'>
+                    Oops! Currently Under Construction
+                </div>
+            </div>
+        </section>
+    </>
+    )
 }
 
 export default Resources;

@@ -1,7 +1,15 @@
+import './styles/News.css'
+
 const News = () => (
-    <div>
-        <h1>testing NEWS</h1>
-    </div>
+    <>
+        <section>
+            <div className='news-construction-bg'>
+                <div className='news-construction-heading'>
+                    Oops! Currently Under Construction
+                </div>
+            </div>
+        </section>
+    </>
 )
 
 export default News;

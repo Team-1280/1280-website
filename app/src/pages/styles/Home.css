@@ -106,7 +106,7 @@
     font-weight: bold;
 }
 .action-button:hover {
-    box-shadow: black 2px 2px;
+    /* box-shadow: black 2px 2px; */
 }
 .about-sample-background {
     background-color: #222222;
@@ -137,16 +137,17 @@
     position: absolute;
     background-color: rgb(244, 216, 0);
     border-radius: 8px;
-    border-color: white;
+    /* border-color: white; */
     font-size: medium;
     padding: 1rem;
     font-weight: bold;
     top: 70%;
     left: 50%;
     transform: translateX(-50%);
+    color: black;
 }
 .about-sample-button:hover {
-    box-shadow: white 2px 2px;
+    /* box-shadow: white 2px 2px; */
 }
 .robot-sample-split-container {
     display: flex;
@@ -187,8 +188,8 @@
     line-height: 2;
 }
 .outreach-sample-background {
-    background-image: url('/team.png');
-    height: 80vh;
+    background-color:rgb(244, 216, 0);
+    height: 60vh;
     width: 100vw;
     position: relative;
     /* display: cover; */
@@ -205,14 +206,14 @@
     position: relative;
 }
 .outreach-sample-heading {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: xx-large;
     padding-top: 2.5rem;
     text-align: center;
 }
 .outreach-sample-subheading {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: medium;
     padding-top: 1rem;
@@ -224,26 +225,28 @@
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 30%;
     transform: translateX(-50%);
     line-height: 2;
+    min-width: 50vw;
 }
 .outreach-sample-button {
     position: absolute;
-    background-color: rgb(244, 216, 0);
+    background-color: #222222;
     border-radius: 8px;
-    border-color: white; /**why not work:((*/  
+    /* border-color: whi; *why not work:((   */
     font-size: medium;
     padding: 1rem;
     font-weight: bold;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     width: 160px;
     text-align: center;
+    color: white;
 }
 .outreach-sample-button:hover {
-    box-shadow: white 2px 2px;
+    /* box-shadow: white 2px 2px; */
 }
 .leadership-sample-split-container {
     display: flex;
@@ -264,14 +267,14 @@
 .leadership-sample-button {
     background-color: rgb(244, 216, 0);
     border-radius: 8px;
-    border-color: white;
+    /* border-color: white; */
     font-size: medium;
     padding: 1rem;
     font-weight: bold;
     text-align: center;
 }
 .leadership-sample-button:hover {
-    box-shadow: white 2px 2px;
+    /* box-shadow: white 2px 2px; */
 }
 .leadership-sample-half {
     flex: 1;

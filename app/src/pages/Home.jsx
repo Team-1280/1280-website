@@ -1,5 +1,6 @@
 import './styles/Home.css'
 import TeamImage from '/team.png'
+import { Link } from 'react-router-dom';
 
 const Home = () => (
     <> 
@@ -28,15 +29,21 @@ const Home = () => (
         </section>
         <section>
             <div className='action-calls'>
-                <button className='action-button'>
-                    Donate to the Team
-                </button>
-                <button className='action-button'>
-                    About Us
-                </button>
-                <button className='action-button'>
-                    Join the Team
-                </button>
+                <Link to="/Donate">
+                    <button className='action-button'>
+                        Donate to the Team
+                    </button>
+                </Link>
+                <Link to="/About">
+                    <button className='action-button'>
+                        About Us
+                    </button>
+                </Link>
+                <Link to="/Join">
+                    <button className='action-button'>
+                        Join the Team
+                    </button>
+                </Link>
             </div>
         </section>
         <section>
@@ -48,9 +55,11 @@ const Home = () => (
                     FRC Team 1280, the Ragin' C’ Biscuits, is a student-led robotics team based at San Ramon Valley High School in Danville, California. 
                     Since 2004, we’ve empowered high school students to explore STEM through hands-on engineering, programming, business, and leadership challenges.
                 </div>
-                <div className='about-sample-button'>
-                    Learn More
-                </div>
+                <Link to="/About">
+                    <div className='about-sample-button'>
+                        Learn More
+                    </div>
+                </Link>
             </div>
         </section>
         <section>
@@ -70,8 +79,7 @@ const Home = () => (
             </div>
         </section>
         <section>
-            <div className='outreach-sample-background outreach-sample-opacity'>
-                <div className='outreach-sample-box'>
+            <div className='outreach-sample-background'>
                     <div className='outreach-sample-heading'>
                         Community Outreach
                     </div>
@@ -79,10 +87,11 @@ const Home = () => (
                         We host STEM workshops, mentor younger teams, and work with local schools and organizations to spread 
                         excitement about robotics and innovation.
                     </div>
-                    <div className='outreach-sample-button'>
-                        Outreach
-                    </div>
-                </div>
+                    <Link to="/Outreach">
+                        <div className='outreach-sample-button'>
+                            Outreach
+                        </div>
+                    </Link>
             </div>
         </section>
         <section>
@@ -96,9 +105,11 @@ const Home = () => (
                         whether it’s managing a subteam, speaking with judges, 
                         planning outreach, or running training sessions.
                     </div>
-                    <button className='leadership-sample-button'>
-                        Our Team
-                    </button>
+                    <Link to="/MeetTeam">
+                        <button className='leadership-sample-button'>
+                            Our Team
+                        </button>
+                    </Link>
                 </div>
                 <div className='leadership-sample-half leadership-sample-image-half'>
                     <img src={TeamImage} alt="Team 1280" />
