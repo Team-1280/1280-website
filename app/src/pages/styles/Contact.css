@@ -1,0 +1,49 @@
+.contact-top-background {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color:#ECF1F2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 1rem;
+}
+.contact-page-heading {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: xxx-large;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.contact-page-subheading {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 2;
+    text-align: center;
+}
+.gen-inq-heading {
+
+}
+.gen-inq-subheading {
+
+}
+.contact-newline {
+
+}
+.contact-interested-heading {
+
+}
+.contact-interested-subheading {
+
+}
