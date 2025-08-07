@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
-            <img src='./logo.png' className='logo'/>
-            <ul className='links'>
+        <nav className="bg-[#1f1e23] text-white flex items-center px-6 py-4 justify-between">
+            <div className="flex items-center w-1/8">  
+                <img src='./logo.png' className="w-1/2 h-auto"/>
+                <span className="text-[#fcc307] pl-[100px] font-bold text-3xl text-center whitespace-nowrap">Ragin C' Biscuits</span>
+            </div>  
+            <ul className='text-white font-bold'>
                 <Link to='/' className='nav-item'>Home</Link>
                 <div className="dropdown">
                     <Link to='/About' className='drop-link'>About</Link>

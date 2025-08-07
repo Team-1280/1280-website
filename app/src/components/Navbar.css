@@ -1,6 +1,6 @@
 .navbar {
     padding: 1.5rem 2rem;
-    background-color: #53565a;
+    background-color: #1f1e23;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,6 +28,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #fcc307
 }
 .navbar img {
     max-width: 5%;
