@@ -15,25 +15,20 @@ const Navbar = () => {
                     <ul className='dropdown-content'>
                         <Link to='/Mentors'>Mentors</Link>
                         <Link to='/Leadership'>Leadership</Link>
-                        <Link to='/Contact'>Contact</Link>
+                        <Link to='/Facility'>Facility</Link>
                     </ul>
                 </div>
-                <Link to='/Outreach'>Outreach</Link>
+                <Link to='/Join'>Join Us</Link>
                 <div className="dropdown">
                     <Link to='/Resources' className='drop-link'>Resources</Link>
                     <ul className='dropdown-content'>
                         <Link to='/RobotEngineering'>Robot/Engineering</Link>
-                        <Link to='/Join'>Join Us</Link>
                         <Link to='/News'>News and Events</Link>
+                        <Link to='/Contact'>News and Events</Link>
                     </ul>
                 </div>
-                <div className="dropdown">
-                    <Link to='/SponsorsDonors' className='drop-link'>Sponsors</Link>
-                    <ul className='dropdown-content'>
-                        <Link to='/SponsorsDonors'>Our Sponsors</Link>
-                        <Link to='/Donate'>Donate</Link>
-                    </ul>
-                </div>
+                <Link to='/SponsorsDonors' className='drop-link'>Sponsors</Link>
+                <Link to='/Donate'>Sponsor Us</Link>
             </ul>
         </nav>
     )

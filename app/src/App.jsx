@@ -13,6 +13,7 @@ import SponsorsDonors from './pages/SponsorsDonors.jsx'
 import Footer from './components/Footer.jsx'
 import Donate from './pages/Donate.jsx'
 import Mentors from './pages/Mentors.jsx'
+import Facility from './pages/Facility.jsx'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path='/SponsorsDonors' element={<SponsorsDonors />} />
           <Route path='/Donate' element={<Donate />}/>
           <Route path='/Mentors' element={<Mentors />}/>
+          <Route path='/Facility' element={<Facility />}/>
         </Routes>
       </main>
       <Footer />

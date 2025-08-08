@@ -28,7 +28,8 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: #fcc307
+    color: #fcc307;
+    text-underline-offset: 8px;
 }
 .navbar img {
     max-width: 5%;
@@ -60,7 +61,8 @@ a:hover {
 .dropdown-content a:hover{
     background-color: #ddd;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown-content:hover {
     display: block;
 }
+
 
