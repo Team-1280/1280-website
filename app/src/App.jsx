@@ -6,12 +6,13 @@ import Outreach from './pages/Outreach.jsx'
 import Resources from './pages/Resources.jsx'
 import Contact from './pages/Contact.jsx'
 import Join from './pages/Join.jsx'
-import MeetTeam from './pages/MeetTeam.jsx'
+import Leadership from './pages/Leadership.jsx'
 import News from './pages/News.jsx'
 import RobotEngineering from './pages/RobotEngineering.jsx'
 import SponsorsDonors from './pages/SponsorsDonors.jsx'
 import Footer from './components/Footer.jsx'
 import Donate from './pages/Donate.jsx'
+import Mentors from './pages/Mentors.jsx'
 
 function App() {
   return (
@@ -25,11 +26,12 @@ function App() {
           <Route path='/Resources' element={<Resources />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Join' element={<Join />} />
-          <Route path='/MeetTeam' element={<MeetTeam />} />
+          <Route path='/Leadership' element={<Leadership />} />
           <Route path='/News' element={<News />} />
           <Route path='/RobotEngineering' element={<RobotEngineering />} />
           <Route path='/SponsorsDonors' element={<SponsorsDonors />} />
           <Route path='/Donate' element={<Donate />}/>
+          <Route path='/Mentors' element={<Mentors />}/>
         </Routes>
       </main>
       <Footer />

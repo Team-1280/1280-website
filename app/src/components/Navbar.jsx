@@ -13,8 +13,8 @@ const Navbar = () => {
                 <div className="dropdown">
                     <Link to='/About' className='drop-link'>About</Link>
                     <ul className='dropdown-content'>
-                        <Link to='/About'>About Us</Link>
-                        <Link to='/MeetTeam'>Meet the Team</Link>
+                        <Link to='/Mentors'>Mentors</Link>
+                        <Link to='/Leadership'>Leadership</Link>
                         <Link to='/Contact'>Contact</Link>
                     </ul>
                 </div>

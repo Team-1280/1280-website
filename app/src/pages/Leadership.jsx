@@ -1,6 +1,6 @@
 import './styles/MeetTeam.css'
 
-const MeetTeam = () => (
+const Leadership = () => (
     <>
         <section>
             <div className='bg-white relative h-[30%] w-screen justify-center items-center px-7 py-5'>
@@ -1048,4 +1048,4 @@ const MeetTeam = () => (
     </>
 )
 
-export default MeetTeam;
+export default Leadership;
