@@ -24,7 +24,7 @@ const Navbar = () => {
                     <ul className='dropdown-content'>
                         <Link to='/RobotEngineering'>Robot/Engineering</Link>
                         <Link to='/News'>News and Events</Link>
-                        <Link to='/Contact'>News and Events</Link>
+                        <Link to='/Contact'>Contact</Link>
                     </ul>
                 </div>
                 <Link to='/SponsorsDonors' className='drop-link'>Sponsors</Link>

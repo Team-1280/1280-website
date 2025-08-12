@@ -13,7 +13,14 @@ const Home = () => (
         </section>
         <section>
             <div className="relative min-h-screen w-screen">
-                <div className="absolute inset-0 bg-white">
+                <div className="absolute inset-0 bg-white flex px-4 pt-12">
+                    <img src="/home1.png" className='pr-8'></img>
+                    <div className='relative bg-[#717070] justify-center grid items-center w-5/8 h-11/12'>
+                        <div className='text-[#fcc307] font-bold text-3xl pt-6 px-4 pb-2'>San Ramon Valley High School</div>
+                        <div className='text-white text-lg px-4 pb-60'>Team 1280 primarily recruits students from San Ramon Valley High School (SRVHS) but we also accept any students from the San Ramon Valley Unified School District (SRVUSD). </div>
+                        <div className='text-[#fcc307] font-bold text-3xl pt-6 px-4 pb-2'>FIRST Robotics</div>
+                        <div className='text-white text-lg px-4 pb-50'>FIRST is an international organization which uses competitive robotics as a vehicle for promoting science & technology. FIRST allows high school students to work side by side with professional mentors to learn skills ranging from engineering to marketing, animation and business.</div>
+                    </div>
                 </div>
             </div>
         </section>

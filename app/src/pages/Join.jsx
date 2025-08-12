@@ -5,8 +5,8 @@ const Join = () => (
         <section>
             <div className='text-left bg-white relative h-[110vh] w-screen'>
                 <img src='/join1.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
-                <img src='/join1.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
-                <img src='/join1.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
+                <img src='/join2.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 2"></img>
+                <img src='/join3.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 3"></img>
                 <div className='px-10 py-10 text-black text-5xl font-bold'>How to Join Team 1280</div>
                 <div className='px-10 text-black text-2xl font-bold'>For Students:</div>
                 <div className='p-2'></div>
@@ -35,9 +35,9 @@ const Join = () => (
         </section>
         <section>
             <div className='text-left bg-white relative min-[110vh] w-screen'>
-                <img src='/join1.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
-                <img src='/join1.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
-                <img src='/join1.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
+                <img src='/join4.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 4"></img>
+                <img src='/join5.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 5"></img>
+                <img src='/join6.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 6"></img>
                 <div className='px-10 text-black text-2xl font-bold'>For Mentors:</div>
                 <div className='p-2'></div>
                 <div className='text-left px-10 text-black text-lg max-w-3xl'>Our mentors are essential to the learning and success of our students. We welcome professionals, hobbyists, educators, and parents who want to contribute their time, knowledge, or industry experience to help shape the next generation of STEM leaders.</div>

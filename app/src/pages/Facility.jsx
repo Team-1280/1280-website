@@ -29,13 +29,13 @@ const Facility = () => {
                     <div className="text-lg text-left px-10 max-w-[90%]">We’re right next to the stadium parking lot. If you're having trouble finding us on campus, simply look for the entrance to the stadium parking—our workshop and facility entrance are conveniently located immediately beside it.</div>
                 </div>
                 <div className="py-10 px-10">
-                <img src="/location1.png" className="w-[240vw]"></img>
+                <img src="/facility1.png" className="w-[240vw]"></img>
                 </div>
             </div>
         </section>
         <section>
             <div className="bg-white relative h-[30%] w-screen px-7 pt-5 pb-5 flex">
-                <img src="/location1.png" className="w-[95vw]"></img>
+                <img src="/facility2.png" className="w-[95vw]"></img>
             </div>
         </section>
     </>
