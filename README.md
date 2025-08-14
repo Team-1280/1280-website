@@ -1,7 +1,6 @@
 # Team 1280 Website
 
-
-#### About
+## About
 
 Just a preliminary draft with very basic routing and styles. Backend is to be further developed.
 
@@ -13,7 +12,7 @@ The deployed site is currently hosted via Vercel and can be found at [https://we
 
 Patches and PR’s are welcome (and necessary). To create changes and observe reflected changes locally please do the following:
 
-#### Getting Started
+## Getting Started
 
 Install Node.js here: [https://nodejs.org/en/download](https://nodejs.org/en/download), when installing be sure to add to PATH (this can also be done manually) or to a separate environment variable (which you will need to access when running the server)
 
@@ -36,3 +35,4 @@ TODOs:
 - Update remaining pages with additional information
 - Change index.html to update tab appearance (low priority)
 - Use SWC for Fast Refresh at vite.config.js (low priority)
+- Change root location (low priority)
