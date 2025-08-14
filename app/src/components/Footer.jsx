@@ -2,7 +2,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <nav className="bg-[#1f1e23] text-white py-4">
+        <nav className="bg-[#1f1e23] text-white px-4 py-4">
             <div className='container mx-auto flex flex-wrap md:items-center items-start'>
                 <div className='w-full md:w-3/5'>
                     <div className='text-lg mb-4 text-[#fcc307]'>Team 1280 - The Ragin' C Biscuits</div>
