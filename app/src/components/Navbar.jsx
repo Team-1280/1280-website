@@ -13,8 +13,9 @@ const Navbar = () => {
                 <div className="dropdown">
                     <Link to='/About' className='drop-link'>About</Link>
                     <ul className='dropdown-content'>
-                        <Link to='/Mentors'>Mentors</Link>
                         <Link to='/Leadership'>Leadership</Link>
+                        <Link to='/Mentors'>Mentors</Link>
+                        <Link to='/First'>FIRST®</Link>
                         <Link to='/Facility'>Facility</Link>
                     </ul>
                 </div>
