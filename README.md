@@ -2,8 +2,6 @@
 
 ## About
 
-Just a preliminary draft with very basic routing and styles. Backend is to be further developed.
-
 This is a website for Team 1280 - Ragin C’ Biscuits that aims to address our Team's values, goals, and impacts. This website is made using a React and Vite framework with Tailwind CSS for styles and ESLint for code formatting and error analysis. Frontend scaffolding is complete, with Backend currently in progress. 
 
 The deployed site is currently hosted via Vercel and can be found at [https://website-draft-psi.vercel.app/](https://website-draft-psi.vercel.app/)
