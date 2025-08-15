@@ -15,7 +15,7 @@ const Leadership = () => (
             </div>
         </section>
         <section>
-            <div className="h-[110vh] relative w-screen px-40 py-5">
+            <div className="h-[110vh] relative w-screen px-80 py-5">
                 <div className='text-black text-lg font-bold'>FRC 1280 Leadership</div>
                 <div className='text-black text-lg'>Active Term: June 2025 - June 2026</div>
                 <div className='absolute top-[15%] left-[33%] grid text-center -translate-x-1/2'>
