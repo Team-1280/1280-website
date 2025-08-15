@@ -8,7 +8,7 @@ const First = () => {
             </section>
             <section>
                 <div className='text-left bg-white relative h-[95vh] w-screen pl-12'>
-                    <div className='px-10 pt-12 text-gray text-5xl font-bold'>FIRST®</div>
+                    <div className='px-10 pt-12 text-gray-500 text-5xl font-bold'>FIRST®</div>
                     <hr className="my-8 border-gray-300 border-t-4 w-17/18"></hr>
                     <div className="text-lg max-w-[90vw]">
                         <div className="">FIRST® (For Inspiration and Recognition of Science and Technology) is a non-profit, international organization founded in 1989 by inventor and entrepreneur Dean Kamen. Its mission is to inspire and educate young people in the fields of science, technology, engineering, and math (STEM) through a mentor-based teaching system.</div>
