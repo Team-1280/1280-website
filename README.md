@@ -23,9 +23,14 @@ Run the frontend locally by running the following commands:
 
 Most of the frontend changes will and have been made at app/src/pages. Please ignore the styles folder which contains unused CSS from a previous iteration. They are currently there for reference and will be deleted at a later date. To add pages please create a new route at app/src/App.jsx.
 
-Useful Documentation:
+I did struggle a little bit with preliminary react-router-dom routing and backend as well as finding Tailwind classes compatible with various browsers and JSI. So here is a present that will help you!
+
+✨ Very Useful Documentation (A Present) ✨
+
 [https://tailwindcss.com/docs/styling-with-utility-classes](https://tailwindcss.com/docs/styling-with-utility-classes) (styles)
+
 [https://vite.dev/guide/](https://vite.dev/guide/) (backend)
+
 
 TODOs:
 
