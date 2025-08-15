@@ -2,19 +2,31 @@ const SponsorsDonors = () => {
     return (
     <>
         <section>
-            <div>WIP</div>
         </section>
-        {/* <section>
-            <div className="relative h-screen w-screen bg-cover bg-center bg-[url(/sponsors1.png)] ">
-                <div className="absolute h-[90vh] w-[90vw] inset-0 bg-gray-900/60 z-0"></div>
-                    <div className="relative z-10 text-white">
-                        <div className="px-10 py-10 text-[#fcc307] text-3xl font-bold">Thank You to Our Sponsors</div>
-                        <div className="text-white text-lg">Team 1280 would like to extend our deepest gratitude to the sponsors who make our work possible. Your generous support enables us to design, build, and compete with innovative robots, while also fostering STEM skills, teamwork, and leadership in our students.</div>
-                        <div className="text-white text-lg">Because of you, we are able to purchase essential tools and materials, maintain our workspace, and provide opportunities for students to learn engineering, programming, and fabrication. Beyond financial support, your belief in our mission inspires us to push boundaries and strive for excellence both on and off the field.</div>
-                        <div className="text-white text-lg">We are proud to represent our community and our sponsors at every competition, and we couldn’t do it without you. Thank you for being a vital part of Team 1280’s journey!</div>
+        { <section>
+            <div class="flex">
+            {/*<div className="grow relative h-screen w-screen bg-size-[auto_1000px] bg-center bg-[url(/sponsors1.png)] ">*/}
+                {/* <div className="absolute h-[90vh] w-[90vw] inset-0 bg-gray-900/60 z-0"></div> */}
+                <div className="h-[180vh] absolute top-25 left-60 size-230 bg-gray-500/80 z-0"></div>
+                    <div className="h-[200vh] relative z-10 text-white">
+                         <div class="h-15"></div>
+                        <div className="px-75 py-5 text-[#fcc307] text-3xl font-bold">Thank You to Our Sponsors</div>
+                        <div className="px-75 py-2 text-white text-base">Team 1280 would like to extend our deepest gratitude to the sponsors who make our work possible. Your generous support enables us to design, build, and compete with innovative robots, while also fostering STEM skills, teamwork, and leadership in our students.</div>
+                        <div className="px-75 py-2 text-white text-base">Because of you, we are able to purchase essential tools and materials, maintain our workspace, and provide opportunities for students to learn engineering, programming, and fabrication. Beyond financial support, your belief in our mission inspires us to push boundaries and strive for excellence both on and off the field.</div>
+                        <div className="px-75 py-2 text-white text-base">We are proud to represent our community and our sponsors at every competition, and we couldn’t do it without you. Thank you for being a vital part of Team 1280’s journey!</div>
                     </div>
+                <img src='/ptsa-logo.png' className='absolute h-[30vh] top-[75%] left-[30%] -translate-x-1/2' alt="PTSA Logo"></img>
+                <img src='/site-council-logo.png' className='absolute h-[30vh] top-[75%] left-[50%] -translate-x-1/2' alt="Site Council Logo"></img>
+                <img src='/boosters-logo.png' className='absolute h-[30vh] top-[75%] left-[70%] -translate-x-1/2' alt="Academic Boosters Logo"></img>
+                <img src='/intuitive-logo.png' className='absolute h-[30vh] top-[115%] left-[30%] -translate-x-1/2' alt="Intuitive Logo"></img>
+                <img src='/gene-haas-logo.png' className='absolute h-[30vh] top-[115%] left-[50%] -translate-x-1/2' alt="Gene Haas Logo"></img>
+                <img src='/nasa-logo.png' className='absolute h-[30vh] top-[115%] left-[70%] -translate-x-1/2' alt="NASA Logo"></img>
+                <img src='/softdocs-logo.png' className='absolute h-[30vh] top-[155%] left-[30%] -translate-x-1/2' alt="Softdocs Logo"></img>
+                <img src='/tassajara-logo.png' className='absolute h-[30vh] top-[155%] left-[50%] -translate-x-1/2' alt="Tassajara Logo"></img>
+                <img src='/ll-logo.png' className='absolute h-[30vh] top-[155%] left-[70%] -translate-x-1/2' alt="LL Logo"></img>
             </div>
-        </section> */}
+            {/*</div>*/}
+        </section> }
     </>
     )
 }
