@@ -15,7 +15,7 @@ const Leadership = () => (
             </div>
         </section>
         <section>
-            <div className="h-[110vh] relative w-screen px-80 py-5">
+            <div className="h-[110vh] relative w-screen px-70 py-5">
                 <div className='text-black text-lg font-bold'>FRC 1280 Leadership</div>
                 <div className='text-black text-lg'>Active Term: June 2025 - June 2026</div>
                 <div className='absolute top-[15%] left-[33%] grid text-center -translate-x-1/2'>
@@ -190,7 +190,7 @@ const Leadership = () => (
         <section>
             <div className='bg-white flex relative h-screen w-screen px-12 pb-5 text-white'>
                 <div className='bg-[#52565e] h-[95vh] w-54/55 grid'>
-                    <div className="w-screen px-20 py-5">
+                    <div className="w-screen px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2024 - June 2025</div>
                         <div className='absolute top-[23%] left-[33%] grid text-center -translate-x-1/2'>
@@ -333,7 +333,7 @@ const Leadership = () => (
         <section>
             <div className='bg-white flex relative h-screen w-screen px-12 pb-5 text-white'>
                 <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
-                    <div className="w-screen px-20 py-5">
+                    <div className="w-screen px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2023 - June 2024</div>
                         <div className='absolute top-[23%] left-[33%] grid text-center -translate-x-1/2'>
@@ -476,7 +476,7 @@ const Leadership = () => (
         <section>
             <div className='bg-white flex relative h-screen w-screen px-12 pb-5 text-white'>
                 <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
-                    <div className="w-screen px-20 py-5">
+                    <div className="w-screen px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2022 - June 2023</div>
                         <div className='absolute top-[23%] left-[33%] grid text-center -translate-x-1/2'>
@@ -619,7 +619,7 @@ const Leadership = () => (
         <section>
             <div className='bg-white flex relative h-screen w-screen px-12 pb-5 text-white'>
                 <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
-                    <div className="w-screen px-20 py-5">
+                    <div className="w-screen px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2021 - June 2022</div>
                         <div className='absolute top-[23%] left-[33%] grid text-center -translate-x-1/2'>
@@ -762,7 +762,7 @@ const Leadership = () => (
         <section>
             <div className='bg-white flex relative h-screen w-screen px-12 pb-5 text-white'>
                 <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
-                    <div className="w-screen px-20 py-5">
+                    <div className="w-screen px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2020 - June 2021</div>
                         <div className='absolute top-[23%] left-[33%] grid text-center -translate-x-1/2'>
@@ -905,7 +905,7 @@ const Leadership = () => (
         <section>
             <div className='bg-white flex relative h-screen w-screen px-12 pb-5 text-white'>
                 <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
-                    <div className="w-screen px-20 py-5">
+                    <div className="w-screen px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2019 - June 2020</div>
                         <div className='absolute top-[23%] left-[33%] grid text-center -translate-x-1/2'>
