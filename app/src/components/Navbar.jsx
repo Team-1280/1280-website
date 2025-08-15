@@ -8,7 +8,7 @@ const Navbar = () => {
                 <img src='./logo.png' className="w-1/2 h-auto"/>
                 <span className="text-[#fcc307] pl-[100px] font-bold text-3xl text-center whitespace-nowrap">Ragin C' Biscuits</span>
             </div>  
-            <ul className='text-white font-bold'>
+            <ul className='text-white font-bold z-1000'>
                 <Link to='/' className='nav-item'>Home</Link>
                 <div className="dropdown">
                     <Link to='/About' className='drop-link'>About</Link>
