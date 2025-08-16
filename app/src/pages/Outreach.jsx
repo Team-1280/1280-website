@@ -21,7 +21,7 @@ const Outreach = () => {
             <div className='text-left bg-white relative h-[60vh] w-full pl-12'>
                 <div className='px-10 pt-12 text-black text-5xl font-bold'>Outreach Events</div>
                 <hr className="mx-10 my-8 border-gray-300 border-t-4 w-50/55"></hr>
-                <div className='relative bg-[#52565e] mx-10 justify-center grid items-center w-50/55 h-3/8'>
+                <div className='relative bg-[#717070] mx-10 justify-center grid items-center w-50/55 h-3/8'>
                 <div className="text-lg max-w-[90vw]">
                     <div className="px-10 text-white">In addition to our ongoing programs, our team participates in a variety of one-off or annual events that connect us with the local community. These events often include robot demonstrations, hands-on STEM activities, and opportunities for community members of all ages to learn about engineering and FIRST.</div>
                     </div>
@@ -96,7 +96,7 @@ const Outreach = () => {
             <div className='text-left bg-white relative h-[60vh] w-full pl-12'>
                 <div className='px-10 pt-12 text-black text-5xl font-bold'>Outreach Programs</div>
                 <hr className="mx-10 my-8 border-gray-300 border-t-4 w-50/55"></hr>
-                <div className='relative bg-[#52565e] mx-10 justify-center grid items-center w-50/55 h-1/4'>
+                <div className='relative bg-[#717070] mx-10 justify-center grid items-center w-50/55 h-1/4'>
                 <div className="text-lg max-w-[90vw]">
                     <div className="px-10 text-white">Beyond one-time events, our team is committed to ongoing outreach programs that foster STEM education and strengthen connections within our community.</div>
                     </div>

@@ -1,4 +1,3 @@
-
 const Home = () => (
     <> 
         <section className="relative min-h-screen w-full">

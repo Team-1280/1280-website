@@ -4,7 +4,7 @@ const Leadership = () => (
     <>
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
-                <div className='relative bg-[#52565e] justify-center grid items-center w-54/55 h-1/4'>
+                <div className='relative bg-[#717070] justify-center grid items-center w-54/55 h-1/4'>
                     <div className='text-white text-3xl text-left font-bold px-20 pb-5 pt-5'>
                         Student Leadership
                     </div>
@@ -189,7 +189,7 @@ const Leadership = () => (
         </section> */}
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#52565e] h-[95vh] w-54/55 grid'>
+                <div className='bg-[#717070] h-[95vh] w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2024 - June 2025</div>
@@ -332,7 +332,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
+                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2023 - June 2024</div>
@@ -475,7 +475,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
+                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2022 - June 2023</div>
@@ -618,7 +618,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
+                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2021 - June 2022</div>
@@ -761,7 +761,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
+                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2020 - June 2021</div>
@@ -904,7 +904,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#52565e] h-13/14 w-54/55 grid'>
+                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                         <div className='text-lg'>Active Term: June 2019 - June 2020</div>
