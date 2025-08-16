@@ -20,14 +20,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to='/Join'>Join Us</Link>
-                <div className="dropdown">
-                    <Link to='/Resources' className='drop-link'>Resources</Link>
-                    <ul className='dropdown-content'>
-                        <Link to='/RobotEngineering'>Robot/Engineering</Link>
-                        <Link to='/News'>News and Events</Link>
-                        <Link to='/Contact'>Contact</Link>
-                    </ul>
-                </div>
+                <Link to='/Contact'>Contact</Link>
                 <Link to='/SponsorsDonors' className='drop-link'>Sponsors</Link>
                 <Link to='/Donate'>Sponsor Us</Link>
             </ul>
