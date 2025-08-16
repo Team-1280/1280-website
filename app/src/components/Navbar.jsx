@@ -3,12 +3,12 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="bg-[#1f1e23] text-white flex items-center px-6 py-4 justify-between h-24">
-            <div className="flex items-center w-auto h-full">
-                <Link to='/' className='nav-item'> <img src='./logo.png' className="w-auto h-[125%] z-10"/> </Link>
-                <Link to='/' className='nav-item'> <span className="text-[#fcc307] pl-[100px] font-orbitron text-3xl text-center whitespace-nowrap">Ragin C' Biscuits</span> </Link>
-            </div>
-            <ul className='text-white text-xl font-bold z-1000 text-balance space-x-10'>
+        <nav className="bg-[#1f1e23] text-white flex items-center px-0 py-0 justify-between h-24 box-border">
+            <Link to='/' className='nav-item h-full flex justify-center items-center mx-10'>
+                <img src='./logo.png' className="max-w-none w-auto h-[90%]"/>
+                <span className="text-[#fcc307] ml-10 font-orbitron text-4xl text-center whitespace-nowrap">Ragin C' Biscuits</span>
+            </Link>
+            <ul className='text-white text-xl font-bold z-1000 text-balance space-x-10 px-10'>
                 <Link to='/' className='nav-item'>Home</Link>
                 <div className="dropdown">
                     <Link to='/About' className='drop-link'>About</Link>
