@@ -11,13 +11,13 @@ const Footer = () => {
                     </Link>
                     <div className='flex flex-col flex-row gap-12 text-center flex-nowrap'>
                         <div className='text-left'>
-                            <div className='block mb-1'>Join Us</div>
-                            <div className='block mb-1'>Resources</div>
-                            <div className='block mb-1'>Sponsors</div>
-                            <div className='block mb-1'>Sponsor Us</div>
+                            <Link to='/Join' className='nav-item'><div className='block mb-1'>Join Us</div></Link>
+                            <Link to='/Contact' className='nav-item'><div className='block mb-1'>Resources</div></Link>
+                            <Link to='/SponsorsDonors' className='nav-item'><div className='block mb-1'>Sponsors</div></Link>
+                            <Link to='/Donate' className='nav-item'><div className='block mb-1'>Sponsor Us</div></Link>
                         </div>
                         <div className='text-center'>
-                            <Link to='/About' className='nav-item'> <div className=''>About</div> </Link>
+                            <Link to='/About' className='nav-item'> <div className='mb-2'>About</div> </Link>
                             <div className='flex gap-8 flex-nowrap'>
                                 <div className=''>
                                     <Link to='/Leadership' className='nav-item'> <div className='block mb-1'>Leaders</div> </Link>
