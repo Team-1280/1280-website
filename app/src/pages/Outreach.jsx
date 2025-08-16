@@ -1,10 +1,10 @@
-import './styles/Outreach.css'
+import './styles/Outreach.css';
 
 const Outreach = () => {
     return (
     <>
         <section>
-            <div className='bg-white relative min-h-screen w-screen px-7 py-5'>
+            <div className='bg-white relative min-h-screen w-full px-7 py-5'>
                 <div className='relative bg-[#52565e] justify-center grid items-center width-[300px] height-[300px]'>
                     <div className='text-white text-3xl text-left font-bold px-20 pb-5 pt-5'>
                         Outreach

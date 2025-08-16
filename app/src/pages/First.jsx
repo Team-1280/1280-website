@@ -2,12 +2,12 @@ const First = () => {
     return (
         <>
             <section>
-                <div className="w-screen">
-                    <img src="/first1.png" className="object-cover"></img>
+                <div className="w-full">
+                    <img src="/first1.png" className="object-cover w-full"></img>
                 </div>
             </section>
             <section>
-                <div className='text-left bg-white relative h-[95vh] w-screen pl-12'>
+                <div className='text-left bg-white relative h-[95vh] w-full pl-12'>
                     <div className='px-10 pt-12 text-black text-5xl font-bold'>FIRST®</div>
                     <hr className="mx-10 my-8 border-gray-300 border-t-4 w-17/18"></hr>
                     <div className="text-lg max-w-[90vw]">
