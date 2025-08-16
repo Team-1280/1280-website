@@ -4,7 +4,7 @@ const About = () => (
     <>
         <section>
             <div className="w-full">
-                <img src="/about.png" className="object-cover"></img>
+                <img src="/about.png" className="object-cover w-full"></img>
             </div>
         </section>
         <section>
