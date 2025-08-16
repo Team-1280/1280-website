@@ -5,7 +5,7 @@ const SponsorsDonors = () => {
         </section>
         { <section>
             <div class="relative">
-            <div className="grow relative bg-cover w-screen bg-size-[auto_1500px] bg-[url(/sponsors1.png)] ">
+            <div className="grow relative bg-cover w-full bg-size-[auto_1500px] bg-[url(/sponsors1.png)] ">
                 <div className="h-[190vh] absolute top-25 left-60 size-230 bg-gray-500/80 z-0"></div>
                     <div className="h-[210vh] relative z-10 text-white">
                          <div class="h-15"></div>
