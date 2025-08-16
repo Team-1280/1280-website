@@ -16,7 +16,7 @@
     color: rgb(252, 195, 7);
     padding: 2rem;
     left: 50%;
-    top: 20%;
+    top: 5%;
     transform: translateX(-50%);
     position: absolute;
     font-size: xx-large;
@@ -38,7 +38,7 @@
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 12%;
     transform: translateX(-50%);
     display: flex;
 }
@@ -70,7 +70,7 @@
 }
 .corporate-sponsor-heading {
     position: absolute;
-    color: black;
+    color: rgb(252, 195, 7);
     font-weight: bold;
     font-size: xx-large;
     top: 110%;
@@ -80,7 +80,7 @@
 .corporate-sponsor-text {
     position: absolute;
     text-align: center;
-    color: black;
+    color: white;
     font-size: medium;
     top: 120%;
     left: 50%;
@@ -96,7 +96,7 @@
     text-align: center;
     color: white;
     font-size: medium;
-    top: 60%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     font-size: medium;
@@ -113,7 +113,7 @@
     font-size: medium;
     padding: 1rem;
     font-weight: bold;
-    top: 85%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     color: white;
@@ -137,7 +137,7 @@
 }
 .parent-contribution-heading {
     position: absolute;
-    color: white;
+    color: rgb(252, 195, 7);
     font-weight: bold;
     font-size: xx-large;
     top: 180%;
