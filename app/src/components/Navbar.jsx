@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <nav className="bg-[#1f1e23] text-white flex items-center px-6 py-4 justify-between h-24">
             <div className="flex items-center w-auto h-full">
-                <img src='./logo.png' className="w-auto h-[125%]"/>
-                <span className="text-[#fcc307] pl-20 pr-20 font-bold text-4xl text-center whitespace-nowrap">Ragin C' Biscuits</span>
+                <Link to='/' className='nav-item'> <img src='./logo.png' className="w-auto h-[125%] z-10"/> </Link>
+                <Link to='/' className='nav-item'> <span className="text-[#fcc307] pl-[100px] font-orbitron text-3xl text-center whitespace-nowrap">Ragin C' Biscuits</span> </Link>
             </div>
             <ul className='text-white text-xl font-bold z-1000 text-balance space-x-10'>
                 <Link to='/' className='nav-item'>Home</Link>
@@ -17,6 +17,7 @@ const Navbar = () => {
                         <Link to='/Mentors'>Mentors</Link>
                         <Link to='/First'>FIRST®</Link>
                         <Link to='/Facility'>Facility</Link>
+                        <Link to='/Outreach'>Outreach</Link>
                     </ul>
                 </div>
                 <Link to='/Join'>Join Us</Link>

@@ -2,7 +2,7 @@
 const Home = () => (
     <> 
         <section className="relative min-h-screen w-full">
-            <div className="absolute inset-0 bg-[url('/team.png')] bg-cover bg-center opacity-70 z-0"></div>
+            <div className="absolute inset-0 bg-[url('/home4.png')] bg-cover bg-center opacity-80 z-0"></div>
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 text-white flex items-center min-w-full justify-center min-h-screen">
                 <h1 className="absolute top-[30%] left-1/2 min-w-full text-6xl font-orbitron text-yellow-500 transform -translate-x-1/2 text-center">FRC Team 1280 - Ragin' C Biscuits</h1>
