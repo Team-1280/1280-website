@@ -1,9 +1,9 @@
-import './styles/Join.css'
+import './styles/Join.css';
 
 const Join = () => (
     <>
         <section>
-            <div className='text-left bg-white relative h-[142vh] w-screen pl-12'>
+            <div className='text-left bg-white relative h-[142vh] w-full pl-12'>
                 <img src='/join1.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
                 <img src='/join2.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 2"></img>
                 <img src='/join3.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 3"></img>
@@ -53,7 +53,7 @@ const Join = () => (
             </div>
         </section>
         <section>
-            <div className='text-left bg-white relative h-[122vh] w-screen pl-12 pt-12'>
+            <div className='text-left bg-white relative h-[122vh] w-full pl-12 pt-12'>
                 <img src='/join4.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 4"></img>
                 <img src='/join5.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 5"></img>
                 <img src='/join6.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 6"></img>

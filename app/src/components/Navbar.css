@@ -21,7 +21,7 @@
     gap: 2rem;
 }
 a {
-    padding-right: 1.5rem;
+    /* padding-right: 1.5rem; */
     color: white;
     vertical-align: center;
     text-decoration: none;
@@ -40,8 +40,6 @@ a:hover {
 }
 .drop-link {
     color: white;
-    /* padding: 16px; */
-    font-size: 16px;
     border: none;
 }
 .dropdown-content {
