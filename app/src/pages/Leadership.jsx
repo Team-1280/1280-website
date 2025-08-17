@@ -4,7 +4,7 @@ const Leadership = () => (
     <>
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
-                <div className='relative bg-[#717070] justify-center grid items-center w-54/55 h-1/4'>
+                <div className='relative gray-box w-54/55 h-1/4'>
                     <div className='text-white font-roboto text-3xl text-left px-20 pb-5 pt-5'>
                         Student Leadership
                     </div>
@@ -191,7 +191,7 @@ const Leadership = () => (
         </section> */}
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#717070] h-[96vh] w-54/55 grid'>
+                <div className='gray-box h-[96vh] w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className="font-bricolage">
                             <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
@@ -336,7 +336,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#717070] mt-8 h-25/28 w-54/55 grid'>
+                <div className='gray-box mt-8 h-25/28 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className="font-bricolage">
                             <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
@@ -481,7 +481,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
+                <div className='gray-box h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className="font-bricolage">
                             <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
@@ -626,7 +626,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
+                <div className='gray-box h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className="font-bricolage">
                             <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
@@ -771,7 +771,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
+                <div className='gray-box h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className="font-bricolage">
                             <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
@@ -916,7 +916,7 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
+                <div className='gray-box h-13/14 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className="font-bricolage">
                             <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>

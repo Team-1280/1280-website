@@ -4,7 +4,7 @@ const Mentors = () => (
     <>
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
-                <div className='relative bg-[#717070] justify-center grid items-center w-54/55 h-1/4'>
+                <div className='relative gray-box w-54/55 h-1/4'>
                     <div className='text-white text-3xl text-left font-roboto px-20 pb-5 pt-5'>
                         FRC Team 1280 Mentors and Coaches
                     </div>
@@ -55,7 +55,7 @@ const Mentors = () => (
         </section>
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-10'>
-                <div className='relative bg-[#717070] justify-center grid items-center w-[95vw] h-1/4'>
+                <div className='relative gray-box w-[95vw] h-1/4'>
                     <div className='text-white font-bricolage text-3xl text-left font-bold px-20 pb-5 pt-5'>
                         Interested in Mentoring?
                     </div>

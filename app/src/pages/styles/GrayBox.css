@@ -1,0 +1,13 @@
+.gray-box {
+    background-image: linear-gradient(to top, #717070, #888888);
+    border-radius: 0.5rem;
+    border-color: #aaaaaa;
+    border-width: 1px;
+    --tw-shadow: 2px 3px 5px 0 rgb(0 0 0 / 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    overflow-y: auto;
+    flex: auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
