@@ -6,12 +6,12 @@ const Footer = () => {
         <nav className="bg-[#1f1e23] text-white h-48">
             <div className='container max-w-full h-full flex flex-nowrap items-start'>
                 <div class="absolute ml-75 mt-5 h-40 w-px bg-[#fcc307]"></div>
-                <div className='w-full h-full px-8 py-5 flex flex-col items-start z-100 font-bricolage'>
+                <div className='w-full h-full px-8 py-5 flex flex-col items-start z-100 font-bricolage whitespace-nowrap'>
                     <div className="flex flex-row gap-60">
                     <Link to='/' className='nav-item'>
-                        <div className='text-lg mb-5 text-[#fcc307] font-bold w-auto whitespace-nowrap'>Team 1280</div>
+                        <div className='text-lg mb-5 text-[#fcc307] font-bold w-auto'>Team 1280</div>
                     </Link>
-                    <div className='text-lg mb-5 text-[#fcc307] font-bold w-auto whitespace-nowrap'>About</div>
+                    <div className='text-lg mb-5 text-[#fcc307] font-bold w-auto'>About</div>
                     </div>
                     <div className='flex flex-col flex-row gap-12 text-left flex-nowrap'>
                         <div className='text-left'>
