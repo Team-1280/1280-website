@@ -9,7 +9,7 @@ const About = () => (
         </section>
         <section>
             <div className='text-left bg-white relative h-[110vh] w-full pl-12'>
-                <div className='px-10 pt-12 text-black text-5xl font-orbitron'>About Team 1280</div>
+                <div className='px-10 pt-12 text-black text-5xl font-roboto'>About Team 1280</div>
                 <hr className="mx-10 my-8 border-gray-300 border-t-4 w-17/18"></hr>
                 <div className="text-lg font-bricolage max-w-[90vw]">
                     <div className="px-10 text-gray-500">Founded in 2004 by a group of San Ramon Valley High School (SRVHS) students, Team 1280 began as an independent effort without direct ties to the school. Over time, the team’s dedication and success earned the support of the SRVHS administration. Today, Team 1280 operates out of the SRVHS auto shop, where our machines, tools, and materials are housed. In accordance with school policy, our coaches are members of the SRVHS faculty.</div>
