@@ -5,6 +5,7 @@ const Outreach = () => {
     <>
         <section className="relative w-full h-auto">
             <img src="/outreach-banner.png" className="object-cover w-full h-auto"/>
+            <div className="absolute inset-0 bg-black/60"></div>
             <div className="absolute inset-x-1/4 inset-y-0 size-auto flex items-center text-white text-2xl text-center pointer-events-auto text-balance">
                 As a dedicated FRC team, we aim to excel in competition while promoting STEM education and the FIRST mission in our community. We participate in local events, mentor new FLL teams, and remain committed to inspiring curiosity and fostering growth in STEM for all ages.
             </div>
@@ -17,9 +18,9 @@ const Outreach = () => {
             </div>
         </section>
         <section className='bg-white relative w-full h-auto flex flex-col gap-15'>
-            <div className="size-full flex flex-row justify-center-safe items-center gap-10">
+            <div className="size-full flex flex-row justify-center-safe items-center gap-24">
                 <div className="relative w-auto h-100 grow-0">
-                    <img src="/bg-logo.png" className="max-w-none h-full opacity-50" alt="Background Logo" />
+                    <img src="/bg-logo.png" className="max-w-none h-full opacity-30" alt="Background Logo" />
                     <div className="absolute inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[25%] text-center gap-5">
                         <div className="font-bold">Science Nights</div>
                         <p>Our team regularly attends elementary school science nights, where students can interact with our robot, explore engineering concepts, and see STEM in action.</p>
@@ -27,9 +28,9 @@ const Outreach = () => {
                 </div>
                 <img src='/outreach1.png' className='h-[50dvh]' alt="Outreach 1"></img>
             </div>
-            <div className="size-full flex flex-row justify-center-safe items-center gap-10">
+            <div className="size-full flex flex-row justify-center-safe items-center gap-24">
                 <div className="relative w-auto h-100 grow-0">
-                    <img src="/bg-logo.png" className="max-w-none h-full opacity-50" alt="Background Logo" />
+                    <img src="/bg-logo.png" className="max-w-none h-full opacity-30" alt="Background Logo" />
                     <div className="absolute inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[25%] text-center gap-5">
                         <div className="font-bold">Library Events</div>
                         <p>At the Danville Library, we introduce younger students to the world of FIRST through engaging robot demonstrations and fun, interactive activities.</p>
