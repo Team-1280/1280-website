@@ -1,4 +1,4 @@
-import './Styles/GrayBox.css';
+import './styles/GrayBox.css';
 
 const Home = () => (
     <>
