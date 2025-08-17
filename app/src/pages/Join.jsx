@@ -7,7 +7,7 @@ const Join = () => (
                 <img src='/join1.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
                 <img src='/join2.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 2"></img>
                 <img src='/join3.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 3"></img>
-                <div className='px-10 py-10 font-orbitron text-black text-5xl'>How to Join Team 1280</div>
+                <div className='px-10 py-10 font-roboto text-black text-5xl'>How to Join Team 1280</div>
                 <div className='bg-[#717070] w-15/24 py-4 h-[137vh]'>
                     <div className='font-bricolage'>
                     <div className='px-10 text-[#fcc307] text-2xl font-bold'>For Students:</div>
