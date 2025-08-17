@@ -1,14 +1,15 @@
-import './styles/Join.css'
+import './styles/Join.css';
 
 const Join = () => (
     <>
         <section>
-            <div className='text-left bg-white relative h-[142vh] w-screen pl-12'>
+            <div className='text-left bg-white relative h-[145vh] w-full pl-12'>
                 <img src='/join1.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 1"></img>
                 <img src='/join2.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 2"></img>
                 <img src='/join3.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 3"></img>
-                <div className='px-10 py-10 text-black text-5xl font-bold'>How to Join Team 1280</div>
+                <div className='px-10 py-10 font-roboto text-black text-5xl'>How to Join Team 1280</div>
                 <div className='bg-[#717070] w-15/24 py-4 h-[137vh]'>
+                    <div className='font-bricolage'>
                     <div className='px-10 text-[#fcc307] text-2xl font-bold'>For Students:</div>
                     <div className='p-2'></div>
                     <div className='text-left px-10 text-white text-lg max-w-3xl'>Interested in joining Team 1280? We welcome all students entering grades 9–12—no prior experience is required! Our team values curiosity, collaboration, and commitment, and we're excited to help new members grow in both technical and non-technical roles.</div>
@@ -27,12 +28,18 @@ const Join = () => (
                     <div className='p-2'></div>
                     <div className='text-left px-10 text-white text-lg max-w-3xl'>
                         <ul className='list-disc pl-6'>
-                            <li className='underline'>Team Membership Application Form</li>
-                            <li className='underline'>Liability Waiver</li>
+                            <li>
+                            <a href="https://forms.gle/fHoDT328pAKudKgEA" target="_blank" rel="noopener noreferrer" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> Team Membership Application Form</a>
+                         </li>
+                            <li>
+                            <a href="https://docs.google.com/document/d/1uz9s5CNBnNP_d4s5uEtw4ZfkJO_PrFrMR8kdizadvSU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> Liability Waiver (PDF)</a>
+                            </li>
                             <ul className='list-disc pl-6'>
                                 <li>Submit in person to Team Co-Captain Rohan Gawde.</li>
                             </ul>
-                            <li className='underline'>Media Consent Form (PDF)</li>
+                            <li>
+                            <a href="https://docs.google.com/document/d/1o6JtACNhPL24Tn5UPC7hpnhGgXWSFN27tDysXHizFfY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> Media Consent Form (PDF)</a>
+                            </li>
                             <ul className='list-disc pl-6'>
                                 <li>Submit in person to Team Co-Captain Rohan Gawde.</li>
                             </ul>
@@ -50,14 +57,16 @@ const Join = () => (
                     <div className='text-left px-10 text-white text-lg max-w-3xl'>F. Complete Safety Training</div>
                     <div className='text-left px-10 text-white text-lg max-w-3xl'>G. Complete One Subteam Training (may be waived at captains' discretion)</div>
                 </div>
+                </div>
             </div>
         </section>
         <section>
-            <div className='text-left bg-white relative h-[122vh] w-screen pl-12 pt-12'>
+            <div className='text-left bg-white relative h-[140vh] w-full pl-12 pt-12'>
                 <img src='/join4.png' className='absolute h-[30vh] top-[10%] left-[80%] -translate-x-1/2' alt="Join 4"></img>
                 <img src='/join5.png' className='absolute h-[30vh] top-[40%] left-[80%] -translate-x-1/2' alt="Join 5"></img>
                 <img src='/join6.png' className='absolute h-[30vh] top-[70%] left-[80%] -translate-x-1/2' alt="Join 6"></img>
-                <div className='bg-[#717070] w-15/24 py-4 h-[112vh]'>
+                <div className='bg-[#717070] w-15/24 py-4 h-[125vh]'>
+                    <div className='font-bricolage'>
                     <div className='px-10 text-[#fcc307] text-2xl font-bold'>For Mentors:</div>
                     <div className='p-2'></div>
                     <div className='text-left px-10 text-white text-lg max-w-3xl'>Our mentors are essential to the learning and success of our students. We welcome professionals, hobbyists, educators, and parents who want to contribute their time, knowledge, or industry experience to help shape the next generation of STEM leaders.</div>
@@ -96,6 +105,7 @@ const Join = () => (
                     <div className='text-left px-10 text-white text-lg max-w-3xl'>Contact us at sanramonvalleyrobotics@gmail.com</div>
                     <div className='p-10'></div>
                 </div>
+            </div>
             </div>
         </section>
     </>
