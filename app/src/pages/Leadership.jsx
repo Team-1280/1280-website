@@ -336,12 +336,12 @@ const Leadership = () => (
         </section>
         <section>
             <div className='bg-white flex relative h-screen w-full px-12 pb-5 text-white'>
-                <div className='bg-[#717070] h-13/14 w-54/55 grid'>
+                <div className='bg-[#717070] mt-8 h-25/28 w-54/55 grid'>
                     <div className="w-full px-70 py-5">
                         <div className="font-bricolage">
                             <div className='text-lg font-bold pt-5'>FRC 1280 Leadership</div>
                             <div className='text-lg'>Active Term: June 2023 - June 2024</div>
-                            <div className='absolute top-[23%] left-[33%] grid text-center -translate-x-1/2'>
+                            <div className='absolute top-[28%] left-[33%] grid text-center -translate-x-1/2'>
                                 <div className='text-left text-lg'>
                                     <div className='font-bold font-base'>
                                         Matthew Fletcher
@@ -408,7 +408,7 @@ const Leadership = () => (
                                     <div className='p-2' />
                                 </div>
                             </div>
-                            <div className='absolute top-[23%] left-[66%] grid text-center -translate-x-1/2'>
+                            <div className='absolute top-[28%] left-[66%] grid text-center -translate-x-1/2'>
                                 <div className='text-left text-lg'>
                                     <div className='font-bold font-base'>
                                         Majd Bohsali
