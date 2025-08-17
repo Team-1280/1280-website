@@ -18,7 +18,7 @@ const First = () => {
                         <div className="px-10 text-gray-500">In the world of FIRST®, two core values stand out: Gracious Professionalism® and Coopertition®. Gracious Professionalism, a term coined by FIRST® advisor Woodie Flowers, encourages teams to compete honorably while respecting one another. Coopertition builds on this idea, promoting collaboration and mutual learning even during competition.</div>
                         <div className="p-6"></div>
                         <div className="px-10 text-gray-500">For more about FIRST®, visit 
-                            <a href="https://www.firstinspires.org" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> the FIRST® website! </a>
+                            <a href="https://www.firstinspires.org" target="_blank" rel="noopener noreferrer" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> the FIRST® website! </a>
                          </div>
                     </div>
                 </div>

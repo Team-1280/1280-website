@@ -28,12 +28,18 @@ const Join = () => (
                     <div className='p-2'></div>
                     <div className='text-left px-10 text-white text-lg max-w-3xl'>
                         <ul className='list-disc pl-6'>
-                            <li className='underline'>Team Membership Application Form</li>
-                            <li className='underline'>Liability Waiver</li>
+                            <li>
+                            <a href="https://forms.gle/fHoDT328pAKudKgEA" target="_blank" rel="noopener noreferrer" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> Team Membership Application Form</a>
+                         </li>
+                            <li>
+                            <a href="https://docs.google.com/document/d/1uz9s5CNBnNP_d4s5uEtw4ZfkJO_PrFrMR8kdizadvSU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> Liability Waiver (PDF)</a>
+                            </li>
                             <ul className='list-disc pl-6'>
                                 <li>Submit in person to Team Co-Captain Rohan Gawde.</li>
                             </ul>
-                            <li className='underline'>Media Consent Form (PDF)</li>
+                            <li>
+                            <a href="https://docs.google.com/document/d/1o6JtACNhPL24Tn5UPC7hpnhGgXWSFN27tDysXHizFfY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-yellow-500 dark:!text-yellow-500 hover:underline"> Media Consent Form (PDF)</a>
+                            </li>
                             <ul className='list-disc pl-6'>
                                 <li>Submit in person to Team Co-Captain Rohan Gawde.</li>
                             </ul>
