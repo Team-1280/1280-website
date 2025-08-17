@@ -15,10 +15,12 @@ import Donate from './pages/Donate.jsx'
 import Mentors from './pages/Mentors.jsx'
 import Facility from './pages/Facility.jsx'
 import First from './pages/First.jsx'
+import TopScroll from './components/TopScroll.jsx'
 
 function App() {
   return (
     <Router>
+      <TopScroll />
       <Navbar />
       <main className='container max-w-full'>
         <Routes>
