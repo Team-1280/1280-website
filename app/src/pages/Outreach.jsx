@@ -30,17 +30,15 @@ const Outreach = () => {
         </section>
         <section>
             <div className='text-left bg-white relative h-[300vh] w-full pl-12'>
-                <div className="relative">
-                    <img src="/bg-logo.png" className="absolute h-[60vh] left-[10%] opacity-80" alt="Background Logo" />
-                    <div
-                        className="absolute top-0 left-0 w-full h-full flex px-20 pb-5 z-10"
-                    >
-                        <div className="text-black text-xl mx-80 px-5 ml-80 p-4">
-                            <div class="absolute top-30 left-30 mr-190 text-center">
-                                <div className="font-bold">Science Nights</div>
-                                <div className="p-2"></div>
-                            <p>Our team regularly attends elementary school science nights, where students can interact with our robot, explore engineering concepts, and see STEM in action.</p>
-                            </div>
+                <img src="/bg-logo.png" className="absolute h-[60vh] left-[10%] opacity-80" alt="Background Logo" />
+                <div
+                    className="w-full h-full flex flex-col justify-center items-center px-20 pb-5 z-10"
+                >
+                    <div className="text-black text-xl">
+                        <div class="absolute top-30 left-30 mr-190 text-center">
+                            <div className="font-bold">Science Nights</div>
+                            <div className="p-2"></div>
+                        <p>Our team regularly attends elementary school science nights, where students can interact with our robot, explore engineering concepts, and see STEM in action.</p>
                         </div>
                     </div>
                 </div>
