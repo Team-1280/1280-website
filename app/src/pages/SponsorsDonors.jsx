@@ -7,7 +7,7 @@ const SponsorsDonors = () => {
             <div class="relative">
             <div className="grow relative bg-cover w-350 bg-size-[auto_1500px] bg-[url(/sponsors1.png)] ">
                 <div className="h-[190vh] absolute top-25 left-60 size-230 bg-gray-500/80 z-0"></div>
-                    <div className="h-[210vh] relative z-10 text-white">
+                    <div className="h-[210vh] relative z-10 text-white font-bricolage">
                          <div class="h-15"></div>
                         <div className="px-75 py-5 mt-15 text-[#fcc307] text-3xl font-bold">Thank You to Our Sponsors</div>
                         <div className="px-75 py-2 text-white text-base">Team 1280 would like to extend our deepest gratitude to the sponsors who make our work possible. Your generous support enables us to design, build, and compete with innovative robots, while also fostering STEM skills, teamwork, and leadership in our students.</div>
