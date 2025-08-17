@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <nav className="bg-[#1f1e23] text-white h-48">
             <div className='container max-w-full h-full flex flex-nowrap items-start'>
-                <div className='w-full h-full px-8 py-5 flex flex-col items-start'>
+                <div className='w-full h-full px-8 py-5 flex flex-col items-start font-bricolage'>
                     <Link to='/' className='nav-item'>
                         <div className='text-lg mb-4 text-[#fcc307] font-bold w-auto whitespace-nowrap'>Team 1280 - The Ragin' C Biscuits</div>
                     </Link>
