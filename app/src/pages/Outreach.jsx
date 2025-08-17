@@ -17,58 +17,47 @@ const Outreach = () => {
                 In addition to our ongoing programs, our team participates in a variety of one-off or annual events that connect us with the local community. These events often include robot demonstrations, hands-on STEM activities, and opportunities for community members of all ages to learn about engineering and FIRST.
             </div>
         </section>
-        <section className='bg-white relative w-full h-auto flex flex-col gap-15'>
+        <section className='bg-white relative w-full h-auto flex flex-col gap-16'>
             <div className="size-full flex flex-row justify-center-safe items-center gap-24">
-                <div className="relative w-auto h-100 grow-0">
-                    <img src="/bg-logo.png" className="max-w-none h-full opacity-30" alt="Background Logo" />
+                <div className="relative w-auto h-100 flex items-center justify-center">
+                    <img src="/bg-logo.png" className="max-w-none h-[120%] opacity-25" alt="Background Logo" />
                     <div className="absolute inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[25%] text-center gap-5">
                         <div className="font-bold">Science Nights</div>
                         <p>Our team regularly attends elementary school science nights, where students can interact with our robot, explore engineering concepts, and see STEM in action.</p>
                     </div>
                 </div>
-                <img src='/outreach1.png' className='h-[50dvh]' alt="Outreach 1"></img>
+                <img src='/outreach1.png' className='h-[50dvh] rounded-xl' alt="Outreach 1"></img>
             </div>
             <div className="size-full flex flex-row justify-center-safe items-center gap-24">
-                <div className="relative w-auto h-100 grow-0">
-                    <img src="/bg-logo.png" className="max-w-none h-full opacity-30" alt="Background Logo" />
+                <div className="relative w-auto h-100 flex items-center justify-center">
+                    <img src="/bg-logo.png" className="max-w-none h-[120%] opacity-25" alt="Background Logo" />
                     <div className="absolute inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[25%] text-center gap-5">
                         <div className="font-bold">Library Events</div>
                         <p>At the Danville Library, we introduce younger students to the world of FIRST through engaging robot demonstrations and fun, interactive activities.</p>
                     </div>
                 </div>
-                <img src='/outreach2.png' className='h-[50dvh]' alt="Outreach 2"></img>
+                <img src='/outreach2.png' className='h-[50dvh] rounded-xl' alt="Outreach 2"></img>
             </div>
-
-            <div className="relative">
-                <img src="/bg-logo.png" className="absolute h-[60vh] top-260 left-[10%] opacity-80" alt="Background Logo" />
-                <div
-                    className="absolute top-0 left-0 w-full h-full flex px-20 pb-5 z-10"
-                >
-                    <div className="text-black text-xl mx-80 px-5 ml-80 p-4">
-                        <div class="absolute top-290 left-30 mr-190 text-center">
-                            <div className="font-bold">Girl Scout Gold Award/STEM Night</div>
-                            <div className="p-2"></div>
+            <div className="size-full flex flex-row justify-center-safe items-center gap-24">
+                <div className="relative w-auto h-100 flex items-center justify-center">
+                    <img src="/bg-logo.png" className="max-w-none h-[120%] opacity-25" alt="Background Logo" />
+                    <div className="absolute inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[15%] text-center gap-5">
+                        <div className="font-bold">Girl Scout Gold Award/STEM Night</div>
                         <p>As part of a Girl Scout Gold Award, we developed activities for children to explore STEM concepts while also providing opportunities to drive our robot. We receive similar requests from many local groups and are always excited to share our passion for robotics.</p>
-                        </div>
                     </div>
                 </div>
+                <img src='/outreach3.png' className='h-[50dvh] rounded-xl' alt="Outreach 3"></img>
             </div>
-            <div className="relative">
-                <img src="/bg-logo.png" className="absolute h-[60vh] left-[10%] opacity-80" alt="Background Logo" />
-                <div
-                    className="absolute top-0 left-0 w-full h-full flex px-20 pb-5 z-10"
-                >
-                    <div className="text-black text-xl mx-80 px-5 ml-80 p-4">
-                        <div class="text-center">
-                            <div className="font-bold">Veterans’ Hall Outreach </div>
-                            <div className="p-2"></div>
+            <div className="size-full flex flex-row justify-center-safe items-center gap-24">
+                <div className="relative w-auto h-100 flex items-center justify-center">
+                    <img src="/bg-logo.png" className="max-w-none h-[120%] opacity-25" alt="Background Logo" />
+                    <div className="absolute inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[20%] text-center gap-5">
+                        <div className="font-bold">Veterans’ Hall Outreach</div>
                         <p>Every year, we showcase our robot, equipment, and designs at the Veterans Hall during Veterans Day. This event frequently garners local news coverage and allows us to share our work with a broad audience.</p>
-                        </div>
                     </div>
                 </div>
+                <img src='/outreach4.png' className='h-[50dvh] rounded-xl' alt="Outreach 4"></img>
             </div>
-            <img src='/outreach3.png' className='absolute h-[60vh] top-[50%] left-[70%] -translate-x-1/2' alt="Outreach 3"></img>
-            <img src='/outreach4.png' className='absolute h-[60vh] top-[75%] left-[70%] -translate-x-1/2' alt="Outreach 4"></img>
         </section>
         <section className='text-left bg-white relative h-auto w-full px-24 py-18 min-w-160'>
             <div className='text-black text-5xl font-bold whitespace-nowrap'>Outreach Programs</div>
@@ -95,7 +84,7 @@ const Outreach = () => {
                     </div>
                 </div>
                 <div className="w-full h-100 flex flex-row justify-evenly items-center px-20">
-                    <img src='/outreach5.png' className='w-auto h-full max-w-none' alt="Outreach 5"></img>
+                    <img src='/outreach5.png' className='w-auto h-full max-w-none rounded-xl' alt="Outreach 5"></img>
                     <div className="h-full aspect-square flex flex-col justify-center items-center gap-5">
                         <div className="font-bold">Comrades Program</div>
                         <p>We work closely with our high school’s special education program, known as the Comrades. Our members host regular lunch sessions where students learn programming concepts and apply them using VEX robots, providing both technical skills and an inclusive, collaborative learning environment.</p>
