@@ -1,1 +1,10 @@
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../src/assets/fonts/Orbitron-VariableFont_wght.ttf');
+}
+
 @import "tailwindcss";
+
+@theme {
+    --font-orbitron: 'Orbitron', sans-serif;
+}

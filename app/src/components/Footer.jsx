@@ -1,30 +1,31 @@
-import './Footer.css'
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
     return (
         <nav className="bg-[#1f1e23] text-white px-4 py-4">
-            <div className='container mx-auto flex flex-wrap md:items-center items-start'>
+            <div className='container max-w-full mx-auto flex flex-wrap md:items-center items-start'>
                 <div className='w-full md:w-3/5'>
-                    <div className='text-lg mb-4 text-[#fcc307]'>Team 1280 - The Ragin' C Biscuits</div>
+                    <Link to='/' className='nav-item'>
+                        <div className='text-lg mb-4 text-[#fcc307] font-bold'>Team 1280 - The Ragin' C Biscuits</div>
+                    </Link>
                     <div className='flex flex-col md:flex-row md:space-x-12 text-center'>
-                        <div className='mb-6 md:mb-0'>
+                        <div className='mb-6 md:mb-0 text-left'>
                             <div className='block mb-1'>Join Us</div>
                             <div className='block mb-1'>Resources</div>
                             <div className='block mb-1'>Sponsors</div>
                             <div className='block mb-1'>Sponsor Us</div>
                         </div>
-                        <div className='block mb-2'>
-                            <div className=''>About</div>
+                        <div className='block mb-2 text-center'>
+                            <Link to='/About' className='nav-item'> <div className=''>About</div> </Link>
                             <div className='flex space-x-8'>
                                 <div className=''>
-                                    <div className='block mb-1'>The Team</div>
-                                    <div className='block mb-1'>Leaders</div>
-                                    <div className='block mb-1'>Facility</div>
+                                    <Link to='/Leadership' className='nav-item'> <div className='block mb-1'>Leaders</div> </Link>
+                                    <Link to='/Facility' className='nav-item'> <div className='block mb-1'>Facility</div> </Link>
                                 </div>
                                 <div className='inline-block'>
-                                    <div className='block mb-1'>FIRST</div>
-                                    <div className='block mb-1'>Mentors</div>
-                                    <div className='block mb-1'>About</div>
+                                    <Link to='/First' className='nav-item'>  <div className='block mb-1'>FIRST</div> </Link>
+                                    <Link to='/Mentors' className='nav-item'> <div className='block mb-1'>Mentors</div> </Link>
                                 </div>
                             </div>
                         </div>

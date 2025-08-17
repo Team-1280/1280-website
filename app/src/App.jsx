@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <main className='container'>
+      <main className='container max-w-full'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
