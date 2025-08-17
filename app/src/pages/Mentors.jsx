@@ -1,20 +1,21 @@
+import { Link } from 'react-router-dom';
 
 const Mentors = () => (
     <>
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
-                <div className='relative bg-[#52565e] justify-center grid items-center w-54/55 h-1/4'>
-                    <div className='text-white text-3xl text-left font-bold px-20 pb-5 pt-5'>
+                <div className='relative bg-[#717070] justify-center grid items-center w-54/55 h-1/4'>
+                    <div className='text-white text-3xl text-left font-orbitron px-20 pb-5 pt-5'>
                         FRC Team 1280 Mentors and Coaches
                     </div>
-                    <div className='text-white text-base text-left px-20 pb-5'>
+                    <div className='text-white font-bricolage text-base text-left px-20 pb-5'>
                         Mentors and Coaches are individuals from all backgrounds and disciplines who work with students to share their knowledge and guide them through the season. Many Mentors contribute on a weekly basis during competition season, or support the team with subject matter expertise on an as needed basis. Teams may have additional or more specialized roles or a combination of roles as needed. In addition, Mentors help to foster the idea of Gracious Professionalism® and have the students do as much of the work as possible - FIRST Mentors & Coaches
                     </div>
                 </div>
             </div>
         </section>
         <section>
-            <div className='flex gap-10 px-20 py-5'>
+            <div className='flex font-bricolage gap-10 px-20 py-5'>
                 <img src="/mentor1.png" alt="Wyatt Slanec" className='w-50 h-50'/>
                 <div>
                     <div className='font-bold'>Wyatt Slanec</div>
@@ -27,7 +28,7 @@ const Mentors = () => (
             </div>
         </section>
         <section>
-            <div className='flex gap-10 px-20 py-5'>
+            <div className='flex font-bricolage gap-10 px-20 py-5'>
                 <img src="/mentor2.png" alt="Tim Paterson" className='w-50 h-50'/>
                 <div>
                     <div className='font-bold'>Tim Paterson</div>
@@ -40,7 +41,7 @@ const Mentors = () => (
             </div>
         </section>
         <section>
-            <div className='flex gap-10 px-20 py-5'>
+            <div className='flex font-bricolage gap-10 px-20 py-5'>
                 <img src="/mentor3.png" alt="Marty Lastowski" className='w-50 h-50'/>
                 <div>
                     <div className='font-bold'>Marty Lastowski</div>
@@ -54,12 +55,14 @@ const Mentors = () => (
         </section>
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-10'>
-                <div className='relative bg-[#52565e] justify-center grid items-center w-[95vw] h-1/4'>
-                    <div className='text-white text-3xl text-left font-bold px-20 pb-5 pt-5'>
+                <div className='relative bg-[#717070] justify-center grid items-center w-[95vw] h-1/4'>
+                    <div className='text-white font-bricolage text-3xl text-left font-bold px-20 pb-5 pt-5'>
                         Interested in Mentoring?
                     </div>
-                    <div className='text-white text-base text-left px-20 pb-5'>
-                        We are always looking for committed adults and alumni who want to contribute to student learning in STEM. If you're interested in volunteering as a mentor, please visit our [Contact Page] or email us at sanramonvalleyrobotics@gmail.com.
+                    <div className='text-white font-bricolage text-base text-left px-20 pb-5'>
+                        We are always looking for committed adults and alumni who want to contribute to student learning in STEM. If you're interested in volunteering as a mentor, please visit our
+                        <Link to='/Contact' className='whitespace-nowrap'> Contact Page </Link>
+                        or email us at sanramonvalleyrobotics@gmail.com.
                     </div>
                 </div>
             </div>
