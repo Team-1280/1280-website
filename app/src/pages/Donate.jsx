@@ -5,12 +5,15 @@ const Donate = () => {
         <>
             <section>
                 <div className="relative bg-cover w-full bg-center bg-[url(/donate.png)] ">
-                    <div className="h-[230vh] absolute top-15 left-60 size-230 bg-gray-500/80 z-0"></div>
+                    <div className="h-[235vh] absolute top-15 left-60 size-230 bg-gray-500/80 z-0"></div>
                     <div className="h-[250vh] relative z-10 text-white"></div>
-                    <div className="font-bricolage">
+                    <div className="font-orbitron">
                     <div className='donate-heading'>
                         Support Team 1280 – Become a Sponsor
                     </div>
+                    </div>
+                    <div className="font-bricolage">
+                    <div className='new-line-sponsor'></div>
                     <div className='donate-text'>
                         Team 1280, the Ragin’ C Biscuits, is a student-led robotics team based at San Ramon Valley High School.
                         We do not charge membership dues, so we rely entirely on the generosity of companies and parents to fund our operations each year

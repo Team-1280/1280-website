@@ -20,7 +20,6 @@
     transform: translateX(-50%);
     position: absolute;
     font-size: xx-large;
-    font-weight: bold;
     text-align: center;
     overflow: hidden;
 
@@ -37,7 +36,7 @@
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 12%;
+    top: 15%;
     transform: translateX(-50%);
     display: flex;
 }
@@ -72,7 +71,7 @@
     color: rgb(252, 195, 7);
     font-weight: bold;
     font-size: xx-large;
-    top: 110%;
+    top: 118%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -81,7 +80,7 @@
     text-align: center;
     color: white;
     font-size: medium;
-    top: 120%;
+    top: 128%;
     left: 50%;
     transform: translateX(-50%);
     font-size: medium;
@@ -94,7 +93,7 @@
     text-align: center;
     color: white;
     font-size: medium;
-    top: 20%;
+    top: 23%;
     left: 50%;
     transform: translateX(-50%);
     font-size: medium;
@@ -110,7 +109,7 @@
     font-size: medium;
     padding: 1rem;
     font-weight: bold;
-    top: 30%;
+    top: 34%;
     left: 50%;
     transform: translateX(-50%);
     color: white;
@@ -137,7 +136,7 @@
     color: rgb(252, 195, 7);
     font-weight: bold;
     font-size: xx-large;
-    top: 180%;
+    top: 188%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -146,7 +145,7 @@
     text-align: center;
     color: white;
     font-size: medium;
-    top: 190%;
+    top: 198%;
     left: 50%;
     transform: translateX(-50%);
     font-size: medium;
