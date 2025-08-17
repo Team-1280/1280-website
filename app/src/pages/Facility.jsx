@@ -4,7 +4,7 @@ const Facility = () => {
             <section>
                 <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
                     <div className='relative bg-[#717070] justify-center grid items-center w-[95vw] h-1/4'>
-                        <div className='text-white text-3xl text-left font-orbitron px-20 pb-5 pt-5'>
+                        <div className='text-white text-3xl text-left font-roboto px-20 pb-5 pt-5'>
                             Facility
                         </div>
                         <div className="font-bricolage">
@@ -22,7 +22,7 @@ const Facility = () => {
             <section>
                 <div className="bg-white relative h-[30%] w-full px-7 pt-5 pb-10 flex">
                     <div>
-                        <div className='text-black text-3xl text-left font-orbitron px-10 pb-5 pt-5'>
+                        <div className='text-black text-3xl text-left font-roboto px-10 pb-5 pt-5'>
                             Location
                         </div>
                         <div className="font-bricolage">
