@@ -66,7 +66,7 @@ const Outreach = () => {
                 Beyond one-time events, our team is committed to ongoing outreach programs that foster STEM education and strengthen connections within our community.
             </div>
         </section>
-        <section className='text-left bg-white relative h-400 w-full flex flex-col items-center mb-10'>
+        <section className='text-left bg-white relative h-400 w-full flex flex-col items-center mb-10 overflow-hidden'>
             <img src="/bg-logo.png" className="absolute w-auto h-full max-w-none opacity-25" alt="Background Logo" />
             <div className="absolute w-full h-full flex flex-col text-black text-xl text-center justify-evenly">
                 <div className="w-full h-100 flex flex-row justify-evenly items-center px-20">
