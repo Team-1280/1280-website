@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 const Mentors = () => (
     <>
         <section>
-            <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
-                <div className='relative gray-box w-54/55 h-1/4'>
+            <div className='bg-white relative h-[30%] w-full justify-center items-center px-10 py-10'>
+                <div className='relative gray-box h-1/4'>
                     <div className='text-white text-3xl text-left font-roboto px-20 pb-5 pt-5'>
                         FRC Team 1280 Mentors and Coaches
                     </div>
@@ -16,7 +16,7 @@ const Mentors = () => (
         </section>
         <section>
             <div className='flex font-bricolage gap-10 px-20 py-5'>
-                <img src="/mentor1.png" alt="Wyatt Slanec" className='w-50 h-50'/>
+                <img src="/mentor1.png" alt="Wyatt Slanec" className='w-50 h-50 rounded-sm'/>
                 <div>
                     <div className='font-bold'>Wyatt Slanec</div>
                     <div className='font-bold'>FRC Team 1280 Head Coach: 20XX - Present</div>
@@ -29,7 +29,7 @@ const Mentors = () => (
         </section>
         <section>
             <div className='flex font-bricolage gap-10 px-20 py-5'>
-                <img src="/mentor2.png" alt="Tim Paterson" className='w-50 h-50'/>
+                <img src="/mentor2.png" alt="Tim Paterson" className='w-50 h-50 rounded-sm'/>
                 <div>
                     <div className='font-bold'>Tim Paterson</div>
                     <div className='font-bold'>FRC Team 1280 Head Coach: 20XX - Present</div>
@@ -42,7 +42,7 @@ const Mentors = () => (
         </section>
         <section>
             <div className='flex font-bricolage gap-10 px-20 py-5'>
-                <img src="/mentor3.png" alt="Marty Lastowski" className='w-50 h-50'/>
+                <img src="/mentor3.png" alt="Marty Lastowski" className='w-50 h-50 rounded-sm'/>
                 <div>
                     <div className='font-bold'>Marty Lastowski</div>
                     <div className='font-bold'>FRC Team 1280 Head Mentor: 2023 - Present</div>
@@ -54,7 +54,7 @@ const Mentors = () => (
             </div>
         </section>
         <section>
-            <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-10'>
+            <div className='bg-white relative h-[30%] w-full justify-center items-center px-10 py-10'>
                 <div className='relative gray-box w-[95vw] h-1/4'>
                     <div className='text-white font-bricolage text-3xl text-left font-bold px-20 pb-5 pt-5'>
                         Interested in Mentoring?
