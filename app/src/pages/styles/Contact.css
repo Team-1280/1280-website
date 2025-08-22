@@ -1,6 +1,6 @@
 .contact-top-background {
     display: flex;
-    height: 70vh;
+    height: 40rem;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -26,7 +26,7 @@
 }
 .gen-inq-background {
     display: flex;
-    height: 60vh;
+    height: 35rem;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -39,7 +39,7 @@
 }
 .interest-background {
     display: flex;
-    height: 50vh;
+    height: 25rem;
     justify-content: center;
     align-items: center;
     background-position: center;
@@ -52,7 +52,7 @@
 }
 .sponsor-background {
     display: flex;
-    height: 30vh;
+    height: 20rem;
     justify-content: center;
     align-items: center;
     background-position: center;

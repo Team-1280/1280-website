@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './styles/Contact.css'
+import './styles/Contact.css';
 
 const Contact = () => (
     <>
@@ -56,18 +56,18 @@ const Contact = () => (
         </section>
         <section>
             <div className='sponsor-background'>
-            <div className='absolute font-bricolage size-auto mb-50 flex items-start text-white text-3xl text-center pointer-events-auto text-balance'>
-                Sponsorship and Partnerships
-            </div>
-            <div className='absolute font-bricolage size-auto flex items-center text-white text-base text-center pointer-events-auto text-balance'>
-                <div>We rely on the support of sponsors to continue offering quality STEM education.
-                Visit our 
-                <Link to='/Donate' className='whitespace-nowrap'> Sponsorship Page </Link> 
-                or email us at sanramonvalleyrobotics@gmail.com for partnership opportunities.
+                <div className='absolute font-bricolage size-auto mb-50 flex items-start text-white text-3xl text-center pointer-events-auto text-balance'>
+                    Sponsorship and Partnerships
+                </div>
+                <div className='absolute font-bricolage size-auto flex items-center text-white text-base text-center pointer-events-auto text-balance'>
+                    <div>We rely on the support of sponsors to continue offering quality STEM education.
+                    <br></br>Visit our 
+                    <Link to='/Donate' className='whitespace-nowrap font-bold'> <u>Sponsorship Page</u> </Link> 
+                    or email us at sanramonvalleyrobotics@gmail.com for partnership opportunities.
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     </>
 )
 
