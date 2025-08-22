@@ -41,7 +41,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex items-center justify-center max-w-none w-auto h-full'>
-                    <img src='/footer2.png' className='max-w-none w-auto h-[90%]'></img>
+                    <img src='/footer2.png' className='max-w-none w-auto h-[80%]'></img>
                 </div>
             </div>
         </nav>
