@@ -3,7 +3,7 @@ import './styles/Donate.css';
 const Donate = () => {
     return (
         <>
-            <div className="relative w-full">
+            <div className="relative w-full text-balance">
                 <img src="/donate.png" className="absolute object-cover h-full min-w-full -z-1"/>
                 <div className="h-20"></div>
                 <div className="h-auto w-auto mx-[25dvw] px-[5dvw] min-w-100 bg-gray-500/80 backdrop-blur-xs z-0 flex flex-col items-center text-center">
@@ -50,8 +50,8 @@ const Donate = () => {
                             </div>
                             <div className='spacer-sponsor'></div>
                             Want to support us or learn more?
-                            Email us at: sanramonvalleyrobotics@gmail.com
-                            Tax certificate available upon request.
+                            <br></br>Email us at: sanramonvalleyrobotics@gmail.com
+                            <br></br>Tax certificate available upon request.
                         </div>
                         </div>
                     </section>
@@ -79,7 +79,7 @@ const Donate = () => {
                             We appreciate every dollar—small or large—as it helps give our students access to life-changing STEM experiences without financial barriers.
                             Suggested donation: $350–$500 per season.
                             (But any amount is welcome!)
-                            For questions, contact: sanramonvalleyrobotics@gmail.com
+                            <br></br>For questions, contact: sanramonvalleyrobotics@gmail.com
                         </div>
                         </div>
                     </section>
