@@ -7,7 +7,7 @@ const Home = () => (
                 <div className="absolute inset-0 bg-black/60"></div>
             </div>
             <div className="relative flex flex-col items-center justify-center size-full text-center gap-10 overflow-hidden text-balance">
-                <h1 className="text-6xl font-medium font-orbitron text-yellow-500">FRC Team 1280 - Ragin' C Biscuits</h1>
+                <h1 className="text-6xl font-medium font-orbitron text-[#fcc307]">FRC Team 1280 - Ragin' C Biscuits</h1>
                 <p className="text-4xl font-medium font-orbitron text-white">San Ramon Valley Robotics</p>
             </div>
         </section>
