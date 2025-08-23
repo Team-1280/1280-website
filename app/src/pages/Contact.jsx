@@ -45,8 +45,8 @@ const Contact = () => (
             <ul>
                 <li className="mt-15">We’re always excited to welcome new students and mentors!</li>
                 <li className="mb-4">Visit our 
-                    <Link to='/Join' className='whitespace-nowrap'> Join Us </Link>
-                    page or email us to learn more about:</li>
+                    <Link to='/Join' className='whitespace-nowrap'> <u>Join Us page</u> </Link>
+                    or email us to learn more about:</li>
                 <li>- How to join as a student</li>
                 <li>- Mentorship roles (technical and non-technical)</li>
                 <li>- Team events and training schedule</li>
@@ -62,7 +62,7 @@ const Contact = () => (
                 <div className='absolute font-bricolage size-auto flex items-center text-white text-base text-center pointer-events-auto text-balance'>
                     <div>We rely on the support of sponsors to continue offering quality STEM education.
                     <br></br>Visit our 
-                    <Link to='/Donate' className='whitespace-nowrap font-bold'> <u>Sponsorship Page</u> </Link> 
+                    <Link to='/Donate' className='whitespace-nowrap'> <u>Sponsorship page</u> </Link> 
                     or email us at sanramonvalleyrobotics@gmail.com for partnership opportunities.
                     </div>
                 </div>

@@ -61,7 +61,7 @@ const Mentors = () => (
                     </div>
                     <div>
                         We are always looking for committed adults and alumni who want to contribute to student learning in STEM. If you're interested in volunteering as a mentor, please visit our
-                        <Link to='/Contact' className='whitespace-nowrap'> Contact Page </Link>
+                        <Link to='/Contact' className='whitespace-nowrap'> <u>Contact page</u> </Link>
                         or email us at sanramonvalleyrobotics@gmail.com.
                     </div>
                 </div>
