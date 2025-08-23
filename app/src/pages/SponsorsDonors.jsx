@@ -11,7 +11,7 @@ const SponsorsDonors = () => {
                     <div className="px-20 py-2 text-white text-base">Because of you, we are able to purchase essential tools and materials, maintain our workspace, and provide opportunities for students to learn engineering, programming, and fabrication. Beyond financial support, your belief in our mission inspires us to push boundaries and strive for excellence both on and off the field.</div>
                     <div className="px-20 py-2 text-white text-base">We are proud to represent our community and our sponsors at every competition, and we couldn’t do it without you. Thank you for being a vital part of Team 1280’s journey!</div>
                 </div>
-                <div className='relative grid grid-rows-3 grid-cols-3 w-[85%] h-auto gap-[10%] pb-30'>
+                <div className='relative grid grid-rows-3 grid-cols-3 w-[85%] h-auto gap-x-[10%] gap-y-10 pb-30'>
                     <img src='/ptsa-logo.png' className='w-full' alt="PTSA Logo"></img>
                     <img src='/site-council-logo.png' className='w-full' alt="Site Council Logo"></img>
                     <img src='/boosters-logo.png' className='w-full' alt="Academic Boosters Logo"></img>
