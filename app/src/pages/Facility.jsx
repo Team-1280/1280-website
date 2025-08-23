@@ -2,7 +2,7 @@ const Facility = () => {
     return (
         <>
             <section>
-                <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
+                <div className='bg-white relative h-[30%] w-full justify-center items-center px-10 py-10'>
                     <div className='relative gray-box w-[95vw] h-1/4'>
                         <div className='text-white text-3xl text-left font-roboto px-20 pb-5 pt-5'>
                             Facility
@@ -38,8 +38,8 @@ const Facility = () => {
                 </div>
             </section>
             <section>
-                <div className="bg-white relative h-[30%] w-full px-7 pt-5 pb-5 flex">
-                    <img src="/facility2.png" className="w-[95vw]"></img>
+                <div className="bg-white relative w-full px-7 pb-15 flex items-center justify-center">
+                    <img src="/facility2.png" className="w-[95%]"></img>
                 </div>
             </section>
         </>

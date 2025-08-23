@@ -12,7 +12,8 @@
 .donate-heading {
     display: flex;
     color: rgb(252, 195, 7);
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-size: xx-large;
     text-align: center;
     overflow: hidden;
