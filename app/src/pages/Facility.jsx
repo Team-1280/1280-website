@@ -4,15 +4,15 @@ const Facility = () => {
             <section>
                 <div className='bg-white relative h-[30%] w-full justify-center items-center px-10 py-10'>
                     <div className='relative gray-box w-[95vw] h-1/4'>
-                        <div className='text-white text-3xl text-left font-roboto px-20 pb-5 pt-5'>
+                        <div className='gray-box-heading'>
                             Facility
                         </div>
-                        <div className="font-bricolage">
-                            <div className='text-white text-lg text-left px-20 pb-5'>
+                        <div>
+                            <div>
                                 We’re fortunate to have access to a well-equipped facility that includes multiple machining tools, a full fabrication workshop, and a dedicated storage closet—enabling our team to design, build, and maintain our robot efficiently.
                             </div>
                             <div className="p-2"></div>
-                            <div className='text-white text-lg text-left px-20 pb-5'>
+                            <div>
                                 Thanks to the generous support of our sponsors, we’ve been able to purchase and utilize these essential machines, tools, and workspace resources. Their contributions empower us to innovate, improve our builds, and keep our components organized and competition-ready.
                             </div>
                         </div>

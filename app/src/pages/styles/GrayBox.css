@@ -11,4 +11,18 @@
     justify-content: start;
     align-items: start;
     flex-grow: 0;
+    padding: 1.5rem;
+    /* Body text */
+    font-family: 'Bricolage', sans-serif;
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.gray-box-heading {
+    color: #fcc307;
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin-bottom: 0.75rem;
+    line-height: 2.25rem;
 }

@@ -4,10 +4,10 @@ const Leadership = () => (
     <>
         <div className='bg-white relative h-[30%] w-full justify-center items-center px-7 py-5'>
             <div className='relative gray-box w-54/55 h-1/4'>
-                <div className='text-white font-roboto text-3xl text-left px-20 pb-5 pt-5'>
+                <div className='gray-box-heading'>
                     Student Leadership
                 </div>
-                <div className='text-white font-bricolage text-base text-left px-20 pb-5'>
+                <div>
                     In the FIRST Robotics Competition (FRC), student leadership plays a critical role in guiding the direction, culture, and success of a team. Student leaders help manage subteams, organize outreach events, lead meetings, support technical and non-technical training, and represent the team at competitions. Leadership positions often include roles such as Team Captain, Subteam Leads (e.g., Programming, CAD, Electrical, Fabrication, Business), and Outreach Coordinators.
                 </div>
             </div>
@@ -182,7 +182,7 @@ const Leadership = () => (
                 </div>
         </section> */}
         {/* relative flex flex-col items-center w-full h-auto py-10 font-bricolage whitespace-nowrap text-black text-lg */}
-        <section className='mx-[15%] my-16 py-14 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
+        <section className='mx-[15%] my-16 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
             <div className='font-bold text-center'>FRC 1280 Leadership</div>
             <div className='text-center'>Active Term: June 2024 - June 2025</div>
             <div className='flex flex-nowrap justify-center gap-[30%] mt-12'>
@@ -268,7 +268,7 @@ const Leadership = () => (
             </div>
         </section>
 
-        <section className='mx-[15%] my-16 py-14 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
+        <section className='mx-[15%] my-16 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
             <div className='font-bold text-center'>FRC 1280 Leadership</div>
             <div className='text-center'>Active Term: June 2023 - June 2024</div>
             <div className='flex flex-nowrap justify-center gap-[30%] mt-12'>
@@ -347,7 +347,7 @@ const Leadership = () => (
             </div>
         </section>
 
-        <section className='mx-[15%] my-16 py-14 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
+        <section className='mx-[15%] my-16 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
             <div className='font-bold text-center'>FRC 1280 Leadership</div>
             <div className='text-center'>Active Term: June 2022 - June 2023</div>
             <div className='flex flex-nowrap justify-center gap-[30%] mt-12'>
@@ -405,7 +405,7 @@ const Leadership = () => (
             </div>
         </section>
 
-        <section className='mx-[15%] my-16 py-14 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
+        <section className='mx-[15%] my-16 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
             <div className='font-bold text-center'>FRC 1280 Leadership</div>
             <div className='text-center'>Active Term: June 2021 - June 2022</div>
             <div className='flex flex-nowrap justify-center gap-[30%] mt-12'>
@@ -436,7 +436,7 @@ const Leadership = () => (
             </div>
         </section>
 
-        <section className='mx-[15%] my-16 py-14 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
+        <section className='mx-[15%] my-16 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
             <div className='font-bold text-center'>FRC 1280 Leadership</div>
             <div className='text-center'>Active Term: June 2020 - June 2021</div>
             <div className='flex flex-nowrap justify-center gap-[30%] mt-12'>
@@ -460,7 +460,7 @@ const Leadership = () => (
             </div>
         </section>
 
-        <section className='mx-[15%] my-16 py-14 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
+        <section className='mx-[15%] my-16 text-white gray-box font-bricolage whitespace-nowrap text-black text-lg'>
             <div className='font-bold text-center'>FRC 1280 Leadership</div>
             <div className='text-center'>Active Term: June 2019 - June 2020</div>
             <div className='flex flex-nowrap justify-center gap-[30%] mt-12'>

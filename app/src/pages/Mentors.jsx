@@ -5,10 +5,10 @@ const Mentors = () => (
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-10 py-10'>
                 <div className='relative gray-box h-1/4'>
-                    <div className='text-white text-3xl text-left font-roboto px-20 pb-5 pt-5'>
+                    <div className='gray-box-heading'>
                         FRC Team 1280 Mentors and Coaches
                     </div>
-                    <div className='text-white font-bricolage text-base text-left px-20 pb-5'>
+                    <div className='text-white text-lg'>
                         Mentors and Coaches are individuals from all backgrounds and disciplines who work with students to share their knowledge and guide them through the season. Many Mentors contribute on a weekly basis during competition season, or support the team with subject matter expertise on an as needed basis. Teams may have additional or more specialized roles or a combination of roles as needed. In addition, Mentors help to foster the idea of Gracious Professionalism® and have the students do as much of the work as possible - FIRST Mentors & Coaches
                     </div>
                 </div>
@@ -56,10 +56,10 @@ const Mentors = () => (
         <section>
             <div className='bg-white relative h-[30%] w-full justify-center items-center px-10 py-10'>
                 <div className='relative gray-box w-[95vw] h-1/4'>
-                    <div className='text-white font-bricolage text-3xl text-left font-bold px-20 pb-5 pt-5'>
+                    <div className='gray-box-heading'>
                         Interested in Mentoring?
                     </div>
-                    <div className='text-white font-bricolage text-base text-left px-20 pb-5'>
+                    <div>
                         We are always looking for committed adults and alumni who want to contribute to student learning in STEM. If you're interested in volunteering as a mentor, please visit our
                         <Link to='/Contact' className='whitespace-nowrap'> Contact Page </Link>
                         or email us at sanramonvalleyrobotics@gmail.com.
