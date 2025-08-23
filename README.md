@@ -39,3 +39,10 @@ TODOs:
 - Change index.html to update tab appearance (low priority)
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
+
+Codebase Notes:
+- Use `w-full` instead of `w-screen` (scrollbar problems)
+- Avoid using `vh` or similar (shortening window should have little effect)
+- Have consistency for font types (e.g. headings)
+- Text lines should be at max 80-120 chars (use large horizontal margins)
+- Prefer to use tailwind instead of the css files
