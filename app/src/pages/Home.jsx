@@ -12,7 +12,7 @@ const Home = () => (
             </div>
         </section>
         <div className="relative w-full overflow-x-hidden bg-white flex justify-center px-12 py-12 h-235">
-            <div className="min-w-200 flex flex-nowrap">
+            <div className="min-w-200 flex flex-nowrap max-w-[76rem] mx-auto">
                 <img src="/home3.png" className=''></img>
                 <div className="mx-16 flex flex-col justify-around items-center">
                     <div className='gray-box h-[25%]'>
