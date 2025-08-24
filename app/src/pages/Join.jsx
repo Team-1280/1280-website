@@ -2,8 +2,8 @@ import './styles/Join.css';
 
 const Join = () => (
     <>
-        <section>
-            <div className='text-left bg-white relative h-auto w-full px-12 flex flex-col'>
+        <section className="px-12 max-w-[100rem] mx-auto">
+            <div className='text-left bg-white relative h-auto w-full flex flex-col'>
                 <div className='px-10 py-10 font-roboto text-black text-5xl whitespace-nowrap text-center'>How to Join Team 1280</div>
                 <div className="flex flex-row flex-nowrap size-full justify-center gap-10 min-w-200">
                     <div className='gray-box w-16/24 max-w-4xl h-auto max-h-none font-bricolage'>
@@ -60,8 +60,6 @@ const Join = () => (
                     </div>
                 </div>
             </div>
-        </section>
-        <section className="px-12 flex flex-col">
             <div className='text-left bg-white my-12 flex flex-row flex-nowrap size-full justify-center gap-10 min-w-200'>
                 <div className='gray-box w-16/24 max-w-4xl font-bricolage'>
                     <div className='gray-box-heading'>For Mentors:</div>

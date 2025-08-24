@@ -9,7 +9,8 @@ const Contact = () => (
                     Contact Team 1280 – Ragin' C’ Biscuits
                 </div>
                 <div className="absolute font-bricolage mt-10 size-auto flex items-center text-black text-2xl text-center pointer-events-auto text-balance">
-                    Have a question about our team, sponsorship opportunities, outreach events, or joining as a member or mentor? We’d love to hear from you.
+                    Have a question about our team, sponsorship opportunities, outreach events, or joining as a member or mentor?
+                    <br></br>We’d love to hear from you.
                 </div>
             </div>
     </section>

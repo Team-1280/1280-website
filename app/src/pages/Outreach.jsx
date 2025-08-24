@@ -10,11 +10,11 @@ const Outreach = () => {
                     As a dedicated FRC team, we aim to excel in competition while promoting STEM education and the FIRST mission in our community. We participate in local events, mentor new FLL teams, and remain committed to inspiring curiosity and fostering growth in STEM for all ages.
                 </div>
             </section>
-            <section className='text-left bg-white relative h-auto w-full px-24 py-18 overflow-hidden'>
+            <section className='text-left bg-white relative h-auto w-full px-24 pt-18 pb-12 overflow-hidden max-w-[64rem] mx-auto'>
                 <div className='min-w-160'>
                     <div className='text-black text-5xl font-roboto whitespace-nowrap'>Outreach Events</div>
                     <hr className="my-8 border-gray-300 border-t-4"></hr>
-                    <div className='gray-box font-bricolage text-white text-lg'>
+                    <div className='gray-box font-bricolage text-white text-lg mx-auto'>
                         In addition to our ongoing programs, our team participates in a variety of one-off or annual events that connect us with the local community. These events often include robot demonstrations, hands-on STEM activities, and opportunities for community members of all ages to learn about engineering and FIRST.
                     </div>
                 </div>
@@ -61,11 +61,11 @@ const Outreach = () => {
                     <img src='/outreach4.png' className='h-100 rounded-xl' alt="Outreach 4"></img>
                 </div>
             </section>
-            <section className='text-left bg-white relative h-auto w-full px-24 py-18 overflow-hidden'>
+            <section className='text-left bg-white relative h-auto w-full px-24 pt-18 pb-8 overflow-hidden max-w-[64rem] mx-auto'>
                 <div className='min-w-160'>
                     <div className='text-black text-5xl font-roboto whitespace-nowrap'>Outreach Programs</div>
                     <hr className="my-8 border-gray-300 border-t-4"></hr>
-                    <div className='gray-box font-bricolage text-white text-lg'>
+                    <div className='gray-box font-bricolage text-white text-lg mx-auto'>
                         Beyond one-time events, our team is committed to ongoing outreach programs that foster STEM education and strengthen connections within our community.
                     </div>
                 </div>

@@ -12,6 +12,7 @@
     align-items: start;
     flex-grow: 0;
     padding: 1.5rem;
+    max-width: 64rem;
     /* Body text */
     font-family: 'Bricolage', sans-serif;
     color: #ffffff;

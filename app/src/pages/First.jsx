@@ -7,7 +7,7 @@ const First = () => {
                 </div>
             </section>
             <section>
-                <div className='text-left bg-white relative h-auto w-full pl-12 my-16'>
+                <div className='text-left bg-white relative h-auto w-full my-16 max-w-[64rem] mx-auto'>
                     <div className='px-10 text-black text-5xl font-roboto'>FIRST®</div>
                     <hr className="mx-10 my-8 border-gray-300 border-t-4 w-17/18"></hr>
                     <div className="text-lg font-bricolage max-w-[90vw]">
