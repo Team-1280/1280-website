@@ -36,6 +36,7 @@ TODOs:
 
 - Make styles friendly, regardless of viewport size
     - Add support for mobile
+- Change body text font, improve typography
 - Update remaining pages with additional information
 - Change index.html to update tab appearance (low priority)
 - Use SWC for Fast Refresh at vite.config.js (low priority)
