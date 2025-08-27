@@ -7,7 +7,7 @@ const Facility = () => {
                         <div className='text-white text-3xl text-left font-roboto px-20 pb-5 pt-5'>
                             Facility
                         </div>
-                        <div className="font-bricolage">
+                        <div className="font-sans">
                             <div className='text-white text-lg text-left px-20 pb-5'>
                                 We’re fortunate to have access to a well-equipped facility that includes multiple machining tools, a full fabrication workshop, and a dedicated storage closet—enabling our team to design, build, and maintain our robot efficiently.
                             </div>
@@ -25,7 +25,7 @@ const Facility = () => {
                         <div className='text-black text-3xl text-left font-roboto px-10 pb-5 pt-5'>
                             Location
                         </div>
-                        <div className="font-bricolage">
+                        <div className="font-sans">
                             <div className="text-lg text-left font-bold px-10">San Ramon Valley High School</div>
                             <div className="text-lg text-left font-bold px-10">501 Danville Blvd, Danville, CA 94526</div>
                             <div className="p-2"></div>

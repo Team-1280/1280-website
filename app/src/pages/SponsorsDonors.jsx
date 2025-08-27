@@ -5,7 +5,7 @@ const SponsorsDonors = () => {
             <img src='/sponsors1.png' className="absolute object-cover h-full min-w-[100%] -z-1"></img>
             <div className="h-20"></div>
             <div className="h-auto min-w-100 size-auto mx-[20dvw] bg-gray-600/65 backdrop-blur-[6px] flex flex-col items-center">
-                <div className="relative text-white font-bricolage py-10">
+                <div className="relative text-white font-sans py-10">
                     <div className="px-20 py-5 text-[#fcc307] text-3xl font-bold">Thank You to Our Sponsors</div>
                     <div className="px-20 py-2 text-white text-base">Team 1280 would like to extend our deepest gratitude to the sponsors who make our work possible. Your generous support enables us to design, build, and compete with innovative robots, while also fostering STEM skills, teamwork, and leadership in our students.</div>
                     <div className="px-20 py-2 text-white text-base">Because of you, we are able to purchase essential tools and materials, maintain our workspace, and provide opportunities for students to learn engineering, programming, and fabrication. Beyond financial support, your belief in our mission inspires us to push boundaries and strive for excellence both on and off the field.</div>

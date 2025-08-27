@@ -13,10 +13,16 @@
   src: url('../src/assets/fonts/RobotoMono-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: 'Sans';
+  src: url('../src/assets/fonts/SourceSans3-VariableFont_wght.ttf');
+}
+
 @import "tailwindcss";
 
 @theme {
     --font-orbitron: 'Orbitron', sans-serif;
-    --font-bricolage: 'Bricolage', sans-serif;
+    --font-sans: 'Bricolage', sans-serif;
     --font-roboto: 'Roboto', sans-serif;
+    --font-sans: 'Sans', sans-serif;
 }

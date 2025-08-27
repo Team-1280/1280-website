@@ -14,7 +14,7 @@ const Home = () => (
         <div className="relative w-full overflow-x-hidden bg-white flex px-12 py-12 h-225">
             <div className="min-w-200 flex flex-nowrap">
                 <img src="/home3.png" className=''></img>
-                <div className="mx-16 font-bricolage flex flex-col justify-around items-center">
+                <div className="mx-16 font-sans flex flex-col justify-around items-center">
                     <div className='gray-box px-6 pt-6 pb-0 h-[25%]'>
                         <div className='text-[#fcc307] font-bold text-3xl mb-3'>Team 1280 - Who We Are</div>
                         <div className='text-white text-lg'>FRC Team 1280, the Ragin' C Biscuits, is a student-led robotics team based at San Ramon Valley High School in Danville, California. Since 2004, we’ve empowered high school students to explore STEM through hands-on engineering, programming, business, and leadership challenges.</div>
