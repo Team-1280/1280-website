@@ -21,8 +21,8 @@ const Donate = () => {
                                 <div className='new-line-sponsor'>Donation receipts and certificates available upon request.</div>
                             </div>
                             <div className="flex items-center justify-center">
-                                <a href="https://sanramon.myschoolcentral.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center donate-page-donate-button w-1/2">
-                                    Donate Today!
+                                <a href="https://sanramon.myschoolcentral.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center donate-page-donate-button w-1/3">
+                                    Donate
                                 </a>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const Donate = () => {
                                 - Meals during events and build season
                             </div>
                             <div className='spacer-sponsor'></div>
-                            We appreciate every dollar—small or large—as it helps give our students access to life-changing STEM experiences without financial barriers.
+                            We appreciate every donation, small or large, as it helps give our students access to life-changing STEM experiences without financial barriers.
                             Suggested donation: $350–$500 per season.
                             (But any amount is welcome!)
                             <br></br>For questions, contact: sanramonvalleyrobotics@gmail.com
