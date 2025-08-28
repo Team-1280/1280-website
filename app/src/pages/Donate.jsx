@@ -3,13 +3,13 @@ import './styles/Donate.css';
 const Donate = () => {
     return (
         <>
-            <div className="relative w-full text-balance">
+            <div className="relative w-full text-balance font-sans">
                 <img src="/donate.png" className="absolute object-cover h-full min-w-full -z-1"/>
                 <div className="h-20"></div>
-                <div className="h-auto w-auto mx-[25dvw] px-[5dvw] min-w-100 bg-gray-500/80 backdrop-blur-xs z-0 flex flex-col items-center text-center">
+                <div className="h-auto w-auto mx-[25dvw] px-[5dvw] min-w-100 bg-gray-600/80 backdrop-blur-xs z-0 flex flex-col items-center text-center py-4">
                     <section className="w-full flex flex-col items-center">
-                        <div className="font-roboto donate-heading">Support Team 1280 – Become a Sponsor</div>
-                        <div className="font-sans new-line-sponsor">
+                        <div className="font-bold donate-heading">Support Team 1280 – Become a Sponsor</div>
+                        <div className="new-line-sponsor">
                             <div className='donate-text'>
                                 Team 1280, the Ragin’ C Biscuits, is a student-led robotics team based at San Ramon Valley High School.
                                 We do not charge membership dues, so we rely entirely on the generosity of companies and parents to fund our operations each year
@@ -28,7 +28,6 @@ const Donate = () => {
                         </div>
                     </section>
                     <section>
-                        <div className="font-sans">
                         <div className='corporate-sponsor-heading mt-10'>
                             Corporate Sponsorship
                         </div>
@@ -53,10 +52,8 @@ const Donate = () => {
                             <br></br>Email us at: sanramonvalleyrobotics@gmail.com
                             <br></br>Tax certificate available upon request.
                         </div>
-                        </div>
                     </section>
                     <section>
-                        <div className="font-sans">
                         <div className='parent-contribution-heading'>
                             Parent Contributions
                         </div>
@@ -81,11 +78,9 @@ const Donate = () => {
                             (But any amount is welcome!)
                             <br></br>For questions, contact: sanramonvalleyrobotics@gmail.com
                         </div>
-                        </div>
                     </section>
                 </div>
                 <div className="h-20"></div>
-
             </div>
         </>
     )

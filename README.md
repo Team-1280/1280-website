@@ -35,7 +35,16 @@ I did struggle a little bit with preliminary react-router-dom routing and backen
 TODOs:
 
 - Make styles friendly, regardless of viewport size
+    - Add support for mobile
+- Change body text font, improve typography
 - Update remaining pages with additional information
 - Change index.html to update tab appearance (low priority)
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
+
+Codebase Notes:
+- Use `w-full` instead of `w-screen` (scrollbar problems)
+- Avoid using `vh`, screen height fractions, or similar (shortening window should have little effect)
+- Have consistency for font types (e.g. headings)
+- Text lines should be at max 80-120 chars (use large horizontal margins)
+- Prefer to use tailwind instead of the css files
