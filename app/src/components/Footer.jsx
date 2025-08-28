@@ -6,7 +6,7 @@ const Footer = () => {
         <nav className="bg-[#1f1e23] text-white h-48">
             <div className='container max-w-full h-full flex flex-nowrap items-start overflow-hidden'>
                 <div class="absolute ml-75 mt-5 h-40 w-px bg-[#fcc307]"></div>
-                <div className='w-full h-full px-8 py-5 flex flex-col items-start z-100 font-bricolage whitespace-nowrap'>
+                <div className='w-full h-full px-8 py-5 flex flex-col items-start z-100 font-sans whitespace-nowrap'>
                     <div className="flex flex-row gap-60">
                     <Link to='/' className='nav-item'>
                         <div className='text-lg mb-5 text-[#fcc307] font-bold w-auto'>Team 1280</div>
@@ -23,7 +23,7 @@ const Footer = () => {
                             <Link to='/Donate' className='nav-item'><div className='block mb-1'>Sponsor Us</div></Link>
                         </div>
                         <div>
-                            <div className='flex gap-8 flex-nowrap ml-17'>
+                            <div className='flex gap-8 flex-nowrap ml-21'>
                                 <div className=''>
                                     <Link to='/About' className='nav-item'> <div className='block mb-5'>The Team</div> </Link>
                                     <Link to='/First' className='nav-item'>  <div className='block mb-1'>FIRST</div> </Link>
