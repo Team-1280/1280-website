@@ -6,7 +6,7 @@ const Join = () => (
             <div className='text-left bg-white relative h-auto w-full flex flex-col'>
                 <div className='px-10 py-10 font-roboto text-black text-5xl whitespace-nowrap text-center'>How to Join Team 1280</div>
                 <div className="flex flex-row flex-nowrap size-full justify-center gap-10 min-w-200">
-                    <div className='gray-box w-16/24 max-w-4xl h-auto max-h-none font-bricolage'>
+                    <div className='gray-box w-16/24 max-w-4xl h-auto max-h-none'>
                         <div className='gray-box-heading'>For Students:</div>
                         <div className='text-left text-white text-lg'>Interested in joining Team 1280? We welcome all students entering grades 9–12—no prior experience is required! Our team values curiosity, collaboration, and commitment, and we're excited to help new members grow in both technical and non-technical roles.</div>
                         <div className='p-2'></div>
@@ -61,7 +61,7 @@ const Join = () => (
                 </div>
             </div>
             <div className='text-left bg-white my-12 flex flex-row flex-nowrap size-full justify-center gap-10 min-w-200'>
-                <div className='gray-box w-16/24 max-w-4xl font-bricolage'>
+                <div className='gray-box w-16/24 max-w-4xl'>
                     <div className='gray-box-heading'>For Mentors:</div>
                     <div className='text-left text-white text-lg'>Our mentors are essential to the learning and success of our students. We welcome professionals, hobbyists, educators, and parents who want to contribute their time, knowledge, or industry experience to help shape the next generation of STEM leaders.</div>
                     <div className='p-2'></div>
