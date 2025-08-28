@@ -3,10 +3,10 @@
   src: url('../src/assets/fonts/Orbitron-VariableFont_wght.ttf');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Bricolage';
   src: url('../src/assets/fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf');
-}
+} */
 
 @font-face {
   font-family: 'Roboto';
@@ -22,7 +22,7 @@
 
 @theme {
     --font-orbitron: 'Orbitron', sans-serif;
-    --font-sans: 'Bricolage', sans-serif;
+    /* --font-sans: 'Bricolage', sans-serif; */
     --font-roboto: 'Roboto', sans-serif;
     --font-sans: 'Sans', sans-serif;
 }
