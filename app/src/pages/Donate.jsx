@@ -21,7 +21,7 @@ const Donate = () => {
                                 <div className='new-line-sponsor'>Donation receipts and certificates available upon request.</div>
                             </div>
                             <div className="flex items-center justify-center">
-                                <a href="https://sanramon.myschoolcentral.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center donate-page-donate-button w-1/3">
+                                <a href="https://sanramon.myschoolcentral.com/Index.aspx#/1222473/product/35244" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center donate-page-donate-button w-1/3">
                                     Donate
                                 </a>
                             </div>
