@@ -79,7 +79,7 @@ const Outreach = () => {
                         </div>
                         <div className="h-full aspect-square flex flex-col justify-center items-center gap-5 font-sans">
                             <div className="font-bold">First Lego League</div>
-                            <p>Our team has partnered with local elementary schools to help launch two new FLL teams at Alamo Elementary School for the 2025–26 season. We are dedicated to sharing our knowledge, mentoring students, and promoting the values of STEM and FIRST to inspire the next generation of innovators.</p>
+                            <p>Our team has partnered with local elementary schools to help launch three new FLL teams at Alamo Elementary School and Rancho Romero Elementary School for the 2025–26 season. We are dedicated to sharing our knowledge, mentoring students, and promoting the values of STEM and FIRST to inspire the next generation of innovators.</p>
                         </div>
                     </div>
                     <div className="w-full h-100 flex flex-row justify-evenly items-center px-20">
