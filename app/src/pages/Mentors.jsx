@@ -33,7 +33,7 @@ const Mentors = () => (
                         <div className='font-bold'>Tim Paterson</div>
                         <div className='font-bold'>FRC Team 1280 Head Coach: 20XX - Present</div>
                         <div className='p-2'></div>
-                        <div className=''>Bio: Mr. Paterson is a computer engineer with over 40 years of experience. Since joining Team 1280 in [20XX], he has provided technical advice and helped train students in CAD and fabrication.</div>
+                        <div className=''>Bio: Mr. Paterson is a computer engineer with over 40 years of experience. Since joining Team 1280 in 2020, he has provided technical advice and helped train students in CAD and fabrication. He has a home machine shop where he builds heavyweight combat robots to compete at BattleBots and RoboGames.</div>
                         <div className='p-2'></div>
                         <div className=''>Expertise: Mechanical & Programming</div>
                     </div>
