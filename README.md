@@ -2,7 +2,7 @@
 
 ## About
 
-This is a website for Team 1280 - Ragin C’ Biscuits that aims to address our Team's values, goals, and impacts. This website is made using a React and Vite framework with Tailwind CSS for styles and ESLint for code formatting and error analysis. Frontend scaffolding is complete, with Backend currently in progress. 
+This is a website for Team 1280 - Ragin' C Biscuits that aims to address our Team's values, goals, and impacts. This website is made using a React and Vite framework with Tailwind CSS for styles and ESLint for code formatting and error analysis. Frontend scaffolding is complete, with Backend currently in progress. 
 
 The deployed site is currently hosted via Vercel and can be found at [https://website-draft-psi.vercel.app/](https://website-draft-psi.vercel.app/)
 
@@ -23,7 +23,7 @@ Run the frontend locally by running the following commands:
 
 Most of the frontend changes will and have been made at app/src/pages. Please ignore the styles folder which contains unused CSS from a previous iteration. They are currently there for reference and will be deleted at a later date. To add pages please create a new route at app/src/App.jsx.
 
-I did struggle a little bit with preliminary react-router-dom routing and backend as well as finding Tailwind classes compatible with various browsers and JSI. So here is a present that will help you!
+Here is a present that will help you!
 
 ✨ Very Useful Documentation (A Present) ✨
 
@@ -38,7 +38,6 @@ TODOs:
     - Add support for mobile
 - Change body text font, improve typography
 - Update remaining pages with additional information
-- Change index.html to update tab appearance (low priority)
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
 
