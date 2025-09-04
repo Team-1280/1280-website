@@ -11,15 +11,6 @@ const Home = () => (
                 <p className="text-4xl font-medium font-orbitron text-white">San Ramon Valley Robotics</p>
             </div>
         </section>
-          <div className="flex justify-center text-6xl mt-10 mb-10 font-roboto text-black">Upcoming Events</div>
-          <div className="relative overflow-hidden flex justify-center" style={{ height: '600px' }}>
-  <iframe
-    src="https://calendar.google.com/calendar/embed?src=db38ca2aab875da4ff3bc4e7af4c985c247b632324125cf886fbfd6d50262684%40group.calendar.google.com&ctz=America%2FLos_Angeles"
-    className="border-0 w-[80%] h-full"
-    allowFullScreen
-    title="Google Calendar"
-  />
-</div>
             <div className="relative w-full overflow-x-hidden bg-white flex justify-center px-12 py-12 h-235">
             <div className="min-w-200 flex flex-nowrap max-w-[76rem] mx-auto">
                 <img src="/home3.png" className=''></img>

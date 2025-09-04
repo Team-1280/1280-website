@@ -10,6 +10,7 @@ const Navbar = () => {
             </Link>
             <ul className='h-full text-white text-xl font-bold font-sans z-1000 gap-x-10 px-10 flex flex-wrap items-center justify-center'>
                 <Link to='/' className='navbar-item nav-item'>Home</Link>
+                <Link to='/Calendar' className='navbar-item drop-link'>Calendar</Link>
                 <div className="dropdown">
                     <Link to='/About' className='navbar-item drop-link'>About</Link>
                     <ul className='dropdown-content'>
