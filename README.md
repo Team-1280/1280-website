@@ -39,6 +39,8 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 ## TODO
 - Make styles friendly, regardless of viewport size
     - Add support for mobile
+- Make navbar wrap or collapse better
+- Make navbar dropdowns visually distinct
 - Change body text font, improve typography
 - Update remaining pages with additional information
 - Use SWC for Fast Refresh at vite.config.js (low priority)
