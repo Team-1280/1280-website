@@ -20,7 +20,6 @@ const Navbar = () => {
                         <Link to='/Outreach'>Outreach</Link>
                     </ul>
                 </div>
-                <Link to='/Join' className='navbar-item'>Join Us</Link>
                 <div className="dropdown select-none">
                     Resources ▼
                     <ul className='dropdown-content'>
@@ -28,6 +27,7 @@ const Navbar = () => {
                         <Link to='/Contact'>Contact</Link>
                     </ul>
                 </div>
+                <Link to='/Join' className='navbar-item'>Join Us</Link>
                 <Link to='/SponsorsDonors' className='navbar-item drop-link'>Sponsors</Link>
                 <Link to='/Donate' className='navbar-item'>Sponsor Us</Link>
             </ul>
