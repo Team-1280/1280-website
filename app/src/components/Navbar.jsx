@@ -11,25 +11,25 @@ const Navbar = () => {
             <ul className='h-auto whitespace-nowrap text-white text-xl font-bold font-sans z-1000 gap-x-10 gap-y-2 pr-10 grid grid-flow-col grid-rows-3 lg:grid-rows-2 xl:grid-rows-1 items-center justify-center'>
                 <Link to='/' className='navbar-item nav-item'>Home</Link>
                 <div className="dropdown">
-                    <Link to='/About' className='navbar-item drop-link'>About ▼</Link>
+                    <Link to='/about' className='navbar-item drop-link'>About ▼</Link>
                     <ul className='dropdown-content'>
-                        <Link to='/Leadership'>Leadership</Link>
-                        <Link to='/Mentors'>Mentors</Link>
-                        <Link to='/First'>FIRST®</Link>
-                        <Link to='/Facility'>Facility</Link>
-                        <Link to='/Outreach'>Outreach</Link>
+                        <Link to='/leadership'>Leadership</Link>
+                        <Link to='/mentors'>Mentors</Link>
+                        <Link to='/first'>FIRST®</Link>
+                        <Link to='/facility'>Facility</Link>
+                        <Link to='/outreach'>Outreach</Link>
                     </ul>
                 </div>
                 <div className="dropdown select-none">
                     Resources ▼
                     <ul className='dropdown-content'>
-                        <Link to='/Calendar'>Calendar</Link>
-                        <Link to='/Contact'>Contact</Link>
+                        <Link to='/calendar'>Calendar</Link>
+                        <Link to='/contact'>Contact</Link>
                     </ul>
                 </div>
-                <Link to='/Join' className='navbar-item'>Join Us</Link>
-                <Link to='/SponsorsDonors' className='navbar-item drop-link'>Sponsors</Link>
-                <Link to='/Donate' className='navbar-item'>Sponsor Us</Link>
+                <Link to='/join' className='navbar-item'>Join Us</Link>
+                <Link to='/sponsors' className='navbar-item drop-link'>Sponsors</Link>
+                <Link to='/donate' className='navbar-item'>Sponsor Us</Link>
             </ul>
         </nav>
     )

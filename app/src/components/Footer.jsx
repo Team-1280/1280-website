@@ -15,29 +15,29 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-row gap-12 text-left flex-nowrap'>
                         <div>
-                            <Link to='/Calendar' className='nav-item'><div className='block mb-5'>Calendar</div></Link>
-                            <Link to='/Contact' className='nav-item'><div className='block mb-5'>Contact</div></Link>
+                            <Link to='/calendar' className='nav-item'><div className='block mb-5'>Calendar</div></Link>
+                            <Link to='/contact' className='nav-item'><div className='block mb-5'>Contact</div></Link>
                         </div>
                         <div>
-                            <Link to='/SponsorsDonors' className='nav-item'><div className='block mb-5'>Sponsors</div></Link>
-                            <Link to='/Donate' className='nav-item'><div className='block mb-5'>Sponsor Us</div></Link>
+                            <Link to='/sponsors' className='nav-item'><div className='block mb-5'>Sponsors</div></Link>
+                            <Link to='/donate' className='nav-item'><div className='block mb-5'>Sponsor Us</div></Link>
                         </div>
                         <div>
-                            <Link to='/Join' className='nav-item'><div className='block mb-5'>Join Us</div></Link>
+                            <Link to='/join' className='nav-item'><div className='block mb-5'>Join Us</div></Link>
                         </div>
                         <div>
                             <div className='flex gap-12 flex-nowrap ml-21'>
                                 <div className=''>
-                                    <Link to='/About' className='nav-item'> <div className='block mb-5'>The Team</div> </Link>
-                                    <Link to='/First' className='nav-item'>  <div className='block mb-5'>FIRST</div> </Link>
+                                    <Link to='/about' className='nav-item'> <div className='block mb-5'>The Team</div> </Link>
+                                    <Link to='/first' className='nav-item'>  <div className='block mb-5'>FIRST</div> </Link>
                                 </div>
                                 <div className='inline-block'>
-                                    <Link to='/Leadership' className='nav-item'> <div className='block mb-5'>Leaders</div> </Link>
-                                    <Link to='/Mentors' className='nav-item'> <div className='block mb-5'>Mentors</div> </Link>
+                                    <Link to='/leadership' className='nav-item'> <div className='block mb-5'>Leaders</div> </Link>
+                                    <Link to='/mentors' className='nav-item'> <div className='block mb-5'>Mentors</div> </Link>
                                 </div>
                                 <div className='inline-block'>
-                                    <Link to='/Facility' className='nav-item'> <div className='block mb-5'>Facility</div> </Link>
-                                    <Link to='/Outreach' className='nav-item'> <div className='block mb-5'>Outreach</div> </Link>
+                                    <Link to='/facility' className='nav-item'> <div className='block mb-5'>Facility</div> </Link>
+                                    <Link to='/outreach' className='nav-item'> <div className='block mb-5'>Outreach</div> </Link>
                                 </div>
                             </div>
                         </div>

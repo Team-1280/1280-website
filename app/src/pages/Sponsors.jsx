@@ -1,4 +1,4 @@
-const SponsorsDonors = () => {
+const Sponsors = () => {
     return (
     <>
         <div className="relative w-full">
@@ -29,4 +29,4 @@ const SponsorsDonors = () => {
     )
 }
 
-export default SponsorsDonors;
+export default Sponsors;
