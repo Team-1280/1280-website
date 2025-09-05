@@ -41,6 +41,8 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 
 
 ## TODO
+- Fix direct subpage links
+- Make page names lowercase
 - Make styles friendly, regardless of viewport size
     - Add support for mobile
 - Make navbar wrap or collapse better
