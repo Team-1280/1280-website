@@ -4,7 +4,11 @@
 
 This is a website for Team 1280 - Ragin' C Biscuits that aims to address our Team's values, goals, and impacts. This website is made using a React and Vite framework with Tailwind CSS for styles and ESLint for code formatting and error analysis. Frontend scaffolding is complete, with Backend currently in progress. 
 
-The deployed site is currently hosted via Vercel and can be found at [https://team1280.com](https://team1280.com) (Blue Host domain) and [https://team1280.vercel.app/](https://team1280.vercel.app/).
+The current webhosting service is Vercel. \
+The current domain registrar is GoDaddy. \
+Links: [team1280.com](https://team1280.com) and [team1280.vercel.app](https://team1280.vercel.app/)
+
+There is an unused website in Bluehost.
 
 *Please note that the website is currently not mobile friendly and is best viewed on larger screens* 
 
