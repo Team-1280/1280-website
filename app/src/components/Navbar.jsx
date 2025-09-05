@@ -8,11 +8,10 @@ const Navbar = () => {
                 <img src='./logo.png' className="max-w-none w-auto h-[75%]"/>
                 <span className="text-[#fcc307] ml-10 font-orbitron text-4xl text-center whitespace-nowrap">Ragin' C Biscuits</span>
             </Link>
-            <ul className='h-auto text-white text-xl font-bold font-sans z-1000 gap-x-10 gap-y-2 pr-10 flex flex-wrap items-center justify-center'>
+            <ul className='h-auto text-white text-xl font-bold font-sans z-1000 gap-x-10 gap-y-2 pr-10 grid grid-flow-col grid-rows-3 lg:grid-rows-2 xl:grid-rows-1 items-center justify-center'>
                 <Link to='/' className='navbar-item nav-item'>Home</Link>
-                <Link to='/Calendar' className='navbar-item drop-link'>Calendar</Link>
                 <div className="dropdown">
-                    <Link to='/About' className='navbar-item drop-link'>About</Link>
+                    <Link to='/About' className='navbar-item drop-link'>About ▼</Link>
                     <ul className='dropdown-content'>
                         <Link to='/Leadership'>Leadership</Link>
                         <Link to='/Mentors'>Mentors</Link>
@@ -22,7 +21,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to='/Join' className='navbar-item'>Join Us</Link>
-                <Link to='/Contact' className='navbar-item'>Contact</Link>
+                <div className="dropdown select-none">
+                    Resources ▼
+                    <ul className='dropdown-content'>
+                        <Link to='/Calendar'>Calendar</Link>
+                        <Link to='/Contact'>Contact</Link>
+                    </ul>
+                </div>
                 <Link to='/SponsorsDonors' className='navbar-item drop-link'>Sponsors</Link>
                 <Link to='/Donate' className='navbar-item'>Sponsor Us</Link>
             </ul>
