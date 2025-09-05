@@ -42,9 +42,7 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 
 ## TODO
 - Fix direct subpage links
-- Make styles friendly, regardless of viewport size
-    - Add support for mobile
-- Change body text font, improve typography
+- Add support for mobile
 - Update remaining pages with additional information
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
@@ -56,3 +54,4 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 - Have consistency for font types (e.g. headings)
 - Text lines should be at max 80-120 chars (use large horizontal margins)
 - Prefer to use tailwind instead of the css files
+- Test the layout on different sizes except mobile
