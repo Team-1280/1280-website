@@ -16,37 +16,49 @@ const Mentors = () => (
                 </div>
             </section>
             <section>
-                <div className='flex font-sans gap-10 px-20 py-5'>
-                    <img src="/mentor1.png" alt="Wyatt Slanec" className='w-50 h-50 rounded-sm'/>
+                <div className='flex font-sans gap-10 px-20 py-6'>
+                    <img src="/mentor1.png" alt="Wyatt Slanec" className='w-50 h-50 rounded-sm' />
                     <div>
                         <div className='font-bold'>Wyatt Slanec</div>
-                        <div className='font-bold'>FRC Team 1280 Head Coach: 20XX - Present</div>
+                        <div className='font-bold'>FRC Team 1280 Head Coach: 2019 - Present</div>
                         <div className='p-2'></div>
-                        <div className=''>Bio: Mr. Slanec is the Auto & Tech teacher at SRVHS. Since joining Team 1280 in [20XX], he has helped shape team culture, ensure safety, and provide guidance in leadership development.</div>
+                        <div className=''>Bio: Mr. Slanec is the Auto & Tech teacher at SRVHS. Since joining Team 1280 in 2019, he has helped shape team culture, ensure safety, and provide guidance in leadership development.</div>
                         <div className='p-2'></div>
                         <div className=''>Expertise: Administration & Leadership Development</div>
                     </div>
                 </div>
-                <div className='flex font-sans gap-10 px-20 py-5'>
-                    <img src="/mentor2.png" alt="Tim Paterson" className='w-50 h-50 rounded-sm'/>
+                <div className='flex font-sans gap-10 px-20 py-6'>
+                    <img src="/mentor2.png" alt="Tim Paterson" className='w-50 h-50 rounded-sm' />
                     <div>
                         <div className='font-bold'>Tim Paterson</div>
                         <div className='font-bold'>FRC Team 1280 Head Coach: 2020 - Present</div>
                         <div className='p-2'></div>
                         <div className=''>Bio: Mr. Paterson is a computer engineer with over 40 years of experience. Since joining Team 1280 in 2020, he has provided technical advice and helped train students in CAD and fabrication. He has a home machine shop where he builds heavyweight combat robots to compete at BattleBots and RoboGames.</div>
                         <div className='p-2'></div>
+                        <details><summary>Links</summary>
+                            <ul class="list-none">
+                                <div className="font-medium !text-[#fcc307] dark:!text-[#fcc307]">
+                                <li><a href="https://x.com/Scobleizer/status/1875486795720487418" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Robert Scoble</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=R2Qh0O3Dt10" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Vintage Computer Foundation</a></li>
+                                <li><a href="https://www.linkedin.com/in/dosdaddy/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn Profile</a></li>
+                                <li><a href="https://github.com/TimPaterson" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub Profile</a></li>
+                                <li><a href="https://www.youtube.com/@hexadecimatorheavyweightco3073" target="_blank" rel="noopener noreferrer" className="hover:underline">Combat Robot Videos</a></li>
+                                </div>
+                            </ul>
+                        </details>
+                        <div className='p-2'></div>
                         <div className=''>Expertise: Mechanical & Programming</div>
                     </div>
                 </div>
-                <div className='flex font-sans gap-10 px-20 py-5'>
-                    <img src="/mentor3.png" alt="Marty Lastowski" className='w-50 h-50 rounded-sm'/>
+                <div className='flex font-sans gap-10 px-20 py-6'>
+                    <img src="/mentor3.png" alt="Marty Lastowski" className='w-50 h-50 rounded-sm' />
                     <div>
                         <div className='font-bold'>Marty Lastowski</div>
                         <div className='font-bold'>FRC Team 1280 Head Mentor: 2023 - Present</div>
                         <div className='p-2'></div>
-                        <div className=''>Bio: </div>
+                        <div className=''>Bio: Mr. Lastowski studied mechanical engineering and worked over 40 years in engineering.  During his career, he worked on medical device robotics specifically at Intuitive Surgical. He also mentored FRC team 971 for about 10 years. </div>
                         <div className='p-2'></div>
-                        <div className=''>Expertise: Mechanical</div>
+                        <div className=''>Expertise: Design & Mechanical</div>
                     </div>
                 </div>
             </section>
