@@ -16,7 +16,7 @@ const Mentors = () => (
                 </div>
             </section>
             <section>
-                <div className='flex font-sans gap-10 px-20 py-5'>
+                <div className='flex font-sans gap-10 px-20 py-6'>
                     <img src="/mentor1.png" alt="Wyatt Slanec" className='w-50 h-50 rounded-sm' />
                     <div>
                         <div className='font-bold'>Wyatt Slanec</div>
@@ -27,7 +27,7 @@ const Mentors = () => (
                         <div className=''>Expertise: Administration & Leadership Development</div>
                     </div>
                 </div>
-                <div className='flex font-sans gap-10 px-20 py-5'>
+                <div className='flex font-sans gap-10 px-20 py-6'>
                     <img src="/mentor2.png" alt="Tim Paterson" className='w-50 h-50 rounded-sm' />
                     <div>
                         <div className='font-bold'>Tim Paterson</div>
@@ -35,21 +35,22 @@ const Mentors = () => (
                         <div className='p-2'></div>
                         <div className=''>Bio: Mr. Paterson is a computer engineer with over 40 years of experience. Since joining Team 1280 in 2020, he has provided technical advice and helped train students in CAD and fabrication. He has a home machine shop where he builds heavyweight combat robots to compete at BattleBots and RoboGames.</div>
                         <div className='p-2'></div>
-                        <div>Links:</div>
-                        <ul class="list-none">
-                            <div className="font-medium !text-[#fcc307] dark:!text-[#fcc307]">
-                            <li><a href="https://x.com/Scobleizer/status/1875486795720487418" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Robert Scoble</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=R2Qh0O3Dt10" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Vintage Computer Foundation</a></li>
-                            <li><a href="https://www.linkedin.com/in/dosdaddy/" target="_blank" rel="noopener noreferrer" className="hover:underline">Linkedin Page</a></li>
-                            <li><a href="https://github.com/TimPaterson" target="_blank" rel="noopener noreferrer" className="hover:underline">Github Page</a></li>
-                            <li><a href="https://www.youtube.com/@hexadecimatorheavyweightco3073" target="_blank" rel="noopener noreferrer" className="hover:underline">Combat Robot Videos</a></li>
-                            </div>
-                        </ul>
+                        <details><summary>Links</summary>
+                            <ul class="list-none">
+                                <div className="font-medium !text-[#fcc307] dark:!text-[#fcc307]">
+                                <li><a href="https://x.com/Scobleizer/status/1875486795720487418" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Robert Scoble</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=R2Qh0O3Dt10" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Vintage Computer Foundation</a></li>
+                                <li><a href="https://www.linkedin.com/in/dosdaddy/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn Profile</a></li>
+                                <li><a href="https://github.com/TimPaterson" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub Profile</a></li>
+                                <li><a href="https://www.youtube.com/@hexadecimatorheavyweightco3073" target="_blank" rel="noopener noreferrer" className="hover:underline">Combat Robot Videos</a></li>
+                                </div>
+                            </ul>
+                        </details>
                         <div className='p-2'></div>
                         <div className=''>Expertise: Mechanical & Programming</div>
                     </div>
                 </div>
-                <div className='flex font-sans gap-10 px-20 py-5'>
+                <div className='flex font-sans gap-10 px-20 py-6'>
                     <img src="/mentor3.png" alt="Marty Lastowski" className='w-50 h-50 rounded-sm' />
                     <div>
                         <div className='font-bold'>Marty Lastowski</div>
