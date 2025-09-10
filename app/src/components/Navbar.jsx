@@ -8,23 +8,28 @@ const Navbar = () => {
                 <img src='./logo.png' className="max-w-none w-auto h-[75%]"/>
                 <span className="text-[#fcc307] ml-10 font-orbitron text-4xl text-center whitespace-nowrap">Ragin' C Biscuits</span>
             </Link>
-            <ul className='h-full text-white text-xl font-bold font-sans z-1000 gap-x-10 px-10 flex flex-wrap items-center justify-center'>
+            <ul className='h-auto whitespace-nowrap text-white text-xl font-bold font-sans z-1000 gap-x-10 gap-y-2 pr-10 grid grid-flow-col grid-rows-3 lg:grid-rows-2 xl:grid-rows-1 items-center justify-center'>
                 <Link to='/' className='navbar-item nav-item'>Home</Link>
-                <Link to='/Calendar' className='navbar-item drop-link'>Calendar</Link>
                 <div className="dropdown">
-                    <Link to='/About' className='navbar-item drop-link'>About</Link>
+                    <Link to='/about' className='navbar-item drop-link'>About ▼</Link>
                     <ul className='dropdown-content'>
-                        <Link to='/Leadership'>Leadership</Link>
-                        <Link to='/Mentors'>Mentors</Link>
-                        <Link to='/First'>FIRST®</Link>
-                        <Link to='/Facility'>Facility</Link>
-                        <Link to='/Outreach'>Outreach</Link>
+                        <Link to='/leadership'>Leadership</Link>
+                        <Link to='/mentors'>Mentors</Link>
+                        <Link to='/first'>FIRST®</Link>
+                        <Link to='/facility'>Facility</Link>
+                        <Link to='/outreach'>Outreach</Link>
                     </ul>
                 </div>
-                <Link to='/Join' className='navbar-item'>Join Us</Link>
-                <Link to='/Contact' className='navbar-item'>Contact</Link>
-                <Link to='/SponsorsDonors' className='navbar-item drop-link'>Sponsors</Link>
-                <Link to='/Donate' className='navbar-item'>Sponsor Us</Link>
+                <div className="dropdown select-none">
+                    Resources ▼
+                    <ul className='dropdown-content'>
+                        <Link to='/calendar'>Calendar</Link>
+                        <Link to='/contact'>Contact</Link>
+                    </ul>
+                </div>
+                <Link to='/join' className='navbar-item'>Join Us</Link>
+                <Link to='/sponsors' className='navbar-item drop-link'>Sponsors</Link>
+                <Link to='/donate' className='navbar-item'>Sponsor Us</Link>
             </ul>
         </nav>
     )
