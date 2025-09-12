@@ -1,5 +1,3 @@
-import './styles/About.css'
-
 const About = () => (
   <>
     <img src="/about.png" className="object-cover w-full"></img>

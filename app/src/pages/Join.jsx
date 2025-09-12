@@ -1,5 +1,3 @@
-import './styles/Join.css'
-
 const Join = () => (
   <>
     <section className="px-12 max-w-[100rem] mx-auto">

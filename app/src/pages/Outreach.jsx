@@ -1,5 +1,3 @@
-import './styles/Outreach.css'
-
 const Outreach = () => (
   <>
     <section className="relative w-full h-auto overflow-hidden">
