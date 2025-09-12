@@ -1,7 +1,6 @@
-import "./styles/Resources.css"
+import "./styles/Resources.css";
 
-const Resources = () => {
-    return (
+const Resources = () => (
     <>
         <section>
             <div className='resources-construction-bg'>
@@ -11,7 +10,6 @@ const Resources = () => {
             </div>
         </section>
     </>
-    )
-}
+)
 
 export default Resources;

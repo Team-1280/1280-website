@@ -1,4 +1,4 @@
-import './styles/RobotEngineering.css'
+import './styles/RobotEngineering.css';
 
 const RobotEngineering = () => (
     <>

@@ -38,11 +38,11 @@ const Mentors = () => (
                         <details><summary>Links</summary>
                             <ul class="list-none">
                                 <div className="font-medium !text-[#fcc307] dark:!text-[#fcc307]">
-                                <li><a href="https://x.com/Scobleizer/status/1875486795720487418" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Robert Scoble</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=R2Qh0O3Dt10" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Vintage Computer Foundation</a></li>
-                                <li><a href="https://www.linkedin.com/in/dosdaddy/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn Profile</a></li>
-                                <li><a href="https://github.com/TimPaterson" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub Profile</a></li>
-                                <li><a href="https://www.youtube.com/@hexadecimatorheavyweightco3073" target="_blank" rel="noopener noreferrer" className="hover:underline">Combat Robot Videos</a></li>
+                                    <li><a href="https://x.com/Scobleizer/status/1875486795720487418" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Robert Scoble</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=R2Qh0O3Dt10" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Vintage Computer Foundation</a></li>
+                                    <li><a href="https://www.linkedin.com/in/dosdaddy/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn Profile</a></li>
+                                    <li><a href="https://github.com/TimPaterson" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub Profile</a></li>
+                                    <li><a href="https://www.youtube.com/@hexadecimatorheavyweightco3073" target="_blank" rel="noopener noreferrer" className="hover:underline">Combat Robot Videos</a></li>
                                 </div>
                             </ul>
                         </details>
