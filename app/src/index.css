@@ -16,7 +16,7 @@
 @import "tailwindcss";
 
 @theme {
-    --font-orbitron: 'Orbitron', sans-serif;
-    --font-roboto: 'Roboto', sans-serif;
-    --font-sans: 'Sans', sans-serif;
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-sans: 'Sans', sans-serif;
 }
