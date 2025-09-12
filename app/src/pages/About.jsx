@@ -10,7 +10,7 @@ const About = () => (
         <div className="mb-12">Our members are not only committed to robotics but also to academic excellence. Many take multiple Advanced Placement (AP) courses and maintain high grades. The team is also proud to have a level of diversity that exceeds the demographic makeup of SRVHS, fostering an inclusive and collaborative environment for all.</div>
         <div className="font-bold mb-6">Training & Development</div>
         <div className="mb-4"> We invest heavily in preparing our members for success both on and off the field.</div>
-        <ul class="list-disc pl-10">
+        <ul className="list-disc pl-10">
           <li>CAD & Design / Programming: Semester-long training programs with summer assignments to build skills ahead of the season.</li>
           <li>Electrical / Fabrication: Multi-day hands-on training during the offseason to ensure new members are ready for the build season and can contribute confidently.</li>
         </ul>

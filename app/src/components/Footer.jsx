@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => (
   <nav className="bg-[#1f1e23] text-white h-48">
     <div className="container max-w-full h-full flex flex-nowrap items-start overflow-hidden">
-      <div class="absolute ml-95 mt-5 h-40 w-px bg-[#fcc307]"></div>
+      <div className="absolute ml-95 mt-5 h-40 w-px bg-[#fcc307]"></div>
       <div className="w-full h-full px-8 py-8 flex flex-col items-start z-100 font-sans whitespace-nowrap">
         <div className="flex flex-row gap-83">
           <Link to="/" className="nav-item">

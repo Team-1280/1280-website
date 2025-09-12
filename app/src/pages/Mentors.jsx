@@ -37,7 +37,7 @@ const Mentors = () => (
             <div className="p-2"></div>
             <details>
               <summary>Links</summary>
-              <ul class="list-none">
+              <ul className="list-none">
                 <div className="font-medium !text-[#fcc307] dark:!text-[#fcc307]">
                   <li><a href="https://x.com/Scobleizer/status/1875486795720487418" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Robert Scoble</a></li>
                   <li><a href="https://www.youtube.com/watch?v=R2Qh0O3Dt10" target="_blank" rel="noopener noreferrer" className="hover:underline">Interview with Vintage Computer Foundation</a></li>
