@@ -1,17 +1,13 @@
-import "./styles/Resources.css"
+const Resources = () => (
+  <>
+    <section>
+      <div className="flex justify-center items-center h-[40dvw] bg-[#ECF1F2]">
+        <div className="text-black font-bold text-5xl text-center">
+          Oops! Currently Under Construction
+        </div>
+      </div>
+    </section>
+  </>
+)
 
-const Resources = () => {
-    return (
-    <>
-        <section>
-            <div className='resources-construction-bg'>
-                <div className='resources-construction-heading'>
-                    Oops! Currently Under Construction
-                </div>
-            </div>
-        </section>
-    </>
-    )
-}
-
-export default Resources;
+export default Resources

@@ -1,13 +1,29 @@
 .gray-box {
-    background-image: linear-gradient(to top, #717070, #888888);
-    border-radius: 0.5rem;
-    border-color: #aaaaaa;
-    border-width: 1px;
-    --tw-shadow: 2px 3px 5px 0 rgb(0 0 0 / 0.25);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    overflow-y: auto;
-    flex: auto;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
+  background-color: #717a86;
+  border-radius: 0.5rem;
+  border-color: #aaaaaa;
+  border-width: 1px;
+  --tw-shadow: 1px 2px 4px 0 rgb(0 0 0 / 0.25);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  overflow-y: auto;
+  flex: auto;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  flex-grow: 0;
+  padding: 1.5rem;
+  max-width: 64rem;
+  /* Body text */
+  font-family: 'Sans', sans-serif;
+  color: #ffffff;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.gray-box-heading {
+  color: #fcc307;
+  font-weight: bold;
+  font-size: 1.875rem;
+  margin-bottom: 0.75rem;
+  line-height: 2.25rem;
 }

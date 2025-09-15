@@ -1,15 +1,13 @@
-import './styles/RobotEngineering.css'
-
 const RobotEngineering = () => (
-    <>
-        <section>
-            <div className='engineering-construction-bg'>
-                <div className='engineering-construction-heading'>
-                    Oops! Currently Under Construction
-                </div>
-            </div>
-        </section>
-    </>
+  <>
+    <section>
+      <div className="flex justify-center items-center h-[40dvw] bg-[#ECF1F2]">
+        <div className="text-black font-bold text-5xl text-center">
+          Oops! Currently Under Construction
+        </div>
+      </div>
+    </section>
+  </>
 )
 
-export default RobotEngineering;
+export default RobotEngineering
