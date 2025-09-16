@@ -41,7 +41,6 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 
 
 ## TODO
-- Fix direct subpage links
 - Add support for mobile
 - Update remaining pages with additional information
 - Use SWC for Fast Refresh at vite.config.js (low priority)
