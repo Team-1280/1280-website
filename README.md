@@ -25,7 +25,7 @@ Run the frontend locally by running the following commands:
 - `npm install` to install dependencies
 - `npm run dev` to start local development server at http://localhost:5173/
 
-Most of the frontend changes will and have been made at `app/src/pages`. Please ignore the styles folder which contains mostly unused CSS from a previous iteration. They are currently there for reference and may be deleted at a later date. To add pages please create a new route at `app/src/App.jsx` and update `vite.config.js` routes.
+Most of the frontend changes will and have been made at `app/src/pages`. Please ignore the styles folder which contains mostly unused CSS from a previous iteration. They are currently there for reference and may be deleted at a later date. To add pages please create a new route at `app/src/App.jsx`.
 
 Here is a present that will help you!
 
