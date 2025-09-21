@@ -8,7 +8,8 @@ The current webhosting service is Vercel. \
 The current domain registrar is GoDaddy. \
 Links: [team1280.com](https://team1280.com) and [team1280.vercel.app](https://team1280.vercel.app/)
 
-There is an unused website in Bluehost.
+There is an unused website in Bluehost. \
+Use the Google Search Console for search indexing info and analytics.
 
 *Please note that the website is currently not mobile friendly and is best viewed on larger screens* 
 
