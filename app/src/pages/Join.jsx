@@ -18,38 +18,55 @@ const Join = () => (
               </ul>
             </div>
             <div className="p-2"></div>
-            <div className="text-[#fcc307] text-xl font-bold">Application Links for 2025/2026 Season</div>
+            <div className="text-[#fcc307] text-2xl font-bold">Requirements for Membership (2025/2026)</div>
             <div className="p-2"></div>
+            <ol className="list-[upper-alpha] text-left text-white text-lg list-inside pl-1 space-y-2.5">
+              <li>
+                Submit Membership Application Form
+                <p className="pl-8 text-base">- Complete the current team member application google form</p>
+              </li>
+              <li>
+                Liability Waiver
+                <p className="pl-8 text-base">- Submit in Person to Co-Captain Rohan G.</p>
+              </li>
+              <li>
+                Media Consent
+                <p className="pl-8 text-base">- Submit in Person to Co-Captain Rohan G.</p>
+              </li>
+              <li>
+                Food Restrictions Form
+                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for google form link</p>
+              </li>
+              <li>
+                Join Team Slack
+                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for invite link</p>
+              </li>
+              <li>
+                Safety Training
+                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for information</p>
+              </li>
+              <li>
+                Sub-Team Training
+                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for information</p>
+              </li>
+            </ol>
+            <div className="p-2"></div>
+            <div className="text-[#fcc307] text-xl font-bold">Application Links for 2025/2026 Season</div>
+            <div className="p-1"></div>
             <div className="text-left text-white text-lg">
               <ul className="list-disc pl-6">
                 <li>
-                  <a href="https://forms.gle/fHoDT328pAKudKgEA" target="_blank" rel="noopener noreferrer" className="font-medium !text-[#fcc307] dark:!text-[#fcc307] hover:underline"> Team Membership Application Form</a>
+                  <a href="https://forms.gle/fHoDT328pAKudKgEA" target="_blank" rel="noopener noreferrer" className="font-medium !text-[#fcc307] dark:!text-[#fcc307] hover:underline"><u>Team Membership Application Form</u></a>
                 </li>
                 <li>
-                  <a href="https://docs.google.com/document/d/1uz9s5CNBnNP_d4s5uEtw4ZfkJO_PrFrMR8kdizadvSU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-[#fcc307] dark:!text-[#fcc307] hover:underline"> Liability Waiver (PDF)</a>
+                  <a href="https://docs.google.com/document/d/1uz9s5CNBnNP_d4s5uEtw4ZfkJO_PrFrMR8kdizadvSU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-[#fcc307] dark:!text-[#fcc307] hover:underline"><u>Liability Waiver (PDF)</u></a>
                 </li>
-                <ul className="list-disc pl-6">
-                  <li>Submit in person to Team Co-Captain Rohan Gawde.</li>
-                </ul>
                 <li>
-                  <a href="https://docs.google.com/document/d/1o6JtACNhPL24Tn5UPC7hpnhGgXWSFN27tDysXHizFfY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-[#fcc307] dark:!text-[#fcc307] hover:underline"> Media Consent Form (PDF)</a>
+                  <a href="https://docs.google.com/document/d/1o6JtACNhPL24Tn5UPC7hpnhGgXWSFN27tDysXHizFfY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="font-medium !text-[#fcc307] dark:!text-[#fcc307] hover:underline"><u>Media Consent Form (PDF)</u></a>
                 </li>
-                <ul className="list-disc pl-6">
-                  <li>Submit in person to Team Co-Captain Rohan Gawde.</li>
-                </ul>
-                <li>Have questions? Reach out to us at sanramonvalleyrobotics@gmail.com</li>
               </ul>
             </div>
             <div className="p-2"></div>
-            <div className="text-[#fcc307] text-xl font-bold">Requirements for Membership (2025/2026)</div>
-            <div className="p-2"></div>
-            <div className="text-left text-white text-lg">A. Join Google Classroom</div>
-            <div className="text-left text-white text-lg">B. Submit the Membership Application Form</div>
-            <div className="text-left text-white text-lg">C. Join the Team Remind</div>
-            <div className="text-left text-white text-lg">D. Submit Liability Waiver (in person to Rohan G.)</div>
-            <div className="text-left text-white text-lg">E. Submit Media Release Form (in person to Rohan G.)</div>
-            <div className="text-left text-white text-lg">F. Complete Safety Training</div>
-            <div className="text-left text-white text-lg">G. Complete One Subteam Training (may be waived at captains' discretion)</div>
           </div>
           <div className="flex flex-col items-center justify-around w-1/3">
             <img src="/join1.png" className="w-3/4 outline my-12" alt="Join 1"></img>
