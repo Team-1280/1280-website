@@ -27,27 +27,27 @@ const Join = () => (
               </li>
               <li>
                 Liability Waiver
-                <p className="pl-8 text-base">- Submit in Person to Co-Captain Rohan G.</p>
+                <p className="pl-8 text-base">- Submit in-person to co-captain Rohan G.</p>
               </li>
               <li>
                 Media Consent
-                <p className="pl-8 text-base">- Submit in Person to Co-Captain Rohan G.</p>
+                <p className="pl-8 text-base">- Submit in-person to co-captain Rohan G.</p>
               </li>
               <li>
                 Food Restrictions Form
-                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for google form link</p>
+                <p className="pl-8 text-base">- Check email upon completion of Requirement A for google form link</p>
               </li>
               <li>
                 Join Team Slack
-                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for invite link</p>
+                <p className="pl-8 text-base">- Check email upon completion of Requirement A for invite link</p>
               </li>
               <li>
                 Safety Training
-                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for information</p>
+                <p className="pl-8 text-base">- Check email upon completion of Requirement A for information</p>
               </li>
               <li>
-                Sub-Team Training
-                <p className="pl-8 text-base">- Check E-mail upon completion of requirement A for information</p>
+                Subteam Training
+                <p className="pl-8 text-base">- Check email upon completion of Requirement A for information</p>
               </li>
             </ol>
             <div className="p-2"></div>
