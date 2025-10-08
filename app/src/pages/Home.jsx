@@ -7,8 +7,8 @@ const Home = () => (
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
       <div className="relative flex flex-col items-center justify-center size-full text-center gap-10 overflow-hidden text-balance">
-        <h1 className="text-6xl font-medium font-orbitron text-[#fcc307]">FRC Team 1280 - Ragin' C Biscuits</h1>
-        <p className="text-4xl font-medium font-orbitron text-white">San Ramon Valley Robotics</p>
+        <h1 className="text-3xl lg:text-6xl font-medium font-orbitron text-[#fcc307]">FRC Team 1280 - Ragin' C Biscuits</h1>
+        <p className="text-xl lg:text-4xl font-medium font-orbitron text-white">San Ramon Valley Robotics</p>
       </div>
     </section>
     <div className="relative w-full overflow-x-hidden bg-white flex justify-center px-12 py-12 h-235">

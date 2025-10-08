@@ -1,34 +1,17 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import NavbarLinks from './NavbarLinks'
+import NavbarDropdown from './NavbarDropdown'
 
 const Navbar = () => (
-  <nav className="bg-[#1f1e23] text-white flex items-center px-0 py-0 justify-between h-30 box-border overflow-x-clip">
-    <Link to="/" className="nav-item h-full flex justify-center items-center mx-10">
-      <img src="./logo.png" className="max-w-none w-auto h-[75%]" />
-      <span className="text-[#fcc307] ml-10 font-orbitron text-4xl text-center whitespace-nowrap">Ragin' C Biscuits</span>
+  <nav className="bg-[#1f1e23] text-white flex items-center px-0 py-0 justify-between h-17 lg:h-30 box-border overflow-x-clip">
+    <Link to="/" className="nav-item h-full flex justify-center items-center mx-5 lg:mx-10">
+      <img src="./logo.png" className="max-w-none w-auto h-[60%] lg:h-[75%]" />
+      <span className="hidden lg:block text-[#fcc307] ml-10 font-orbitron text-4xl text-center whitespace-nowrap">Ragin' C Biscuits</span>
     </Link>
-    <ul className="h-auto whitespace-nowrap text-white text-xl font-bold font-sans z-1000 gap-x-10 gap-y-2 pr-10 grid grid-flow-col grid-rows-3 lg:grid-rows-2 xl:grid-rows-1 items-center justify-center">
-      <Link to="/" className="navbar-item nav-item">Home</Link>
-      <div className="dropdown">
-        <Link to="/about" className="navbar-item drop-link">About ▼</Link>
-        <ul className="dropdown-content">
-          <Link to="/leadership">Leadership</Link>
-          <Link to="/mentors">Mentors</Link>
-          <Link to="/first">FIRST®</Link>
-          <Link to="/facility">Facility</Link>
-          <Link to="/outreach">Outreach</Link>
-        </ul>
-      </div>
-      <div className="dropdown select-none">
-        Resources ▼
-        <ul className="dropdown-content">
-          <Link to="/calendar">Calendar</Link>
-          <Link to="/contact">Contact</Link>
-        </ul>
-      </div>
-      <Link to="/join" className="navbar-item">Join Us</Link>
-      <Link to="/sponsors" className="navbar-item drop-link">Sponsors</Link>
-      <Link to="/donate" className="navbar-item">Sponsor Us</Link>
+    <NavbarDropdown />
+    <ul className="hidden dropdown-container lg:grid h-auto whitespace-nowrap text-white text-xl font-bold font-sans z-[20] gap-x-10 gap-y-2 pr-10 grid-flow-col grid-rows-3 lg:grid-rows-2 xl:grid-rows-1 items-center justify-center">
+      <NavbarLinks />
     </ul>
   </nav>
 )
