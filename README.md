@@ -6,7 +6,7 @@ This is a website for Team 1280 - Ragin' C Biscuits that aims to address our Tea
 
 The current webhosting service is Vercel. \
 The current domain registrar is GoDaddy. \
-Links: [team1280.com](https://team1280.com) and [team1280.vercel.app](https://team1280.vercel.app/)
+URLs: [www.team1280.com](https://www.team1280.com) (canonical), [team1280.com](https://team1280.com) and [team1280.vercel.app](https://team1280.vercel.app/)
 
 There is an unused website in Bluehost. \
 Use the Google Search Console for search indexing info and analytics.
