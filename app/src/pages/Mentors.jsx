@@ -28,7 +28,7 @@ const Mentors = () => (
           </div>
         </div>
         <div className="flex font-sans gap-10 px-20 py-6">
-          <img src="/mentor2.png" alt="Tim Paterson" className="w-50 h-50 rounded-sm" />
+          <img src="/mentor2.jpg" alt="Tim Paterson" className="w-50 h-50 rounded-sm" />
           <div>
             <div className="font-bold">Tim Paterson</div>
             <div className="font-bold">FRC Team 1280 Head Coach: 2020 - Present</div>
