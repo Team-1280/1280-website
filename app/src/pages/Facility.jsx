@@ -15,7 +15,7 @@ const Facility = () => (
           </div>
         </div>
       </div>
-      <div className="relative h-[30%] w-full px-7 py-16 flex">
+      <div className="relative h-[30%] w-full lg:px-7 lg:py-16 flex flex-wrap lg:flex-nowrap py-10 gap-5 lg:gap-0 lg:pb-0">
         <div>
           <div className="text-black text-3xl text-left font-roboto px-10 pb-5 pt-5">
             Location
