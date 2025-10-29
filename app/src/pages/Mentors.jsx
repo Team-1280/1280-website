@@ -16,7 +16,7 @@ const Mentors = () => (
         </div>
       </section>
       <section>
-        <div className="flex font-sans gap-10 px-20 py-6">
+        <div className="flex flex-wrap lg:flex-nowrap font-sans gap-10 px-20 py-6">
           <img src="/mentor1.png" alt="Wyatt Slanec" className="w-50 h-50 rounded-sm" />
           <div>
             <div className="font-bold">Wyatt Slanec</div>
@@ -27,7 +27,7 @@ const Mentors = () => (
             <div className="">Expertise: Administration & Leadership Development</div>
           </div>
         </div>
-        <div className="flex font-sans gap-10 px-20 py-6">
+        <div className="flex flex-wrap lg:flex-nowrap font-sans gap-10 px-20 py-6">
           <img src="/mentor2.jpg" alt="Tim Paterson" className="w-50 h-50 rounded-sm" />
           <div>
             <div className="font-bold">Tim Paterson</div>
@@ -51,7 +51,7 @@ const Mentors = () => (
             <div className="">Expertise: Mechanical & Programming</div>
           </div>
         </div>
-        <div className="flex font-sans gap-10 px-20 py-6">
+        <div className="flex flex-wrap lg:flex-nowrap font-sans gap-10 px-20 py-6">
           <img src="/mentor3.png" alt="Marty Lastowski" className="w-50 h-50 rounded-sm" />
           <div>
             <div className="font-bold">Marty Lastowski</div>
@@ -64,8 +64,8 @@ const Mentors = () => (
         </div>
       </section>
       <section>
-        <div className="bg-white relative h-[30%] w-full justify-center items-center px-10 py-10">
-          <div className="relative gray-box w-[95vw] h-1/4">
+        <div className="bg-white relative h-[30%] lg:w-full justify-center items-center lg:px-10 py-10">
+          <div className="relative gray-box lg:w-[95vw] h-1/4">
             <div className="gray-box-heading">
               Interested in Mentoring?
             </div>

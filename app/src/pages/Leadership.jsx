@@ -12,7 +12,7 @@ const Leadership = () => (
       <section className="flex flex-col items-center w-full my-6 mt-15 font-sans text-black whitespace-nowrap text-lg">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
         <div className="text-center">Active Term: June 2025 - June 2026</div>
-        <div className="flex flex-nowrap w-full justify-center gap-[30%] mt-12">
+        <div className="flex flex-wrap lg:flex-nowrap w-full justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
               Rohan Gawde
@@ -181,7 +181,7 @@ const Leadership = () => (
       <section className="my-6 gray-box w-full whitespace-nowrap">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
         <div className="text-center">Active Term: June 2024 - June 2025</div>
-        <div className="flex flex-nowrap justify-center gap-[30%] mt-12">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
               Majd Bohsali
@@ -267,7 +267,7 @@ const Leadership = () => (
       <section className="my-6 gray-box w-full whitespace-nowrap">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
         <div className="text-center">Active Term: June 2023 - June 2024</div>
-        <div className="flex flex-nowrap justify-center gap-[30%] mt-12">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
               Matthew Fletcher
@@ -346,7 +346,7 @@ const Leadership = () => (
       <section className="my-6 gray-box w-full whitespace-nowrap">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
         <div className="text-center">Active Term: June 2022 - June 2023</div>
-        <div className="flex flex-nowrap justify-center gap-[30%] mt-12">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
               Elliot Danko
@@ -404,7 +404,7 @@ const Leadership = () => (
       <section className="my-6 gray-box w-full whitespace-nowrap">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
         <div className="text-center">Active Term: June 2021 - June 2022</div>
-        <div className="flex flex-nowrap justify-center gap-[30%] mt-12">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
               Spencer Level
@@ -435,7 +435,7 @@ const Leadership = () => (
       <section className="my-6 gray-box w-full whitespace-nowrap">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
         <div className="text-center">Active Term: June 2020 - June 2021</div>
-        <div className="flex flex-nowrap justify-center gap-[30%] mt-12">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
               Vikram Gopolan
@@ -459,7 +459,7 @@ const Leadership = () => (
       <section className="my-6 gray-box w-full whitespace-nowrap">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
         <div className="text-center">Active Term: June 2019 - June 2020</div>
-        <div className="flex flex-nowrap justify-center gap-[30%] mt-12">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
               Kanishk Gupta
