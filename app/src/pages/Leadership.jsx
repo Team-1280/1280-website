@@ -80,7 +80,7 @@ const Leadership = () => (
           </div>
           <div className="w-45">
             <div className="font-bold">
-              Analisse Corona
+              Elham Arghandiwal
             </div>
             <div className="leading-normal">
               Design & FAB Lead
