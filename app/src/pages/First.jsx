@@ -23,7 +23,6 @@ const First = () => (
           <div className="px-10 text-gray-500">
             For more about FIRST®, visit the
             <a href="https://www.firstinspires.org" target="_blank" rel="noopener noreferrer" className="font-medium">
-              {' '}
               <u>FIRST® website</u>
             </a>
             !
