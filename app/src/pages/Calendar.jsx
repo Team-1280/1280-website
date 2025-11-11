@@ -1,5 +1,9 @@
 const Calendar = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/calendar" />
+      <title>Calendar</title>
+    </head>
     <div className="flex justify-center text-6xl mt-10 mb-10 font-roboto text-black">Team Calendar</div>
     <div className="relative overflow-hidden flex justify-center" style={{ height: '800px' }}>
       <iframe

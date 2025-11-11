@@ -1,5 +1,9 @@
 const Facility = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/facility" />
+      <title>Facility</title>
+    </head>
     <section className="flex flex-col items-center px-10 py-10 max-w-[100rem] mx-auto">
       <div className="gray-box">
         <div className="gray-box-heading">

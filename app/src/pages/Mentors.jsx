@@ -2,6 +2,10 @@ import { Link } from 'react-router-dom'
 
 const Mentors = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/mentors" />
+      <title>Mentors</title>
+    </head>
     <div className="flex flex-col items-center max-w-[72rem] mx-auto">
       <section>
         <div className="bg-white relative h-[30%] w-full justify-center items-center px-10 py-10">

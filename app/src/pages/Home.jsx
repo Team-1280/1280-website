@@ -2,6 +2,10 @@ import './styles/GrayBox.css'
 
 const Home = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com" />
+      <title>Team 1280</title>
+    </head>
     <section className="relative h-[50dvw] w-full">
       <div className="absolute inset-0 bg-[url('/home4.png')] bg-cover bg-center opacity-80 z-0">
         <div className="absolute inset-0 bg-black/60"></div>

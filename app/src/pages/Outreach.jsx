@@ -1,5 +1,9 @@
 const Outreach = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/outreach" />
+      <title>Outreach</title>
+    </head>
     <section className="relative w-full h-auto overflow-hidden">
       <img src="/outreach-banner.png" className="object-cover w-full h-auto" />
       <div className="absolute inset-0 bg-black/60"></div>

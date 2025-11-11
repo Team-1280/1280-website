@@ -1,5 +1,9 @@
 const About = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/about" />
+      <title>About</title>
+    </head>
     <img src="/about.png" className="object-cover w-full"></img>
     <div className="text-left bg-white relative h-auto w-full px-20 my-16 max-w-[64rem] mx-auto">
       <div className="text-black text-5xl font-roboto">About Team 1280</div>

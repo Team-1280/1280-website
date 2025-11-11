@@ -1,5 +1,9 @@
 const Leadership = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/leadership" />
+      <title>Leadership</title>
+    </head>
     <div className="flex flex-col items-center py-10 px-[10%]">
       <div className="gray-box">
         <div className="gray-box-heading">

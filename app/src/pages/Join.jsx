@@ -1,5 +1,9 @@
 const Join = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/join" />
+      <title>Join</title>
+    </head>
     <section className="px-12 max-w-[100rem] mx-auto">
       <div className="text-left bg-white relative h-auto w-full flex flex-col">
         <div className="px-10 py-10 font-roboto text-black text-5xl whitespace-nowrap text-center">How to Join Team 1280</div>

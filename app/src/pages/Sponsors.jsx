@@ -1,5 +1,9 @@
 const Sponsors = () => (
   <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/sponsors" />
+      <title>Sponsors</title>
+    </head>
     <div className="relative w-full">
       <img src="/sponsors1.png" className="absolute object-cover h-full min-w-[100%] -z-1"></img>
       <div className="h-20"></div>
