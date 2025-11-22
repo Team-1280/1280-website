@@ -11,6 +11,8 @@ URLs: [www.team1280.com](https://www.team1280.com) (canonical), [team1280.com](h
 There is an unused website in Bluehost. \
 Use the Google Search Console for search indexing info and analytics.
 
+Favicons were automatically generated using [RealFaviconGenerator](https://realfavicongenerator.net/).
+
 *Please note that the website is currently not mobile friendly and is best viewed on larger screens* 
 
 Patches and PRs are welcome (and necessary). To create changes and observe reflected changes locally please do the following:
