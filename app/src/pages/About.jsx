@@ -5,7 +5,7 @@ const About = () => (
       <title>About</title>
     </head>
     <img src="/about.png" className="object-cover w-full"></img>
-    <div className="text-left bg-white relative h-auto w-full px-20 my-16 max-w-[64rem] mx-auto">
+    <div className="text-left bg-white relative h-auto w-full lg:px-20 px-10 my-16 max-w-[64rem] mx-auto">
       <div className="text-black text-5xl font-roboto">About Team 1280</div>
       <hr className="my-8 border-gray-300 border-t-4 w-17/18"></hr>
       <div className="text-lg font-sans max-w-[90vw] text-gray-500">
