@@ -19,28 +19,28 @@ const Leadership = () => (
         <div className="flex flex-nowrap w-full justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
-              Rohan Gawde
+              Rohan Gawde [C]
             </div>
             <div className="leading-normal">
               FRC Team Captain
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Briar Chang
+              Briar Chang [C]
             </div>
             <div className="leading-normal">
               FRC Team Captain
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Anthony Le
+              Anthony Le [C]
             </div>
             <div className="leading-normal">
               Senior Controls Officer
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Caeden Cooley
+              Caeden Cooley [C]
             </div>
             <div className="leading-normal">
               Senior Mechanical Officer
@@ -61,47 +61,47 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Ren Lin
+              Ren Lin [C]
             </div>
             <div className="leading-normal">
-              Chief Financial Officer
+              Vision Officer
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Max Gardiner
+              Max Gardiner [C]
             </div>
             <div className="leading-normal">
               Chief Operations Officer
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Majd Bohsali
+              Majd Bohsali [C]
             </div>
             <div className="leading-normal">
-              Driver Officer
+              Autonomous Officer
             </div>
             <div className="p-2" />
           </div>
           <div className="w-45">
             <div className="font-bold">
-              Elham Arghandiwal
+              TBD
             </div>
             <div className="leading-normal">
-              Design & FAB Lead
+              Mechanical Lead
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Alejandro Morales
+              TBD
             </div>
             <div className="leading-normal">
-              Design & FAB Lead
+              Mechanical Lead
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Haricharan Sakthivel
+              TBD
             </div>
             <div className="leading-normal">
-              Design & FAB Lead
+              Mechanical Lead
             </div>
             <div className="p-2" />
             <div className="font-bold">
@@ -109,41 +109,6 @@ const Leadership = () => (
             </div>
             <div className="leading-normal">
               Electrical Lead
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Nandini Ghata
-            </div>
-            <div className="leading-normal">
-              Outreach Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Subhamita Palit
-            </div>
-            <div className="leading-normal">
-              Awards Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Brendan McDermott
-            </div>
-            <div className="leading-normal">
-              Media Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Chase Harnack
-            </div>
-            <div className="leading-normal">
-              Media Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Yingcheng "Leo" Hao
-            </div>
-            <div className="leading-normal">
-              Media Manager
             </div>
           </div>
         </div>
