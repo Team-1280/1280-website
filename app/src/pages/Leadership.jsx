@@ -39,6 +39,13 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
+              Max Gardiner [C]
+            </div>
+            <div className="leading-normal">
+              Chief Operations Officer
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
               Anthony Le [C]
             </div>
             <div className="leading-normal">
@@ -46,24 +53,10 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Caeden Cooley [C]
+              Majd Bohsali [C]
             </div>
             <div className="leading-normal">
-              Senior Mechanical Officer
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Gray Garson
-            </div>
-            <div className="leading-normal">
-              Junior Controls Officer
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Miles Malhevy
-            </div>
-            <div className="leading-normal">
-              Junior Mechanical Officer
+              Autonomous Officer
             </div>
             <div className="p-2" />
             <div className="font-bold">
@@ -74,21 +67,28 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Max Gardiner [C]
+              Gray Garson
             </div>
             <div className="leading-normal">
-              Chief Operations Officer
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Majd Bohsali [C]
-            </div>
-            <div className="leading-normal">
-              Autonomous Officer
+              Junior Controls Officer
             </div>
             <div className="p-2" />
           </div>
           <div className="w-45">
+            <div className="font-bold">
+              Caeden Cooley [C]
+            </div>
+            <div className="leading-normal">
+              Senior Mechanical Officer
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              Miles Malhevy
+            </div>
+            <div className="leading-normal">
+              Junior Mechanical Officer
+            </div>
+            <div className="p-2" />
             <div className="font-bold">
               TBD
             </div>
