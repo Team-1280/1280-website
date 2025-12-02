@@ -12,6 +12,12 @@ const Leadership = () => (
         <div>
           In the FIRST Robotics Competition (FRC), student leadership plays a critical role in guiding the direction, culture, and success of a team. Student leaders help manage subteams, organize outreach events, lead meetings, support technical and non-technical training, and represent the team at competitions. Leadership positions often include roles such as Team Captain, Subteam Leads (e.g., Programming, CAD, Electrical, Fabrication, Business), and Outreach Coordinators.
         </div>
+        <div className="text-[#fcc307] text-xl font-medium mt-6 mb-2">
+          About the “[C]” designation
+        </div>
+        <div>
+          A “[C]” next to a team member’s name indicates that they serve on the Team 1280 Council. Council members take on additional responsibilities beyond their leadership roles and help guide the team’s long-term direction and organizational structure.
+        </div>
       </div>
       <section className="flex flex-col items-center w-full my-6 mt-15 font-sans text-black whitespace-nowrap text-lg">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
@@ -19,31 +25,45 @@ const Leadership = () => (
         <div className="flex flex-nowrap w-full justify-center gap-[30%] mt-12">
           <div className="w-45">
             <div className="font-bold">
-              Rohan Gawde
+              Rohan Gawde [C]
             </div>
             <div className="leading-normal">
               FRC Team Captain
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Briar Chang
+              Briar Chang [C]
             </div>
             <div className="leading-normal">
               FRC Team Captain
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Anthony Le
+              Max Gardiner [C]
+            </div>
+            <div className="leading-normal">
+              Chief Operations Officer
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              Anthony Le [C]
             </div>
             <div className="leading-normal">
               Senior Controls Officer
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Caeden Cooley
+              Majd Bohsali [C]
             </div>
             <div className="leading-normal">
-              Senior Mechanical Officer
+              Autonomous Officer
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              Ren Lin [C]
+            </div>
+            <div className="leading-normal">
+              Vision Officer
             </div>
             <div className="p-2" />
             <div className="font-bold">
@@ -51,6 +71,15 @@ const Leadership = () => (
             </div>
             <div className="leading-normal">
               Junior Controls Officer
+            </div>
+            <div className="p-2" />
+          </div>
+          <div className="w-45">
+            <div className="font-bold">
+              Caeden Cooley [C]
+            </div>
+            <div className="leading-normal">
+              Senior Mechanical Officer
             </div>
             <div className="p-2" />
             <div className="font-bold">
@@ -61,47 +90,24 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Ren Lin
+              TBD
             </div>
             <div className="leading-normal">
-              Chief Financial Officer
+              Mechanical Lead
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Max Gardiner
+              TBD
             </div>
             <div className="leading-normal">
-              Chief Operations Officer
+              Mechanical Lead
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Majd Bohsali
+              TBD
             </div>
             <div className="leading-normal">
-              Driver Officer
-            </div>
-            <div className="p-2" />
-          </div>
-          <div className="w-45">
-            <div className="font-bold">
-              Elham Arghandiwal
-            </div>
-            <div className="leading-normal">
-              Design & FAB Lead
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Alejandro Morales
-            </div>
-            <div className="leading-normal">
-              Design & FAB Lead
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Haricharan Sakthivel
-            </div>
-            <div className="leading-normal">
-              Design & FAB Lead
+              Mechanical Lead
             </div>
             <div className="p-2" />
             <div className="font-bold">
@@ -109,41 +115,6 @@ const Leadership = () => (
             </div>
             <div className="leading-normal">
               Electrical Lead
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Nandini Ghata
-            </div>
-            <div className="leading-normal">
-              Outreach Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Subhamita Palit
-            </div>
-            <div className="leading-normal">
-              Awards Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Brendan McDermott
-            </div>
-            <div className="leading-normal">
-              Media Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Chase Harnack
-            </div>
-            <div className="leading-normal">
-              Media Manager
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Yingcheng "Leo" Hao
-            </div>
-            <div className="leading-normal">
-              Media Manager
             </div>
           </div>
         </div>
