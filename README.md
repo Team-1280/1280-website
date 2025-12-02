@@ -6,9 +6,12 @@ This is a website for Team 1280 - Ragin' C Biscuits that aims to address our Tea
 
 The current webhosting service is Vercel. \
 The current domain registrar is GoDaddy. \
-Links: [team1280.com](https://team1280.com) and [team1280.vercel.app](https://team1280.vercel.app/)
+URLs: [www.team1280.com](https://www.team1280.com) (canonical), [team1280.com](https://team1280.com) and [team1280.vercel.app](https://team1280.vercel.app/)
 
-There is an unused website in Bluehost.
+There is an unused website in Bluehost. \
+Use the Google Search Console for search indexing info and analytics.
+
+Favicons were automatically generated using [RealFaviconGenerator](https://realfavicongenerator.net/).
 
 *Please note that the website is currently not mobile friendly and is best viewed on larger screens* 
 
@@ -25,7 +28,7 @@ Run the frontend locally by running the following commands:
 - `npm install` to install dependencies
 - `npm run dev` to start local development server at http://localhost:5173/
 
-Most of the frontend changes will and have been made at `app/src/pages`. Please ignore the styles folder which contains mostly unused CSS from a previous iteration. They are currently there for reference and may be deleted at a later date. To add pages please create a new route at `app/src/App.jsx`.
+Most of the frontend changes will and have been made at `app/src/pages`. Please ignore the styles folder which contains mostly unused CSS from a previous iteration. They are currently there for reference and may be deleted at a later date. To add pages please create a new route at `app/src/App.jsx` and update `vite.config.js` routes.
 
 Here is a present that will help you!
 
@@ -41,14 +44,11 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 
 
 ## TODO
-- Fix direct subpage links
 - Add support for mobile
 - Update remaining pages with additional information
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
-
-- Make indentation consistent, 4 spaces
-- Replace `return` with inline lambda
+- `resources`, `news`, `robot-engineering` unfinished
 
 
 ### Codebase Notes

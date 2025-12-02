@@ -1,15 +1,17 @@
-import './styles/News.css'
-
 const News = () => (
-    <>
-        <section>
-            <div className='news-construction-bg'>
-                <div className='news-construction-heading'>
-                    Oops! Currently Under Construction
-                </div>
-            </div>
-        </section>
-    </>
+  <>
+    <head>
+      <link rel="canonical" href="https://www.team1280.com/news" />
+      <title>News</title>
+    </head>
+    <section>
+      <div className="flex justify-center items-center h-[40dvw] bg-[#ECF1F2]">
+        <div className="text-black font-bold text-5xl text-center">
+          Oops! Currently Under Construction
+        </div>
+      </div>
+    </section>
+  </>
 )
 
-export default News;
+export default News

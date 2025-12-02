@@ -25,28 +25,28 @@ function App() {
       <TopScroll />
       <MobileNotice />
       <Navbar />
-      <main className='container max-w-full'>
+      <main className="container max-w-full">
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/calendar' element={<Calendar />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/outreach' element={<Outreach />} />
-          <Route path='/resources' element={<Resources />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/join' element={<Join />} />
-          <Route path='/leadership' element={<Leadership />} />
-          <Route path='/news' element={<News />} />
-          <Route path='/robot-engineering' element={<RobotEngineering />} />
-          <Route path='/sponsors' element={<Sponsors />} />
-          <Route path='/donate' element={<Donate />}/>
-          <Route path='/mentors' element={<Mentors />}/>
-          <Route path='/facility' element={<Facility />}/>
-          <Route path='/first' element={<First />}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/calendar" element={<Calendar />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/outreach" element={<Outreach />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/leadership" element={<Leadership />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/robot-engineering" element={<RobotEngineering />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/mentors" element={<Mentors />} />
+          <Route path="/facility" element={<Facility />} />
+          <Route path="/first" element={<First />} />
         </Routes>
       </main>
       <Footer />
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
