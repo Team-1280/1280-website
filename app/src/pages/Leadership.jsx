@@ -12,6 +12,12 @@ const Leadership = () => (
         <div>
           In the FIRST Robotics Competition (FRC), student leadership plays a critical role in guiding the direction, culture, and success of a team. Student leaders help manage subteams, organize outreach events, lead meetings, support technical and non-technical training, and represent the team at competitions. Leadership positions often include roles such as Team Captain, Subteam Leads (e.g., Programming, CAD, Electrical, Fabrication, Business), and Outreach Coordinators.
         </div>
+        <div className="text-[#fcc307] text-xl font-medium mt-6 mb-2">
+          About the “[C]” designation
+        </div>
+        <div>
+          A “[C]” next to a team member’s name indicates that they serve on the Team 1280 Council. Council members take on additional responsibilities beyond their leadership roles and help guide the team’s long-term direction and organizational structure.
+        </div>
       </div>
       <section className="flex flex-col items-center w-full my-6 mt-15 font-sans text-black whitespace-nowrap text-lg">
         <div className="font-bold text-center">FRC 1280 Leadership</div>
