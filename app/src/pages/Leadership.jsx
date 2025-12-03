@@ -96,6 +96,13 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
+              Gray Garson
+            </div>
+            <div className="leading-normal">
+              Junior Controls Officer
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
               Majd Bohsali [C]
             </div>
             <div className="leading-normal">
@@ -107,13 +114,6 @@ const Leadership = () => (
             </div>
             <div className="leading-normal">
               Vision Officer
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Gray Garson
-            </div>
-            <div className="leading-normal">
-              Junior Controls Officer
             </div>
             <div className="p-2" />
           </div>
