@@ -32,6 +32,49 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
+              Caeden Cooley [C]
+            </div>
+            <div className="leading-normal">
+              Senior Mechanical Officer
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              Miles Malhevy
+            </div>
+            <div className="leading-normal">
+              Junior Mechanical Officer
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              TBD
+            </div>
+            <div className="leading-normal">
+              Mechanical Lead
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              TBD
+            </div>
+            <div className="leading-normal">
+              Mechanical Lead
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              TBD
+            </div>
+            <div className="leading-normal">
+              Mechanical Lead
+            </div>
+            <div className="p-2" />
+            <div className="font-bold">
+              Reed Wong
+            </div>
+            <div className="leading-normal">
+              Electrical Lead
+            </div>
+          </div>
+          <div className="w-45">
+            <div className="font-bold">
               Briar Chang [C]
             </div>
             <div className="leading-normal">
@@ -73,49 +116,6 @@ const Leadership = () => (
               Junior Controls Officer
             </div>
             <div className="p-2" />
-          </div>
-          <div className="w-45">
-            <div className="font-bold">
-              Caeden Cooley [C]
-            </div>
-            <div className="leading-normal">
-              Senior Mechanical Officer
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Miles Malhevy
-            </div>
-            <div className="leading-normal">
-              Junior Mechanical Officer
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              TBD
-            </div>
-            <div className="leading-normal">
-              Mechanical Lead
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              TBD
-            </div>
-            <div className="leading-normal">
-              Mechanical Lead
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              TBD
-            </div>
-            <div className="leading-normal">
-              Mechanical Lead
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
-              Reed Wong
-            </div>
-            <div className="leading-normal">
-              Electrical Lead
-            </div>
           </div>
         </div>
       </section>
