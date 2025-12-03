@@ -82,13 +82,6 @@ const Leadership = () => (
             </div>
             <div className="p-2" />
             <div className="font-bold">
-              Max Gardiner [C]
-            </div>
-            <div className="leading-normal">
-              Chief Operations Officer
-            </div>
-            <div className="p-2" />
-            <div className="font-bold">
               Anthony Le [C]
             </div>
             <div className="leading-normal">
@@ -116,6 +109,12 @@ const Leadership = () => (
               Vision Officer
             </div>
             <div className="p-2" />
+            <div className="font-bold">
+              Max Gardiner [C]
+            </div>
+            <div className="leading-normal">
+              Chief Operations Officer
+            </div>
           </div>
         </div>
       </section>
