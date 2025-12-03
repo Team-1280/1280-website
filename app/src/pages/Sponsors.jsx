@@ -4,7 +4,7 @@ const Sponsors = () => (
       <link rel="canonical" href="https://www.team1280.com/sponsors" />
       <title>Sponsors</title>
     </head>
-    <div className="relative w-full">
+    <div className="relative w-full text-balance font-sans text-center">
       <img src="/sponsors1.png" className="absolute object-cover h-full min-w-[100%] -z-1"></img>
       <div className="h-20"></div>
       <div className="h-auto min-w-100 size-auto mx-[20dvw] px-20 bg-gray-600/80 backdrop-blur-[6px] flex flex-col items-center">
