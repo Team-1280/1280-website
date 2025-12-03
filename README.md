@@ -49,6 +49,7 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
 - `resources`, `news`, `robot-engineering` unfinished
+- Migrate rest of `styles` pages to tailwind
 
 
 ### Codebase Notes

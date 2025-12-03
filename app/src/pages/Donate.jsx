@@ -9,7 +9,7 @@ const Donate = () => (
     <div className="relative w-full text-balance font-sans">
       <img src="/donate.png" className="absolute object-cover h-full min-w-full -z-1" />
       <div className="h-20"></div>
-      <div className="h-auto w-auto mx-[25dvw] px-[5dvw] min-w-100 bg-gray-600/80 backdrop-blur-xs z-0 flex flex-col items-center text-center py-4">
+      <div className="h-auto min-w-100 size-auto mx-[20dvw] px-20 bg-gray-600/80 backdrop-blur-[6px] flex flex-col items-center text-center py-4">
         <section className="w-full flex flex-col items-center">
           <div className="font-bold donate-heading">Support Team 1280 – Become a Sponsor</div>
           <div className="new-line-sponsor">
