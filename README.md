@@ -6,7 +6,7 @@ This is a website for Team 1280 - Ragin' C Biscuits that aims to address our Tea
 
 The current webhosting service is Vercel. \
 The current domain registrar is GoDaddy. \
-URLs: [www.team1280.com](https://www.team1280.com) (canonical), [team1280.com](https://team1280.com) and [team1280.vercel.app](https://team1280.vercel.app/)
+URLs: [www.team1280.com](https://www.team1280.com) (canonical), [team1280.com](https://team1280.com), and [team1280.vercel.app](https://team1280.vercel.app/)
 
 There is an unused website in Bluehost. \
 Use the Google Search Console for search indexing info and analytics.
@@ -44,7 +44,6 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 
 
 ## TODO
-- Add support for mobile
 - Update remaining pages with additional information
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
