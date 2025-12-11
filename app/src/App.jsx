@@ -1,6 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Footer from './components/Footer.jsx'
-import MobileNotice from './components/MobileNotice.jsx'
 import Navbar from './components/Navbar.jsx'
 import TopScroll from './components/TopScroll.jsx'
 import About from './pages/About.jsx'
@@ -23,7 +22,6 @@ function App() {
   return (
     <Router>
       <TopScroll />
-      <MobileNotice />
       <Navbar />
       <main className="container max-w-full">
         <Routes>
