@@ -4,7 +4,7 @@ const Facility = () => (
       <link rel="canonical" href="https://www.team1280.com/facility" />
       <title>Facility</title>
     </head>
-    <section className="flex flex-col items-center px-10 py-10 max-w-[100rem] mx-auto">
+    <section className="flex flex-col items-center lg:px-10 py-10 max-w-[100rem] mx-auto">
       <div className="gray-box">
         <div className="gray-box-heading">
           Facility
@@ -19,7 +19,7 @@ const Facility = () => (
           </div>
         </div>
       </div>
-      <div className="relative h-[30%] w-full px-7 py-16 flex">
+      <div className="relative h-[30%] w-full lg:px-7 lg:py-16 flex flex-wrap lg:flex-nowrap py-10 gap-5 lg:gap-0 lg:pb-0">
         <div>
           <div className="text-black text-3xl text-left font-roboto px-10 pb-5 pt-5">
             Location
@@ -35,7 +35,7 @@ const Facility = () => (
           <img src="/facility1.png" className="w-[240vw] outline"></img>
         </div>
       </div>
-      <img src="/facility2.png" className="w-full outline"></img>
+      <img src="/facility2.png" className="w-full outline mt-15"></img>
     </section>
   </>
 )

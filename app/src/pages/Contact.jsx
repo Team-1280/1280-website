@@ -12,7 +12,7 @@ const Contact = () => (
         <div className="absolute font-sans mb-40 size-auto flex items-center text-black text-bold text-4xl text-center pointer-events-auto text-balance">
           Contact Team 1280 – Ragin' C’ Biscuits
         </div>
-        <div className="absolute font-sans ml-5 mr-5 mt-10 size-auto flex items-center text-black text-2xl text-center pointer-events-auto text-balance">
+        <div className="absolute font-sans ml-5 mr-5 mt-30 size-auto flex items-center text-black text-2xl text-center pointer-events-auto text-balance lg:mt-10">
           Have a question about our team, sponsorship opportunities, outreach events, or joining as a member or mentor?
           <br></br>
           We’d love to hear from you.
