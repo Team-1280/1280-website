@@ -14,7 +14,7 @@ const Dropdown = ({ text, children, isMobile }) => {
         {' ▼'}
       </a>
       {(open || !isMobile) && (
-        <ul className={isMobile ? 'text-center block h-auto max-h-none flex flex-col [&>a]:p-2 border-y my-5' : 'dropdown-content'}>
+        <ul className={isMobile ? 'text-center h-auto max-h-none flex flex-col [&>a]:p-2 border-y my-5' : 'dropdown-content'}>
           {children}
         </ul>
       )}

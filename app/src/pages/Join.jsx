@@ -4,11 +4,11 @@ const Join = () => (
       <link rel="canonical" href="https://www.team1280.com/join" />
       <title>Join</title>
     </head>
-    <section className="px-12 max-w-[100rem] mx-auto">
+    <section className="lg:px-12 max-w-[100rem] lg:mx-auto">
       <div className="text-left bg-white relative h-auto w-full flex flex-col">
-        <div className="px-10 py-10 font-roboto text-black text-5xl whitespace-nowrap text-center">How to Join Team 1280</div>
-        <div className="flex flex-row flex-nowrap size-full justify-center gap-10 min-w-200">
-          <div className="gray-box w-16/24 max-w-4xl h-auto max-h-none">
+        <div className="lg:px-10 py-10 font-roboto text-black text-3xl lg:text-5xl whitespace-nowrap text-center">How to Join Team 1280</div>
+        <div className="flex flex-row flex-nowrap size-full justify-center gap-10 lg:min-w-200">
+          <div className="gray-box lg:w-16/24 max-w-4xl h-auto max-h-none">
             <div className="gray-box-heading">For Students:</div>
             <div className="text-left text-white text-lg">Interested in joining Team 1280? We welcome all students entering grades 9–12—no prior experience is required! Our team values curiosity, collaboration, and commitment, and we're excited to help new members grow in both technical and non-technical roles.</div>
             <div className="p-2"></div>
@@ -72,15 +72,15 @@ const Join = () => (
             </div>
             <div className="p-2"></div>
           </div>
-          <div className="flex flex-col items-center justify-around w-1/3">
+          <div className="hidden lg:flex flex-col items-center justify-around w-1/3">
             <img src="/join1.png" className="w-3/4 outline my-12" alt="Join 1"></img>
             <img src="/join2.png" className="w-3/4 outline my-12" alt="Join 2"></img>
             <img src="/join3.png" className="w-3/4 outline my-12" alt="Join 3"></img>
           </div>
         </div>
       </div>
-      <div className="text-left bg-white my-12 flex flex-row flex-nowrap size-full justify-center gap-10 min-w-200">
-        <div className="gray-box w-16/24 max-w-4xl">
+      <div className="text-left bg-white my-12 flex flex-row flex-nowrap size-full justify-center gap-10 lg:min-w-200">
+        <div className="gray-box lg:w-16/24 max-w-4xl">
           <div className="gray-box-heading">For Mentors:</div>
           <div className="text-left text-white text-lg">Our mentors are essential to the learning and success of our students. We welcome professionals, hobbyists, educators, and parents who want to contribute their time, knowledge, or industry experience to help shape the next generation of STEM leaders.</div>
           <div className="p-2"></div>
@@ -118,7 +118,7 @@ const Join = () => (
           <div className="text-left text-white text-lg">Contact us at sanramonvalleyrobotics@gmail.com</div>
           <div className="p-10"></div>
         </div>
-        <div className="flex flex-col items-center justify-around w-1/3">
+        <div className="hidden lg:flex flex-col items-center justify-around w-1/3">
           <img src="/join4.png" className="w-3/4 outline my-12" alt="Join 4"></img>
           <img src="/join5.png" className="w-3/4 outline my-12" alt="Join 5"></img>
           <img src="/join6.png" className="w-3/4 outline my-12" alt="Join 6"></img>
