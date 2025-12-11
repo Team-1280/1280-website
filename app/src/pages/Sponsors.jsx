@@ -7,7 +7,7 @@ const Sponsors = () => (
     <div className="relative w-full font-sans text-left">
       <img src="/sponsors1.png" className="absolute object-cover h-full min-w-[100%] -z-1"></img>
       <div className="h-20"></div>
-      <div className="h-auto w-full lg:min-w-100 size-auto lg:mx-[20dvw] px-10 lg:px-20 bg-gray-600/80 backdrop-blur-[6px] flex flex-col items-center">
+      <div className="h-auto lg:min-w-100 size-auto lg:mx-[20dvw] px-10 lg:px-20 bg-gray-600/80 backdrop-blur-[6px] flex flex-col items-center">
         <div className="relative text-white font-sans py-10">
           <div className="py-5 text-[#fcc307] text-3xl font-bold">Thank You to Our Sponsors</div>
           <div className="py-2 text-white text-base">Team 1280 would like to extend our deepest gratitude to the sponsors who make our work possible. Your generous support enables us to design, build, and compete with innovative robots, while also fostering STEM skills, teamwork, and leadership in our students.</div>
