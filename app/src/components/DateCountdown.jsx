@@ -47,25 +47,25 @@ const DateCountdown = ({ labelClasses, numberClasses, untilDateTime }) => {
     <div className="flex gap-5">
       <div className={labelClasses}>
         <span className={`font-mono ${numberClasses}`}>
-          <span>{values.days}</span>
+          {values.days}
         </span>
         days
       </div>
       <div className={labelClasses}>
         <span className={`font-mono ${numberClasses}`}>
-          <span>{values.hours}</span>
+          {values.hours}
         </span>
         hours
       </div>
       <div className={labelClasses}>
         <span className={`font-mono ${numberClasses}`}>
-          <span>{values.minutes}</span>
+          {values.minutes}
         </span>
         min
       </div>
       <div className={labelClasses}>
         <span className={`font-mono ${numberClasses}`}>
-          <span>{values.seconds}</span>
+          {values.seconds}
         </span>
         sec
       </div>
