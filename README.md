@@ -44,11 +44,11 @@ Use `npm run build`, and ensure that `app` is set as the root directory.
 
 
 ## TODO
+- Move remaining TODOs to GitHub issues
 - Update remaining pages with additional information
 - Use SWC for Fast Refresh at vite.config.js (low priority)
 - Change root location (low priority)
 - `resources`, `news`, `robot-engineering` unfinished
-- Migrate rest of `styles` pages to tailwind
 
 
 ### Codebase Notes
