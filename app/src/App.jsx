@@ -1,22 +1,25 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { lazy } from 'react'
+
 import Footer from './components/Footer.jsx'
 import Navbar from './components/Navbar.jsx'
 import TopScroll from './components/TopScroll.jsx'
-import About from './pages/About.jsx'
-import Calendar from './pages/Calendar.jsx'
-import Contact from './pages/Contact.jsx'
-import Donate from './pages/Donate.jsx'
-import Facility from './pages/Facility.jsx'
-import First from './pages/First.jsx'
-import Home from './pages/Home.jsx'
-import Join from './pages/Join.jsx'
-import Leadership from './pages/Leadership.jsx'
-import Mentors from './pages/Mentors.jsx'
-import News from './pages/News.jsx'
-import Outreach from './pages/Outreach.jsx'
-import Resources from './pages/Resources.jsx'
-import RobotEngineering from './pages/RobotEngineering.jsx'
-import Sponsors from './pages/Sponsors.jsx'
+
+const About = lazy(() => import('./pages/About.jsx'))
+const Calendar = lazy(() => import('./pages/Calendar.jsx'))
+const Contact = lazy(() => import('./pages/Contact.jsx'))
+const Donate = lazy(() => import('./pages/Donate.jsx'))
+const Facility = lazy(() => import('./pages/Facility.jsx'))
+const First = lazy(() => import('./pages/First.jsx'))
+const Home = lazy(() => import('./pages/Home.jsx'))
+const Join = lazy(() => import('./pages/Join.jsx'))
+const Leadership = lazy(() => import('./pages/Leadership.jsx'))
+const Mentors = lazy(() => import('./pages/Mentors.jsx'))
+const News = lazy(() => import('./pages/News.jsx'))
+const Outreach = lazy(() => import('./pages/Outreach.jsx'))
+const Resources = lazy(() => import('./pages/Resources.jsx'))
+const RobotEngineering = lazy(() => import('./pages/RobotEngineering.jsx'))
+const Sponsors = lazy(() => import('./pages/Sponsors.jsx'))
 
 function App() {
   return (
