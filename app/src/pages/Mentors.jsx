@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom'
 
+// TODO: Import in scss file instead of explicit css import. #31
+import './styles/GrayBox.css'
+
 const Mentors = () => (
   <>
     <head>

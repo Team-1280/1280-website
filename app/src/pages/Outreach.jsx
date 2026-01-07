@@ -1,3 +1,6 @@
+// TODO: Import in scss file instead of explicit css import. #31
+import './styles/GrayBox.css'
+
 const Outreach = () => (
   <>
     <head>
