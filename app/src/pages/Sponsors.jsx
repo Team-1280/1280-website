@@ -16,13 +16,17 @@ const Sponsors = () => (
         </div>
         <div className="py-2 text-white font-bold text-2xl">2026 Season Sponsors</div>
         <div className="flex flex-col items-center py-15 gap-15">
-          <div className="grid grid-cols-3 w-full gap-x-[10%]">
+          {/* Use separate grids in case new logos are added that don't fit evenly */}
+          <div className="grid grid-cols-3 w-full gap-x-[10%] place-items-center">
             <img src="/ptsa-logo.png" alt="PTSA Logo"></img>
             <img src="/site-council-logo.png" alt="Site Council Logo"></img>
             <img src="/boosters-logo.png" alt="Academic Boosters Logo"></img>
           </div>
-          <div className="grid grid-cols-2 w-2/3 gap-x-[10%]">
+          <div className="grid grid-cols-3 w-full gap-x-[10%] place-items-center">
             <img src="/intuitive-logo.png" alt="Intuitive Logo"></img>
+            <a href="https://www.fabworks.com/" target="_blank" rel="noopener noreferrer" className="group block size-full flex place-items-center">
+              <img src="/fabworks-logo.svg" alt="Fabworks Logo" className="w-full h-auto group-hover:opacity-75"></img>
+            </a>
             <img src="/frc-tees-logo.png" alt="FRC Tees Logo"></img>
           </div>
         </div>
