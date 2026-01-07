@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
  */
 const getTimeRemaining = (startDate, endDate) => {
   const total = endDate.getTime() - startDate.getTime()
-  if (total < 0) return { days: 0, hours: 0, minutes: 0, seconds: 0, total: 0 }
+  if (total < 0) return { days: 0, hours: 0, minutes: 0, seconds: 0, total: -1 }
 
   const seconds = Math.floor((total / 1000) % 60)
   const minutes = Math.floor((total / 1000 / 60) % 60)
@@ -30,9 +30,10 @@ const getTimeRemaining = (startDate, endDate) => {
  * @param {Date} props.untilDateTime The Date to count down to
  * @param {string} props.numberClasses The classes to give the numbers
  * @param {string} props.labelClasses The classes to give the labels
+ * @param {JSX.Element} props.doneElement The element to show when done, optional
  * @returns {JSX.Element}
  */
-const DateCountdown = ({ labelClasses, numberClasses, untilDateTime }) => {
+const DateCountdown = ({ labelClasses, numberClasses, untilDateTime, doneElement: DoneElement }) => {
   const [currentDate, setCurrentDate] = useState(new Date())
 
   useEffect(() => {
@@ -44,33 +45,36 @@ const DateCountdown = ({ labelClasses, numberClasses, untilDateTime }) => {
   const values = getTimeRemaining(currentDate, untilDateTime)
 
   return (
-    <div className="flex gap-5">
-      <div className={labelClasses}>
-        <span className={`font-mono ${numberClasses}`}>
-          {values.days}
-        </span>
-        days
-      </div>
-      <div className={labelClasses}>
-        <span className={`font-mono ${numberClasses}`}>
-          {values.hours}
-        </span>
-        hours
-      </div>
-      <div className={labelClasses}>
-        <span className={`font-mono ${numberClasses}`}>
-          {values.minutes}
-        </span>
-        min
-      </div>
-      <div className={labelClasses}>
-        <span className={`font-mono ${numberClasses}`}>
-          {values.seconds}
-        </span>
-        sec
-      </div>
-    </div>
-  )
+    (values.total >= 0) || !DoneElement
+      ? (
+          <div className="flex gap-5">
+            <div className={labelClasses}>
+              <span className={`font-mono ${numberClasses}`}>
+                {values.days}
+              </span>
+              days
+            </div>
+            <div className={labelClasses}>
+              <span className={`font-mono ${numberClasses}`}>
+                {values.hours}
+              </span>
+              hours
+            </div>
+            <div className={labelClasses}>
+              <span className={`font-mono ${numberClasses}`}>
+                {values.minutes}
+              </span>
+              min
+            </div>
+            <div className={labelClasses}>
+              <span className={`font-mono ${numberClasses}`}>
+                {values.seconds}
+              </span>
+              sec
+            </div>
+          </div>
+        )
+      : <DoneElement />)
 }
 
 export default DateCountdown
