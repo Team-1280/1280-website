@@ -42,7 +42,7 @@ Here is a present that will help you!
 
 
 ### Building
-Use `npm run build`, and ensure that `app` is set as the root directory.
+Use `bun run build`, and ensure that `app` is set as the root directory.
 
 
 ## TODO
