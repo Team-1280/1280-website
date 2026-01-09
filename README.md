@@ -21,12 +21,14 @@ Patches and PRs are welcome (and necessary). To create changes and observe refle
 
 Install Node.js here: [https://nodejs.org/en/download](https://nodejs.org/en/download). When installing, be sure to add to PATH (this can also be done manually) or to a separate environment variable (which you will need to access when running the server)
 
+Follow this guide here to install `bun` here for package management: [https://bun.com/docs/installation](https://bun.com/docs/installation). 
+
 Run the frontend locally by running the following commands:
 
 - `git clone https://github.com/Team-1280/1280-website.git` to clone the repo
 - `cd app`
-- `npm install` to install dependencies
-- `npm run dev` to start local development server at http://localhost:5173/
+- `bun install` or `bun i` to install dependencies
+- `bun run dev` to start local development server at http://localhost:5173/
 
 Most of the frontend changes will and have been made at `app/src/pages`. Please ignore the styles folder which contains mostly unused CSS from a previous iteration. They are currently there for reference and may be deleted at a later date. To add pages please create a new route at `app/src/App.jsx` and update `vite.config.js` routes.
 
