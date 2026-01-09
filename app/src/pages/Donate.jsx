@@ -2,10 +2,8 @@ import './styles/Donate.css'
 
 const Donate = () => (
   <>
-    <head>
-      <link rel="canonical" href="https://www.team1280.com/donate" />
-      <title>Donate</title>
-    </head>
+    <link rel="canonical" href="https://www.team1280.com/donate" />
+    <title>Donate</title>
     <div className="relative w-full font-sans text-left">
       <img src="/donate.png" className="absolute object-cover h-full min-w-full -z-1" />
       <div className="h-20"></div>

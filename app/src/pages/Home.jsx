@@ -23,10 +23,8 @@ const Home = () => {
 
   return (
     <>
-      <head>
-        <link rel="canonical" href="https://www.team1280.com" />
-        <title>Team 1280</title>
-      </head>
+      <link rel="canonical" href="https://www.team1280.com" />
+      <title>Team 1280</title>
       <section className="relative h-[100dvw] lg:h-[50dvh] w-full">
         <div className="absolute inset-0 bg-[url('/home4.png')] bg-cover bg-center opacity-80 z-0">
           <div className="absolute inset-0 bg-black/60"></div>

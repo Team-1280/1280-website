@@ -1,9 +1,7 @@
 const First = () => (
   <>
-    <head>
-      <link rel="canonical" href="https://www.team1280.com/first" />
-      <title>FIRST®</title>
-    </head>
+    <link rel="canonical" href="https://www.team1280.com/first" />
+    <title>FIRST®</title>
     <section>
       <div className="w-full">
         <img src="/first1.png" className="object-cover w-full"></img>
