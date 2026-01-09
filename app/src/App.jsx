@@ -26,7 +26,7 @@ function App() {
     <Router>
       <TopScroll />
       <Navbar />
-      <main className="container max-w-full">
+      <div className="container max-w-full">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calendar" element={<Calendar />} />
@@ -44,7 +44,7 @@ function App() {
           <Route path="/facility" element={<Facility />} />
           <Route path="/first" element={<First />} />
         </Routes>
-      </main>
+      </div>
       <Footer />
     </Router>
   )
