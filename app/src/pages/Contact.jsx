@@ -3,10 +3,8 @@ import './styles/Contact.css'
 
 const Contact = () => (
   <>
-    <head>
-      <link rel="canonical" href="https://www.team1280.com/contact" />
-      <title>Contact</title>
-    </head>
+    <link rel="canonical" href="https://www.team1280.com/contact" />
+    <title>Contact</title>
     <section>
       <div className="contact-top-background">
         <div className="absolute font-sans mb-40 size-auto flex items-center text-black text-bold text-4xl text-center pointer-events-auto text-balance">

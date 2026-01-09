@@ -3,10 +3,8 @@ import './styles/GrayBox.css'
 
 const Facility = () => (
   <>
-    <head>
-      <link rel="canonical" href="https://www.team1280.com/facility" />
-      <title>Facility</title>
-    </head>
+    <link rel="canonical" href="https://www.team1280.com/facility" />
+    <title>Facility</title>
     <section className="flex flex-col items-center lg:px-10 py-10 max-w-[100rem] mx-auto">
       <div className="gray-box">
         <div className="gray-box-heading">
