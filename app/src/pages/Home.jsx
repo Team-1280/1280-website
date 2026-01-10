@@ -1,26 +1,6 @@
-import DateCountdown from '../components/DateCountdown'
 import './styles/GrayBox.css'
 
-const countdownEnd = new Date('2026-01-10T12:00:00-05:00')
-const dateFormatter = new Intl.DateTimeFormat(undefined, {
-  weekday: 'short',
-  day: '2-digit',
-  month: 'short',
-  year: 'numeric',
-  hour: 'numeric',
-  minute: '2-digit',
-  hour12: true,
-  timeZoneName: 'short',
-})
-
-import { liability } from '../components/Liability'
-import { useState } from 'react'
-
 const Home = () => {
-  const formatted = dateFormatter.format(countdownEnd)
-
-  const [clicked, setClicked] = useState(0)
-
   return (
     <>
       <link rel="canonical" href="https://www.team1280.com" />
@@ -34,26 +14,8 @@ const Home = () => {
             FRC Team 1280 - Ragin' C Biscuits
           </h1>
           <p className="text-xl lg:text-4xl font-medium font-orbitron text-white">
-            2026 FIRST Robotics Competition Season Kickoff
+            San Ramon Valley Robotics
           </p>
-          <div className="flex flex-col items-center justify-center gap-2 ">
-            <DateCountdown
-              numberClasses="font-orbitron text-white text-xl lg:text-4xl"
-              labelClasses="font-orbitron text-white text-sm"
-              untilDateTime={countdownEnd}
-              doneElement={() => (
-                <>
-                  <p className="font-orbitron text-white text-xl lg:text-4xl" onClick={() => setClicked(clicked + 1)}>
-                    FRC Kickoff has started!
-                  </p>
-                  <p className={clicked > 4 ? 'font-orbitron text-white text-xs whitespace-pre-wrap p-8' : 'hidden'} onMouseLeave={() => setClicked(0)}>{liability}</p>
-                </>
-              )}
-            />
-            <p className="text-sm lg:text-md font-medium font-orbitron text-white">
-              {formatted}
-            </p>
-          </div>
         </div>
       </section>
       <div className="relative w-full overflow-x-hidden bg-white flex justify-center lg:px-12 py-12 lg:h-235">
