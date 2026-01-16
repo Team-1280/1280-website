@@ -31,7 +31,7 @@ Run the frontend locally by running the following commands:
 - `bun run dev` to start local development server at http://localhost:5173/
 
 When you make changes, check that the formatting of the file is up to our standards with the following commands:
-- `bun run prettier` (if successful will output `All matched files use Prettier code style!`)
+- `bun run style` (if successful will output `All matched files use Prettier code style!`)
 - `bun run lint` (if successful there will be no output)
 
 If these two commands are successful, all the files are fully formatted and checked. These are also checked via GitHub Actions.
