@@ -13,7 +13,7 @@
   src: url('/fonts/SourceSans3-VariableFont_wght.ttf');
 }
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --font-orbitron: 'Orbitron', sans-serif;

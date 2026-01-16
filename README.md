@@ -30,7 +30,13 @@ Run the frontend locally by running the following commands:
 - `bun install` or `bun i` to install dependencies
 - `bun run dev` to start local development server at http://localhost:5173/
 
-Most of the frontend changes will and have been made at `app/src/pages`. Please ignore the styles folder which contains mostly unused CSS from a previous iteration. They are currently there for reference and may be deleted at a later date. To add pages please create a new route at `app/src/App.jsx` and update `vite.config.js` routes.
+When you make changes, check that the formatting of the file is up to our standards with the following commands:
+- `bun run style` (if successful will output `All matched files use Prettier code style!`)
+- `bun run lint` (if successful there will be no output)
+
+If these two commands are successful, all the files are fully formatted and checked. These are also checked via GitHub Actions.
+
+Most of the frontend changes will and have been made at `app/src/pages`. Please ignore the styles folder which contains mostly unused CSS from a previous iteration. They are currently there for reference and may be deleted at a later date. To add pages please create a new route at `app/src/App.tsx` and update `vite.config.ts` routes.
 
 Here is a present that will help you!
 
@@ -48,7 +54,7 @@ Use `bun run build`, and ensure that `app` is set as the root directory.
 ## TODO
 - Move remaining TODOs to GitHub issues
 - Update remaining pages with additional information
-- Use SWC for Fast Refresh at vite.config.js (low priority)
+- Use SWC for Fast Refresh at vite.config.ts (low priority)
 - Change root location (low priority)
 - `resources`, `news`, `robot-engineering` unfinished
 
