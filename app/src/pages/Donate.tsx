@@ -1,4 +1,4 @@
-import "./styles/Donate.css";
+import './styles/Donate.css';
 
 const Donate = () => (
   <>

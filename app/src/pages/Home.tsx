@@ -1,4 +1,4 @@
-import "./styles/GrayBox.css";
+import './styles/GrayBox.css';
 
 const Home = () => {
   return (
@@ -39,7 +39,7 @@ const Home = () => {
               <div className="text-white text-lg">
                 Team 1280 primarily recruits students from San Ramon Valley High
                 School (SRVHS) but we also accept any students from the San
-                Ramon Valley Unified School District (SRVUSD).{" "}
+                Ramon Valley Unified School District (SRVUSD).{' '}
               </div>
             </div>
             <div className="gray-box lg:h-[25%] h-min-content my-8 lg:my-0">

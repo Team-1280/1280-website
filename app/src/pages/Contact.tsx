@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./styles/Contact.css";
+import { Link } from 'react-router-dom';
+import './styles/Contact.css';
 
 const Contact = () => (
   <>
@@ -25,7 +25,7 @@ const Contact = () => (
         </div>
         <div className="absolute font-sans size-auto flex items-center text-white text-base text-center pointer-events-auto text-balance">
           <ul>
-            <li className="font-bold mt-10">Email: </li>{" "}
+            <li className="font-bold mt-10">Email: </li>{' '}
             sanramonvalleyrobotics@gmail.com
             <div className="contact-newline">
               <li className="font-bold mt-4">Mailing Address: </li>
@@ -56,8 +56,8 @@ const Contact = () => (
             <li className="mb-4">
               Visit our
               <Link to="/join" className="whitespace-nowrap">
-                {" "}
-                <u>Join Us page</u>{" "}
+                {' '}
+                <u>Join Us page</u>{' '}
               </Link>
               or email us to learn more about:
             </li>
@@ -80,8 +80,8 @@ const Contact = () => (
             <br></br>
             Visit our
             <Link to="/donate" className="whitespace-nowrap">
-              {" "}
-              <u>Sponsorship page</u>{" "}
+              {' '}
+              <u>Sponsorship page</u>{' '}
             </Link>
             or email us at sanramonvalleyrobotics@gmail.com for partnership
             opportunities.

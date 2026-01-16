@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState } from 'react';
 
 const Dropdown = ({
   text,
@@ -14,18 +14,18 @@ const Dropdown = ({
   return (
     <div
       onClick={toggle}
-      className={isMobile ? "block" : "dropdown select-none"}
+      className={isMobile ? 'block' : 'dropdown select-none'}
     >
       <a>
         {text}
-        {" ▼"}
+        {' ▼'}
       </a>
       {(open || !isMobile) && (
         <ul
           className={
             isMobile
-              ? "text-center h-auto max-h-none flex flex-col [&>a]:p-2 border-y my-5"
-              : "dropdown-content"
+              ? 'text-center h-auto max-h-none flex flex-col [&>a]:p-2 border-y my-5'
+              : 'dropdown-content'
           }
         >
           {children}

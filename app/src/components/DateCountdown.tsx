@@ -1,4 +1,4 @@
-import { JSX, useEffect, useState } from "react";
+import { JSX, useEffect, useState } from 'react';
 
 /**
  * Gets the time remaining until a Date.

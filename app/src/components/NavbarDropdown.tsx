@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import NavbarLinks from "./NavbarLinks";
-import "./Navbar.css";
-import { useLocation } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import NavbarLinks from './NavbarLinks';
+import './Navbar.css';
+import { useLocation } from 'react-router-dom';
 
 const NavbarDropdown = () => {
   const location = useLocation();

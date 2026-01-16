@@ -1,22 +1,22 @@
 @font-face {
-  font-family: "Orbitron";
-  src: url("/fonts/Orbitron-VariableFont_wght.ttf");
+  font-family: 'Orbitron';
+  src: url('/fonts/Orbitron-VariableFont_wght.ttf');
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("/fonts/RobotoMono-VariableFont_wght.ttf");
+  font-family: 'Roboto';
+  src: url('/fonts/RobotoMono-VariableFont_wght.ttf');
 }
 
 @font-face {
-  font-family: "Sans";
-  src: url("/fonts/SourceSans3-VariableFont_wght.ttf");
+  font-family: 'Sans';
+  src: url('/fonts/SourceSans3-VariableFont_wght.ttf');
 }
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --font-orbitron: "Orbitron", sans-serif;
-  --font-roboto: "Roboto", sans-serif;
-  --font-sans: "Sans", sans-serif;
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-sans: 'Sans', sans-serif;
 }

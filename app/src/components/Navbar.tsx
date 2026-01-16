@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-import NavbarLinks from "./NavbarLinks";
-import NavbarDropdown from "./NavbarDropdown";
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+import NavbarLinks from './NavbarLinks';
+import NavbarDropdown from './NavbarDropdown';
 
 const Navbar = () => (
   <nav className="bg-[#1f1e23] text-white flex items-center px-0 py-0 justify-between h-17 lg:h-30 box-border overflow-x-clip">

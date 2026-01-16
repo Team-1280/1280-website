@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 // TODO: Import in scss file instead of explicit css import. #31
-import "./styles/GrayBox.css";
+import './styles/GrayBox.css';
 
 const Mentors = () => (
   <>
@@ -149,7 +149,7 @@ const Mentors = () => (
               Bio: Mr. Lastowski studied mechanical engineering and worked over
               40 years in engineering. During his career, he worked on medical
               device robotics specifically at Intuitive Surgical. He also
-              mentored FRC team 971 for about 10 years.{" "}
+              mentored FRC team 971 for about 10 years.{' '}
             </div>
             <div className="p-2"></div>
             <div className="">Expertise: Design & Mechanical</div>
@@ -165,8 +165,8 @@ const Mentors = () => (
               contribute to student learning in STEM. If you're interested in
               volunteering as a mentor, please visit our
               <Link to="/contact" className="whitespace-nowrap">
-                {" "}
-                <u>Contact page</u>{" "}
+                {' '}
+                <u>Contact page</u>{' '}
               </Link>
               or email us at sanramonvalleyrobotics@gmail.com.
             </div>

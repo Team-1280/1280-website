@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./Footer.css";
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => (
   <nav className="bg-[#1f1e23] text-white h-48">
@@ -42,32 +42,32 @@ const Footer = () => (
             <div className="flex gap-12 flex-nowrap ml-21">
               <div className="">
                 <Link to="/about" className="nav-item">
-                  {" "}
-                  <div className="block mb-5">The Team</div>{" "}
+                  {' '}
+                  <div className="block mb-5">The Team</div>{' '}
                 </Link>
                 <Link to="/first" className="nav-item">
-                  {" "}
-                  <div className="block mb-5">FIRST</div>{" "}
+                  {' '}
+                  <div className="block mb-5">FIRST</div>{' '}
                 </Link>
               </div>
               <div className="inline-block">
                 <Link to="/leadership" className="nav-item">
-                  {" "}
-                  <div className="block mb-5">Leaders</div>{" "}
+                  {' '}
+                  <div className="block mb-5">Leaders</div>{' '}
                 </Link>
                 <Link to="/mentors" className="nav-item">
-                  {" "}
-                  <div className="block mb-5">Mentors</div>{" "}
+                  {' '}
+                  <div className="block mb-5">Mentors</div>{' '}
                 </Link>
               </div>
               <div className="inline-block">
                 <Link to="/facility" className="nav-item">
-                  {" "}
-                  <div className="block mb-5">Facility</div>{" "}
+                  {' '}
+                  <div className="block mb-5">Facility</div>{' '}
                 </Link>
                 <Link to="/outreach" className="nav-item">
-                  {" "}
-                  <div className="block mb-5">Outreach</div>{" "}
+                  {' '}
+                  <div className="block mb-5">Outreach</div>{' '}
                 </Link>
               </div>
             </div>

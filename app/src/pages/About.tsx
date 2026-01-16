@@ -30,7 +30,7 @@ const About = () => (
         </div>
         <div className="font-bold mb-6">Training & Development</div>
         <div className="mb-4">
-          {" "}
+          {' '}
           We invest heavily in preparing our members for success both on and off
           the field.
         </div>

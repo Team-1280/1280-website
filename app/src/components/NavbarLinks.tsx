@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import DropdownToggle from "./DropdownToggle";
+import { Link } from 'react-router-dom';
+import DropdownToggle from './DropdownToggle';
 
 const NavbarLinks = ({ isMobile }: { isMobile?: boolean }) => {
   return (
