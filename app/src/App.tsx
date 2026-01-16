@@ -1,25 +1,25 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import { lazy } from 'react'
 
-import Footer from './components/Footer.jsx'
-import Navbar from './components/Navbar.jsx'
-import TopScroll from './components/TopScroll.jsx'
+import Footer from './components/Footer.tsx'
+import Navbar from './components/Navbar.tsx'
+import TopScroll from './components/TopScroll.tsx'
 
-const About = lazy(() => import('./pages/About.jsx'))
-const Calendar = lazy(() => import('./pages/Calendar.jsx'))
-const Contact = lazy(() => import('./pages/Contact.jsx'))
-const Donate = lazy(() => import('./pages/Donate.jsx'))
-const Facility = lazy(() => import('./pages/Facility.jsx'))
-const First = lazy(() => import('./pages/First.jsx'))
-const Home = lazy(() => import('./pages/Home.jsx'))
-const Join = lazy(() => import('./pages/Join.jsx'))
-const Leadership = lazy(() => import('./pages/Leadership.jsx'))
-const Mentors = lazy(() => import('./pages/Mentors.jsx'))
-const News = lazy(() => import('./pages/News.jsx'))
-const Outreach = lazy(() => import('./pages/Outreach.jsx'))
-const Resources = lazy(() => import('./pages/Resources.jsx'))
-const RobotEngineering = lazy(() => import('./pages/RobotEngineering.jsx'))
-const Sponsors = lazy(() => import('./pages/Sponsors.jsx'))
+const About = lazy(() => import('./pages/About.tsx'))
+const Calendar = lazy(() => import('./pages/Calendar.tsx'))
+const Contact = lazy(() => import('./pages/Contact.tsx'))
+const Donate = lazy(() => import('./pages/Donate.tsx'))
+const Facility = lazy(() => import('./pages/Facility.tsx'))
+const First = lazy(() => import('./pages/First.tsx'))
+const Home = lazy(() => import('./pages/Home.tsx'))
+const Join = lazy(() => import('./pages/Join.tsx'))
+const Leadership = lazy(() => import('./pages/Leadership.tsx'))
+const Mentors = lazy(() => import('./pages/Mentors.tsx'))
+const News = lazy(() => import('./pages/News.tsx'))
+const Outreach = lazy(() => import('./pages/Outreach.tsx'))
+const Resources = lazy(() => import('./pages/Resources.tsx'))
+const RobotEngineering = lazy(() => import('./pages/RobotEngineering.tsx'))
+const Sponsors = lazy(() => import('./pages/Sponsors.tsx'))
 
 function App() {
   return (
