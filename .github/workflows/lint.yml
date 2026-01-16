@@ -1,18 +1,20 @@
-name: lint
+name: lint and style
 
 on: [push, pull_request]
 
 jobs:
-  eslint:
+  lint-style:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ./app
     steps:
-    - uses: oven-sh/setup-bun@v2
     - name: Checkout code
       uses: actions/checkout@v4
+    - uses: oven-sh/setup-bun@v2
     - name: Install dependencies
       run: bun install
     - name: Run ESLint
       run: bun run lint
+    - name: Run Prettier
+      run: bun run style

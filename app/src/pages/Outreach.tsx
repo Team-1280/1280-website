@@ -1,5 +1,5 @@
 // TODO: Import in scss file instead of explicit css import. #31
-import './styles/GrayBox.css'
+import "./styles/GrayBox.css";
 
 const Outreach = () => (
   <>
@@ -9,102 +9,201 @@ const Outreach = () => (
       <img src="/outreach-banner.png" className="object-cover w-full h-auto" />
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="absolute font-sans inset-x-1 md:inset-x-1/4 inset-y-0 size-auto flex items-center text-white text-sm md:text-2xl text-center pointer-events-auto text-balance">
-        As a dedicated FRC team, we aim to excel in competition while promoting STEM education and the FIRST mission in our community. We participate in local events, mentor new FLL teams, and remain committed to inspiring curiosity and fostering growth in STEM for all ages.
+        As a dedicated FRC team, we aim to excel in competition while promoting
+        STEM education and the FIRST mission in our community. We participate in
+        local events, mentor new FLL teams, and remain committed to inspiring
+        curiosity and fostering growth in STEM for all ages.
       </div>
     </section>
     <section className="text-left bg-white relative h-auto w-full px-10 lg:px-24 pt-18 pb-12 overflow-hidden max-w-[64rem] mx-auto">
       <div className="lg:min-w-160">
-        <div className="text-black text-3xl text-center lg:text-left lg:text-5xl font-roboto whitespace-nowrap">Outreach Events</div>
+        <div className="text-black text-3xl text-center lg:text-left lg:text-5xl font-roboto whitespace-nowrap">
+          Outreach Events
+        </div>
         <hr className="my-8 border-gray-300 border-t-4"></hr>
         <div className="gray-box font-sans text-white text-lg mx-auto">
-          In addition to our ongoing programs, our team participates in a variety of one-off or annual events that connect us with the local community. These events often include robot demonstrations, hands-on STEM activities, and opportunities for community members of all ages to learn about engineering and FIRST.
+          In addition to our ongoing programs, our team participates in a
+          variety of one-off or annual events that connect us with the local
+          community. These events often include robot demonstrations, hands-on
+          STEM activities, and opportunities for community members of all ages
+          to learn about engineering and FIRST.
         </div>
       </div>
     </section>
     <section className="bg-white relative w-full h-auto flex flex-col gap-16 overflow-hidden">
       <div className="size-full flex flex-row justify-center-safe items-center gap-24">
         <div className="relative w-auto h-100 flex items-center justify-center">
-          <img src="/bg-logo.png" className="max-w-none h-[100%] opacity-25" alt="Background Logo" />
+          <img
+            src="/bg-logo.png"
+            className="max-w-none h-[100%] opacity-25"
+            alt="Background Logo"
+          />
           <div className="absolute font-sans inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[25%] text-center gap-5">
             <div className="font-bold">Science Nights</div>
-            <p>Our team regularly attends elementary school science nights, where students can interact with our robot, explore engineering concepts, and see STEM in action.</p>
+            <p>
+              Our team regularly attends elementary school science nights, where
+              students can interact with our robot, explore engineering
+              concepts, and see STEM in action.
+            </p>
           </div>
         </div>
-        <img src="/outreach1.png" className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative" alt="Outreach 1"></img>
+        <img
+          src="/outreach1.png"
+          className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative"
+          alt="Outreach 1"
+        ></img>
       </div>
       <div className="size-full flex flex-row justify-center-safe items-center gap-24">
         <div className="relative w-auto h-100 flex items-center justify-center">
-          <img src="/bg-logo.png" className="max-w-none h-[100%] opacity-25" alt="Background Logo" />
+          <img
+            src="/bg-logo.png"
+            className="max-w-none h-[100%] opacity-25"
+            alt="Background Logo"
+          />
           <div className="absolute font-sans inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[25%] text-center gap-5">
             <div className="font-bold">Library Events</div>
-            <p>At the Danville Library, we introduce younger students to the world of FIRST through engaging robot demonstrations and fun, interactive activities.</p>
+            <p>
+              At the Danville Library, we introduce younger students to the
+              world of FIRST through engaging robot demonstrations and fun,
+              interactive activities.
+            </p>
           </div>
         </div>
-        <img src="/outreach2.png" className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative" alt="Outreach 2"></img>
+        <img
+          src="/outreach2.png"
+          className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative"
+          alt="Outreach 2"
+        ></img>
       </div>
       <div className="size-full flex flex-row justify-center-safe items-center gap-24">
         <div className="relative w-auto h-100 flex items-center justify-center">
-          <img src="/bg-logo.png" className="max-w-none h-[100%] opacity-25" alt="Background Logo" />
+          <img
+            src="/bg-logo.png"
+            className="max-w-none h-[100%] opacity-25"
+            alt="Background Logo"
+          />
           <div className="absolute font-sans inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[15%] text-center gap-5">
             <div className="font-bold">Girl Scout Gold Award/STEM Night</div>
-            <p>As part of a Girl Scout Gold Award, we developed activities for children to explore STEM concepts while also providing opportunities to drive our robot. We receive similar requests from many local groups and are always excited to share our passion for robotics.</p>
+            <p>
+              As part of a Girl Scout Gold Award, we developed activities for
+              children to explore STEM concepts while also providing
+              opportunities to drive our robot. We receive similar requests from
+              many local groups and are always excited to share our passion for
+              robotics.
+            </p>
           </div>
         </div>
-        <img src="/outreach3.png" className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative" alt="Outreach 3"></img>
+        <img
+          src="/outreach3.png"
+          className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative"
+          alt="Outreach 3"
+        ></img>
       </div>
       <div className="size-full flex flex-row justify-center-safe items-center gap-24">
         <div className="relative w-auto h-100 flex items-center justify-center">
-          <img src="/bg-logo.png" className="max-w-none h-[100%] opacity-25" alt="Background Logo" />
+          <img
+            src="/bg-logo.png"
+            className="max-w-none h-[100%] opacity-25"
+            alt="Background Logo"
+          />
           <div className="absolute font-sans inset-0 size-full flex flex-col justify-center items-center text-black text-xl px-[20%] text-center gap-5">
             <div className="font-bold">Veterans’ Hall Outreach</div>
-            <p>Every year, we showcase our robot, equipment, and designs at the Veterans Hall during Veterans Day. This event frequently garners local news coverage and allows us to share our work with a broad audience.</p>
+            <p>
+              Every year, we showcase our robot, equipment, and designs at the
+              Veterans Hall during Veterans Day. This event frequently garners
+              local news coverage and allows us to share our work with a broad
+              audience.
+            </p>
           </div>
         </div>
-        <img src="/outreach4.png" className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative" alt="Outreach 4"></img>
+        <img
+          src="/outreach4.png"
+          className="h-100 rounded-xl opacity-20 lg:opacity-100 absolute lg:relative"
+          alt="Outreach 4"
+        ></img>
       </div>
     </section>
     <section className="text-left bg-white relative h-auto w-full px-10 lg:px-24 pt-18 pb-8 overflow-hidden max-w-[64rem] mx-auto">
       <div className="lg:min-w-160">
-        <div className="text-black text-3xl text-center lg:text-left lg:text-5xl font-roboto whitespace-nowrap">Outreach Programs</div>
+        <div className="text-black text-3xl text-center lg:text-left lg:text-5xl font-roboto whitespace-nowrap">
+          Outreach Programs
+        </div>
         <hr className="my-8 border-gray-300 border-t-4"></hr>
         <div className="gray-box font-sans text-white text-lg mx-auto">
-          Beyond one-time events, our team is committed to ongoing outreach programs that foster STEM education and strengthen connections within our community.
+          Beyond one-time events, our team is committed to ongoing outreach
+          programs that foster STEM education and strengthen connections within
+          our community.
         </div>
       </div>
     </section>
     <section className="text-left bg-white relative h-400 w-full flex flex-col items-center mb-10 overflow-hidden">
-      <img src="/bg-logo.png" className="absolute w-auto h-full max-w-none opacity-25" alt="Background Logo" />
+      <img
+        src="/bg-logo.png"
+        className="absolute w-auto h-full max-w-none opacity-25"
+        alt="Background Logo"
+      />
       <div className="absolute w-full h-full flex flex-col text-black text-xl text-center justify-evenly">
         <div className="w-full h-100 flex flex-row justify-evenly items-center lg:px-20">
           <div className="flex items-center justify-center h-100 opacity-15 lg:opacity-100 lg:h-full aspect-9/8 absolute lg:relative">
-            <img src="/fll-logo.png" className="w-auto h-full max-w-none" alt="FLL Logo"></img>
+            <img
+              src="/fll-logo.png"
+              className="w-auto h-full max-w-none"
+              alt="FLL Logo"
+            ></img>
           </div>
           <div className="h-full aspect-square flex flex-col justify-center items-center gap-5 font-sans">
             <div className="font-bold">First Lego League</div>
-            <p>Our team has partnered with local elementary schools to help launch three new FLL teams at Alamo Elementary School and Rancho Romero Elementary School for the 2025–26 season. We are dedicated to sharing our knowledge, mentoring students, and promoting the values of STEM and FIRST to inspire the next generation of innovators.</p>
+            <p>
+              Our team has partnered with local elementary schools to help
+              launch three new FLL teams at Alamo Elementary School and Rancho
+              Romero Elementary School for the 2025–26 season. We are dedicated
+              to sharing our knowledge, mentoring students, and promoting the
+              values of STEM and FIRST to inspire the next generation of
+              innovators.
+            </p>
           </div>
         </div>
         <div className="w-full h-100 flex flex-row justify-evenly items-center lg:px-20">
           <div className="flex items-center justify-center h-100 opacity-15 lg:opacity-100 lg:h-full aspect-9/8 absolute lg:relative">
-            <img src="/srv-logo.png" className="w-auto h-full max-w-none" alt="SRV Logo"></img>
+            <img
+              src="/srv-logo.png"
+              className="w-auto h-full max-w-none"
+              alt="SRV Logo"
+            ></img>
           </div>
           <div className="h-full aspect-square flex flex-col justify-center items-center gap-5 font-sans z-1">
             <div className="font-bold">Robotics Class & Club</div>
-            <p>We help organize and support the robotics class and club at our school and in the community. These programs give students hands-on experience with design, building, and programming, fostering teamwork and problem-solving skills that extend beyond the classroom.</p>
+            <p>
+              We help organize and support the robotics class and club at our
+              school and in the community. These programs give students hands-on
+              experience with design, building, and programming, fostering
+              teamwork and problem-solving skills that extend beyond the
+              classroom.
+            </p>
           </div>
         </div>
         <div className="w-full h-100 flex flex-row justify-evenly items-center lg:px-20">
           <div className="flex items-center justify-center h-100 opacity-15 lg:opacity-100 lg:h-full aspect-9/8 absolute lg:relative">
-            <img src="/outreach5.png" className="w-auto h-full max-w-none rounded-xl" alt="Outreach 5"></img>
+            <img
+              src="/outreach5.png"
+              className="w-auto h-full max-w-none rounded-xl"
+              alt="Outreach 5"
+            ></img>
           </div>
           <div className="h-full aspect-square flex flex-col justify-center items-center gap-5 font-sans z-1">
             <div className="font-bold">Comrades Program</div>
-            <p>We work closely with our high school’s special education program, known as the Comrades. Our members host regular lunch sessions where students learn programming concepts and apply them using VEX robots, providing both technical skills and an inclusive, collaborative learning environment.</p>
+            <p>
+              We work closely with our high school’s special education program,
+              known as the Comrades. Our members host regular lunch sessions
+              where students learn programming concepts and apply them using VEX
+              robots, providing both technical skills and an inclusive,
+              collaborative learning environment.
+            </p>
           </div>
         </div>
       </div>
     </section>
   </>
-)
+);
 
-export default Outreach
+export default Outreach;

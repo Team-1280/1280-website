@@ -1,25 +1,25 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import { lazy } from 'react'
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { lazy } from "react";
 
-import Footer from './components/Footer.tsx'
-import Navbar from './components/Navbar.tsx'
-import TopScroll from './components/TopScroll.tsx'
+import Footer from "./components/Footer.tsx";
+import Navbar from "./components/Navbar.tsx";
+import TopScroll from "./components/TopScroll.tsx";
 
-const About = lazy(() => import('./pages/About.tsx'))
-const Calendar = lazy(() => import('./pages/Calendar.tsx'))
-const Contact = lazy(() => import('./pages/Contact.tsx'))
-const Donate = lazy(() => import('./pages/Donate.tsx'))
-const Facility = lazy(() => import('./pages/Facility.tsx'))
-const First = lazy(() => import('./pages/First.tsx'))
-const Home = lazy(() => import('./pages/Home.tsx'))
-const Join = lazy(() => import('./pages/Join.tsx'))
-const Leadership = lazy(() => import('./pages/Leadership.tsx'))
-const Mentors = lazy(() => import('./pages/Mentors.tsx'))
-const News = lazy(() => import('./pages/News.tsx'))
-const Outreach = lazy(() => import('./pages/Outreach.tsx'))
-const Resources = lazy(() => import('./pages/Resources.tsx'))
-const RobotEngineering = lazy(() => import('./pages/RobotEngineering.tsx'))
-const Sponsors = lazy(() => import('./pages/Sponsors.tsx'))
+const About = lazy(() => import("./pages/About.tsx"));
+const Calendar = lazy(() => import("./pages/Calendar.tsx"));
+const Contact = lazy(() => import("./pages/Contact.tsx"));
+const Donate = lazy(() => import("./pages/Donate.tsx"));
+const Facility = lazy(() => import("./pages/Facility.tsx"));
+const First = lazy(() => import("./pages/First.tsx"));
+const Home = lazy(() => import("./pages/Home.tsx"));
+const Join = lazy(() => import("./pages/Join.tsx"));
+const Leadership = lazy(() => import("./pages/Leadership.tsx"));
+const Mentors = lazy(() => import("./pages/Mentors.tsx"));
+const News = lazy(() => import("./pages/News.tsx"));
+const Outreach = lazy(() => import("./pages/Outreach.tsx"));
+const Resources = lazy(() => import("./pages/Resources.tsx"));
+const RobotEngineering = lazy(() => import("./pages/RobotEngineering.tsx"));
+const Sponsors = lazy(() => import("./pages/Sponsors.tsx"));
 
 function App() {
   return (
@@ -47,7 +47,7 @@ function App() {
       </main>
       <Footer />
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

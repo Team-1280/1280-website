@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react'
-import NavbarLinks from './NavbarLinks'
-import './Navbar.css'
-import { useLocation } from 'react-router-dom'
+import { useEffect, useState } from "react";
+import NavbarLinks from "./NavbarLinks";
+import "./Navbar.css";
+import { useLocation } from "react-router-dom";
 
 const NavbarDropdown = () => {
-  const location = useLocation()
-  const [isOpen, setOpen] = useState(false)
+  const location = useLocation();
+  const [isOpen, setOpen] = useState(false);
 
   // menu should close after navigation
-  useEffect(() => setOpen(false), [location])
+  useEffect(() => setOpen(false), [location]);
 
   return (
     <div className="lg:hidden max-w-none z-100 w-auto h-[50%] pr-5 relative">
@@ -23,7 +23,7 @@ const NavbarDropdown = () => {
         </ul>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default NavbarDropdown
+export default NavbarDropdown;

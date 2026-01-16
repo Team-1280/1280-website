@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import './styles/Contact.css'
+import { Link } from "react-router-dom";
+import "./styles/Contact.css";
 
 const Contact = () => (
   <>
@@ -11,7 +11,8 @@ const Contact = () => (
           Contact Team 1280 – Ragin' C’ Biscuits
         </div>
         <div className="absolute font-sans ml-5 mr-5 mt-30 size-auto flex items-center text-black text-2xl text-center pointer-events-auto text-balance lg:mt-10">
-          Have a question about our team, sponsorship opportunities, outreach events, or joining as a member or mentor?
+          Have a question about our team, sponsorship opportunities, outreach
+          events, or joining as a member or mentor?
           <br></br>
           We’d love to hear from you.
         </div>
@@ -24,8 +25,7 @@ const Contact = () => (
         </div>
         <div className="absolute font-sans size-auto flex items-center text-white text-base text-center pointer-events-auto text-balance">
           <ul>
-            <li className="font-bold mt-10">Email: </li>
-            {' '}
+            <li className="font-bold mt-10">Email: </li>{" "}
             sanramonvalleyrobotics@gmail.com
             <div className="contact-newline">
               <li className="font-bold mt-4">Mailing Address: </li>
@@ -50,13 +50,14 @@ const Contact = () => (
         </div>
         <div className="absolute font-sans mb-30 size-auto flex items-center text-white text-base text-center pointer-events-auto text-balance">
           <ul>
-            <li className="mt-15">We’re always excited to welcome new students and mentors!</li>
+            <li className="mt-15">
+              We’re always excited to welcome new students and mentors!
+            </li>
             <li className="mb-4">
               Visit our
               <Link to="/join" className="whitespace-nowrap">
-                {' '}
-                <u>Join Us page</u>
-                {' '}
+                {" "}
+                <u>Join Us page</u>{" "}
               </Link>
               or email us to learn more about:
             </li>
@@ -74,20 +75,21 @@ const Contact = () => (
         </div>
         <div className="absolute font-sans size-auto flex items-center text-white text-base text-center pointer-events-auto text-balance">
           <div>
-            We rely on the support of sponsors to continue offering quality STEM education.
+            We rely on the support of sponsors to continue offering quality STEM
+            education.
             <br></br>
             Visit our
             <Link to="/donate" className="whitespace-nowrap">
-              {' '}
-              <u>Sponsorship page</u>
-              {' '}
+              {" "}
+              <u>Sponsorship page</u>{" "}
             </Link>
-            or email us at sanramonvalleyrobotics@gmail.com for partnership opportunities.
+            or email us at sanramonvalleyrobotics@gmail.com for partnership
+            opportunities.
           </div>
         </div>
       </div>
     </section>
   </>
-)
+);
 
-export default Contact
+export default Contact;

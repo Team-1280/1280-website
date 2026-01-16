@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import DropdownToggle from './DropdownToggle'
+import { Link } from "react-router-dom";
+import DropdownToggle from "./DropdownToggle";
 
 const NavbarLinks = ({ isMobile }: { isMobile?: boolean }) => {
   return (
@@ -31,7 +31,7 @@ const NavbarLinks = ({ isMobile }: { isMobile?: boolean }) => {
         Sponsor Us
       </Link>
     </>
-  )
-}
+  );
+};
 
-export default NavbarLinks
+export default NavbarLinks;

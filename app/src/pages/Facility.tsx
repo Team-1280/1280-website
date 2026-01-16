@@ -1,5 +1,5 @@
 // TODO: Import in scss file instead of explicit css import. #31
-import './styles/GrayBox.css'
+import "./styles/GrayBox.css";
 
 const Facility = () => (
   <>
@@ -7,16 +7,20 @@ const Facility = () => (
     <title>Facility</title>
     <section className="flex flex-col items-center lg:px-10 py-10 max-w-[100rem] mx-auto">
       <div className="gray-box">
-        <div className="gray-box-heading">
-          Facility
-        </div>
+        <div className="gray-box-heading">Facility</div>
         <div>
           <div>
-            We’re fortunate to have access to a well-equipped facility that includes multiple machining tools, a full fabrication workshop, and a dedicated storage closet—enabling our team to design, build, and maintain our robot efficiently.
+            We’re fortunate to have access to a well-equipped facility that
+            includes multiple machining tools, a full fabrication workshop, and
+            a dedicated storage closet—enabling our team to design, build, and
+            maintain our robot efficiently.
           </div>
           <div className="p-2"></div>
           <div>
-            Thanks to the generous support of our sponsors, we’ve been able to purchase and utilize these essential machines, tools, and workspace resources. Their contributions empower us to innovate, improve our builds, and keep our components organized and competition-ready.
+            Thanks to the generous support of our sponsors, we’ve been able to
+            purchase and utilize these essential machines, tools, and workspace
+            resources. Their contributions empower us to innovate, improve our
+            builds, and keep our components organized and competition-ready.
           </div>
         </div>
       </div>
@@ -26,10 +30,19 @@ const Facility = () => (
             Location
           </div>
           <div className="font-sans">
-            <div className="text-lg text-left font-bold px-10">San Ramon Valley High School</div>
-            <div className="text-lg text-left font-bold px-10">501 Danville Blvd, Danville, CA 94526</div>
+            <div className="text-lg text-left font-bold px-10">
+              San Ramon Valley High School
+            </div>
+            <div className="text-lg text-left font-bold px-10">
+              501 Danville Blvd, Danville, CA 94526
+            </div>
             <div className="p-2"></div>
-            <div className="text-lg text-left px-10 max-w-[90%]">We’re right next to the stadium parking lot. If you're having trouble finding us on campus, simply look for the entrance to the stadium parking—our workshop and facility entrance are conveniently located immediately beside it.</div>
+            <div className="text-lg text-left px-10 max-w-[90%]">
+              We’re right next to the stadium parking lot. If you're having
+              trouble finding us on campus, simply look for the entrance to the
+              stadium parking—our workshop and facility entrance are
+              conveniently located immediately beside it.
+            </div>
           </div>
         </div>
         <div>
@@ -39,6 +52,6 @@ const Facility = () => (
       <img src="/facility2.png" className="w-full outline mt-15"></img>
     </section>
   </>
-)
+);
 
-export default Facility
+export default Facility;

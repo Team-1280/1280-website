@@ -10,6 +10,6 @@ const News = () => (
       </div>
     </section>
   </>
-)
+);
 
-export default News
+export default News;

@@ -10,6 +10,6 @@ const RobotEngineering = () => (
       </div>
     </section>
   </>
-)
+);
 
-export default RobotEngineering
+export default RobotEngineering;

@@ -6,7 +6,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  background-color:#ECF1F2;
+  background-color: #ecf1f2;
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 1rem;
@@ -32,10 +32,10 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  background-color:#222222;
+  background-color: #222222;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-top: 1rem; 
+  padding-top: 1rem;
 }
 .interest-background {
   display: flex;
@@ -45,10 +45,10 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  background-color:#222222;
+  background-color: #222222;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-top: 1rem; 
+  padding-top: 1rem;
 }
 .sponsor-background {
   display: flex;
@@ -58,10 +58,10 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  background-color:#222222;
+  background-color: #222222;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-top: 1rem; 
+  padding-top: 1rem;
 }
 .gen-inq-heading {
   position: absolute;

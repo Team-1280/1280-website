@@ -10,6 +10,6 @@ const Resources = () => (
       </div>
     </section>
   </>
-)
+);
 
-export default Resources
+export default Resources;
