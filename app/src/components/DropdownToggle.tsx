@@ -1,6 +1,10 @@
 import { useCallback, useState } from 'react'
 
-const Dropdown = ({ text, children, isMobile }) => {
+const Dropdown = ({
+  text,
+  children,
+  isMobile,
+}: React.PropsWithChildren<{ text: string, isMobile?: boolean }>) => {
   const [open, setOpen] = useState(false)
 
   const toggle = useCallback(() => {
@@ -8,13 +12,22 @@ const Dropdown = ({ text, children, isMobile }) => {
   }, [isMobile, open])
 
   return (
-    <div onClick={toggle} className={isMobile ? 'block' : 'dropdown select-none'}>
+    <div
+      onClick={toggle}
+      className={isMobile ? 'block' : 'dropdown select-none'}
+    >
       <a>
         {text}
         {' ▼'}
       </a>
       {(open || !isMobile) && (
-        <ul className={isMobile ? 'text-center h-auto max-h-none flex flex-col [&>a]:p-2 border-y my-5' : 'dropdown-content'}>
+        <ul
+          className={
+            isMobile
+              ? 'text-center h-auto max-h-none flex flex-col [&>a]:p-2 border-y my-5'
+              : 'dropdown-content'
+          }
+        >
           {children}
         </ul>
       )}

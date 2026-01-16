@@ -1,12 +1,18 @@
+import eslint from '@eslint/js'
+import { defineConfig } from 'eslint/config'
 import stylistic from '@stylistic/eslint-plugin'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
-export default tseslint.config(
-  { ignores: ['dist'] },
-  ...tseslint.configs.recommendedTypeChecked,
+export default defineConfig(
+  eslint.configs.recommended,
+  tseslint.configs.recommended,
+  tseslint.configs.stylistic,
+  {
+    ignores: ['dist'],
+  },
   {
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
