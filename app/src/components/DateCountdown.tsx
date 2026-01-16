@@ -1,11 +1,5 @@
 import { JSX, useEffect, useState } from 'react';
 
-/**
- * Gets the time remaining until a Date.
- * @param {Date} startDate The Date to begin from
- * @param {Date} endDate The Date to get the time remaining until from startDate
- * @returns {{seconds: number, minutes: number, hours: number, days: number}}
- */
 const getTimeRemaining = (startDate: Date, endDate: Date) => {
   const total = endDate.getTime() - startDate.getTime();
   if (total < 0)
@@ -25,15 +19,6 @@ const getTimeRemaining = (startDate: Date, endDate: Date) => {
   };
 };
 
-/**
- * Component that counts down to a specified date and time.
- * @param {object} props
- * @param {Date} props.untilDateTime The Date to count down to
- * @param {string} props.numberClasses The classes to give the numbers
- * @param {string} props.labelClasses The classes to give the labels
- * @param {JSX.ElementType} props.doneElement The element to show when done, optional
- * @returns {JSX.ElementType}
- */
 const DateCountdown = ({
   labelClasses,
   numberClasses,
