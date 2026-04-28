@@ -1,4 +1,4 @@
-import './styles/GrayBox.css';
+import { GrayBox, GrayBoxContent, GrayBoxHeading } from '../components/GrayBox';
 
 const Home = () => {
   return (
@@ -22,36 +22,34 @@ const Home = () => {
         <div className="lg:min-w-200 min-w-full flex flex-nowrap max-w-[76rem] mx-auto">
           <img src="/home3.png" className="hidden lg:block"></img>
           <div className="lg:mx-16 flex flex-col justify-around items-center">
-            <div className="gray-box lg:h-[25%] h-min-content my-8 lg:my-0">
-              <div className="gray-box-heading">Team 1280 - Who We Are</div>
-              <div className="text-white text-lg">
+            <GrayBox>
+              <GrayBoxHeading>Team 1280 - Who We Are</GrayBoxHeading>
+              <GrayBoxContent>
                 FRC Team 1280, the Ragin' C Biscuits, is a student-led robotics
                 team based at San Ramon Valley High School in Danville,
                 California. Since 2004, we’ve empowered high school students to
                 explore STEM through hands-on engineering, programming,
                 business, and leadership challenges.
-              </div>
-            </div>
-            <div className="gray-box lg:h-[25%] h-min-content my-8 lg:my-0">
-              <div className="gray-box-heading">
-                San Ramon Valley High School
-              </div>
-              <div className="text-white text-lg">
+              </GrayBoxContent>
+            </GrayBox>
+            <GrayBox>
+              <GrayBoxHeading>San Ramon Valley High School</GrayBoxHeading>
+              <GrayBoxContent>
                 Team 1280 primarily recruits students from San Ramon Valley High
                 School (SRVHS) but we also accept any students from the San
                 Ramon Valley Unified School District (SRVUSD).{' '}
-              </div>
-            </div>
-            <div className="gray-box lg:h-[25%] h-min-content my-8 lg:my-0">
-              <div className="gray-box-heading">FIRST Robotics</div>
-              <div className="text-white text-lg">
+              </GrayBoxContent>
+            </GrayBox>
+            <GrayBox>
+              <GrayBoxHeading>FIRST Robotics</GrayBoxHeading>
+              <GrayBoxContent>
                 FIRST is an international organization which uses competitive
                 robotics as a vehicle for promoting science & technology. FIRST
                 allows high school students to work side by side with
                 professional mentors to learn skills ranging from engineering to
                 marketing, animation and business.
-              </div>
-            </div>
+              </GrayBoxContent>
+            </GrayBox>
           </div>
         </div>
       </div>

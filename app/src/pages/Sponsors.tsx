@@ -48,7 +48,7 @@ const Sponsors = () => (
               href="https://www.fabworks.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group block size-full flex place-items-center"
+              className="group size-full flex place-items-center"
             >
               <img
                 src="/fabworks-logo.svg"

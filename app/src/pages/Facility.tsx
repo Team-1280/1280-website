@@ -1,14 +1,13 @@
-// TODO: Import in scss file instead of explicit css import. #31
-import './styles/GrayBox.css';
+import { GrayBox, GrayBoxContent, GrayBoxHeading } from '../components/GrayBox';
 
 const Facility = () => (
   <>
     <link rel="canonical" href="https://www.team1280.com/facility" />
     <title>Facility</title>
     <section className="flex flex-col items-center lg:px-10 py-10 max-w-[100rem] mx-auto">
-      <div className="gray-box">
-        <div className="gray-box-heading">Facility</div>
-        <div>
+      <GrayBox>
+        <GrayBoxHeading>Facility</GrayBoxHeading>
+        <GrayBoxContent>
           <div>
             We’re fortunate to have access to a well-equipped facility that
             includes multiple machining tools, a full fabrication workshop, and
@@ -22,8 +21,8 @@ const Facility = () => (
             resources. Their contributions empower us to innovate, improve our
             builds, and keep our components organized and competition-ready.
           </div>
-        </div>
-      </div>
+        </GrayBoxContent>
+      </GrayBox>
       <div className="relative h-[30%] w-full lg:px-7 lg:py-16 flex flex-wrap lg:flex-nowrap py-10 gap-5 lg:gap-0 lg:pb-0">
         <div>
           <div className="text-black text-3xl text-left font-roboto px-10 pb-5 pt-5">
