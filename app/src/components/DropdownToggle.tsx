@@ -1,38 +1,44 @@
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 
-const Dropdown = ({
+const DropdownToggle = ({
   text,
   children,
   isMobile,
 }: React.PropsWithChildren<{ text: string; isMobile?: boolean }>) => {
   const [open, setOpen] = useState(false);
 
-  const toggle = useCallback(() => {
+  const handleMobileClick = () => {
     if (isMobile) setOpen(!open);
-  }, [isMobile, open]);
+  };
 
   return (
     <div
-      onClick={toggle}
-      className={isMobile ? 'block' : 'dropdown select-none'}
+      onClick={handleMobileClick}
+      className={
+        isMobile
+          ? 'w-full flex flex-col items-center'
+          : 'dropdown navbar-item nav-link select-none cursor-pointer'
+      }
     >
-      <a>
+      {/* Header */}
+      <span className="navbar-item flex items-center gap-1">
         {text}
-        {' ▼'}
-      </a>
-      {(open || !isMobile) && (
-        <ul
-          className={
-            isMobile
-              ? 'text-center h-auto max-h-none flex flex-col [&>a]:p-2 border-y my-5'
-              : 'dropdown-content'
-          }
-        >
+        <span className="text-[10px]">▼</span>
+      </span>
+
+      {/* Content */}
+      {(isMobile || true) && isMobile && open && (
+        <ul className="flex flex-col w-full bg-[#2a292e] rounded my-2 py-2">
           {children}
         </ul>
+      )}
+
+      {/* Desktop hover dropdown */}
+      {!isMobile && (
+        <ul className="dropdown-content">{children}</ul>
       )}
     </div>
   );
 };
 
-export default Dropdown;
+export default DropdownToggle;
