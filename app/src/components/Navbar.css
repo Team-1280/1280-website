@@ -1,51 +1,79 @@
-.links {
-  color: white;
-  /* padding-right: 1.5rem; */
-  text-decoration: none;
-  font-weight: bold;
-  position: absolute;
-  left: 60%;
-  transform: translateX(-50%);
-  gap: 2rem;
-}
+/* Base navigation link definitions */
 .navbar-item {
-  /* padding-right: 1.5rem; */
   color: white;
-  vertical-align: center;
   text-decoration: none;
   white-space: nowrap;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: color 0.2s ease, text-underline-offset 0.2s ease;
 }
+
+/* Spacer padding specifically for flat navbar text links */
+.nav-link {
+  display: inline-block;
+}
+
 .navbar-item:hover {
   text-decoration: underline;
   color: #fcc307;
   text-underline-offset: 8px;
 }
+
+/* Standalone Join Us Button */
+.join-us-btn {
+  display: inline-block;
+  background-color: #fcc307; 
+  color: #1f1e23 !important; /* Dark text color for high contrast contrast against yellow */
+  padding: 0.6rem 1.4rem;
+  border-radius: 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease;
+}
+
+.join-us-btn:hover {
+  background-color: #e2af05; /* Sleek, darker gold tone for hover feedback */
+}
+
+/* Dropdown Container Structural Styling */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-.drop-link {
-  color: white;
-  border: none;
-}
+
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  background-color: #1f1e23;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 50;
+  border-radius: 4px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%); /* Centers the dropdown smoothly below 'Get Involved' */
 }
+
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-transform: none; /* Keeps sub-links normally formatted */
 }
+
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #2a292e;
+  color: #fcc307;
 }
-.dropdown:hover .dropdown-content,
-.dropdown-content:hover {
-  display: block;
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
 }

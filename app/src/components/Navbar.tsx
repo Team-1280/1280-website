@@ -4,20 +4,30 @@ import NavbarLinks from './NavbarLinks';
 import NavbarDropdown from './NavbarDropdown';
 
 const Navbar = () => (
-  <nav className="bg-[#1f1e23] text-white flex items-center px-0 py-0 justify-between h-17 lg:h-30 box-border overflow-x-clip">
+  <nav className="bg-[#1f1e23] text-white flex items-center px-6 lg:px-12 justify-between h-[80px] lg:h-[100px] box-border w-full relative z-[99]">
+    
+    {/* Logo Block - Scaled up for better visibility */}
     <Link
       to="/"
-      className="nav-item h-full flex justify-center items-center mx-5 lg:mx-10"
+      className="h-full flex items-center"
     >
-      <img src="./logo.png" className="max-w-none w-auto h-[60%] lg:h-[75%]" />
-      <span className="hidden lg:block text-[#fcc307] ml-10 font-orbitron text-4xl text-center whitespace-nowrap">
-        Ragin' C Biscuits
-      </span>
+      <div className="h-20 w-auto flex items-center justify-center overflow-hidden">
+        <img 
+          src="/TeamLogo.png" 
+          alt="Team Logo" 
+          className="h-full w-auto object-contain opacity-95 hover:opacity-100 transition-opacity" 
+        />
+      </div>
     </Link>
-    <NavbarDropdown />
-    <ul className="hidden dropdown-container lg:grid h-auto whitespace-nowrap text-white text-xl font-bold font-sans z-[20] gap-x-10 gap-y-2 pr-10 grid-flow-col grid-rows-3 lg:grid-rows-2 xl:grid-rows-1 items-center justify-center">
+
+    {/* Desktop links container */}
+    <div className="hidden lg:flex flex-row items-center gap-x-8 text-white">
       <NavbarLinks />
-    </ul>
+    </div>
+
+    {/* Mobile dropdown menu trigger */}
+    <NavbarDropdown />
+
   </nav>
 );
 
