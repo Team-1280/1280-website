@@ -149,7 +149,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-zinc-500 font-bold uppercase tracking-wider text-[10px] font-mono leading-none mb-1">{"Social Media"}</h4>
-                <a href="https://instagram.com/frcteam1280" target="_blank" rel="noopener noreferrer" className="text-[#fcc307] font-bold text-sm hover:underline">{"@frcteam1280"}</a>
+                <a href="https://instagram.com/frc1280" target="_blank" rel="noopener noreferrer" className="text-[#fcc307] font-bold text-sm hover:underline">{"@frc1280"}</a>
               </div>
             </div>
           </div>

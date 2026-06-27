@@ -143,7 +143,7 @@ const Join = () => {
             
             <div className="mt-6 flex flex-wrap gap-4 items-center justify-center">
               <a
-                href="https://forms.google.com" // Replace with actual interest form link
+                href="https://forms.gle/nZQozqsnRFCrM3tMA" // Replace with actual interest form link
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-[#1f1e23] text-[#fcc307] font-black uppercase text-xs sm:text-sm tracking-widest rounded-sm hover:bg-black transition-all shadow-md"
