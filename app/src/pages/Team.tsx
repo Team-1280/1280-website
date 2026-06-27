@@ -42,6 +42,8 @@ const MentorCard = ({ name, role, bio, links }: MentorProps) => {
     imagePath = '/mentors/Paterson1.jpg';
   } else if (lowName.includes('lastowski')) {
     imagePath = '/mentors/Marty.png';
+  } else if (lowName.includes('warren') || lowName.includes('lin')) {
+    imagePath = '/mentors/Ren.webp'; // <-- Added override for Warren
   }
 
   return (
@@ -112,7 +114,7 @@ const Team = () => {
     { name: "Grayson Manz", role: "Fabrication Officer", school: "SRVHS '27" },
     { name: "Taylor Schannon", role: "Design Officer", school: "SRVHS '29" },
     { name: "Wendy Zhao", role: "Programming Officer", school: "SRVHS '29" },
-    { name: "Briar Chang", role: "Operations Officer", school: "SRVHS '27" }
+    { name: "Briar Chang", role: "Outreach Officer", school: "SRVHS '27" }
   ];
 
   const historicalData: Record<string, StudentProps[]> = {
