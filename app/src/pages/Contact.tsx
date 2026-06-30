@@ -91,14 +91,14 @@ const Contact = () => {
 
         <div className="relative z-20 max-w-4xl mx-auto flex flex-col items-center gap-2">
           <span className="text-[#fcc307] text-xs font-bold tracking-[0.25em] uppercase font-mono">
-            {"Reach Out"}
+            Reach Out
           </span>
           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tight text-white leading-none">
-            {"CONTACT "} <span className="text-[#fcc307]">{"US"}</span>
+            {"CONTACT "} <span className="text-[#fcc307]">US</span>
           </h1>
           <div className="w-12 h-[2px] bg-[#fcc307] my-2"></div>
           <p className="text-zinc-300 text-xs md:text-sm font-medium max-w-xl mt-2 leading-relaxed">
-            {"Questions, press inquiries, sponsorship discussions, or interested in joining Team 1280? We would love to hear from you."}
+            Questions, press inquiries, sponsorship discussions, or interested in joining Team 1280? We would love to hear from you.
           </p>
         </div>
       </section>
@@ -109,9 +109,9 @@ const Contact = () => {
         {/* Left Column */}
         <div className="lg:col-span-5 flex flex-col gap-6">
           <div className="flex flex-col items-start gap-1">
-            <span className="text-[#fcc307] text-xs font-bold tracking-widest uppercase font-mono">{"Find Us"}</span>
+            <span className="text-[#fcc307] text-xs font-bold tracking-widest uppercase font-mono">Find Us</span>
             <h2 className="text-2xl font-black uppercase tracking-tight text-white">
-              {"GET IN "} <span className="text-[#fcc307]">{"TOUCH"}</span>
+              {"GET IN "} <span className="text-[#fcc307]">TOUCH</span>
             </h2>
           </div>
 
@@ -123,8 +123,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-zinc-500 font-bold uppercase tracking-wider text-[10px] font-mono leading-none mb-1">{"Email"}</h4>
-                <a href="mailto:sanramonvalleyrobotics@gmail.com" className="text-[#fcc307] font-bold text-sm hover:underline break-all">{"sanramonvalleyrobotics@gmail.com"}</a>
+                <h4 className="text-zinc-500 font-bold uppercase tracking-wider text-[10px] font-mono leading-none mb-1">Email</h4>
+                <a href="mailto:sanramonvalleyrobotics@gmail.com" className="text-[#fcc307] font-bold text-sm hover:underline break-all">sanramonvalleyrobotics@gmail.com</a>
               </div>
             </div>
 
@@ -136,8 +136,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-zinc-500 font-bold uppercase tracking-wider text-[10px] font-mono leading-none mb-1">{"Location"}</h4>
-                <p className="text-zinc-200 font-bold text-sm leading-snug">{"SRVHS Career and Technical Education Building"}</p>
+                <h4 className="text-zinc-500 font-bold uppercase tracking-wider text-[10px] font-mono leading-none mb-1">Location</h4>
+                <p className="text-zinc-200 font-bold text-sm leading-snug">SRVHS Career and Technical Education Building</p>
               </div>
             </div>
 
@@ -148,8 +148,8 @@ const Contact = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="text-zinc-500 font-bold uppercase tracking-wider text-[10px] font-mono leading-none mb-1">{"Social Media"}</h4>
-                <a href="https://instagram.com/frc1280" target="_blank" rel="noopener noreferrer" className="text-[#fcc307] font-bold text-sm hover:underline">{"@frc1280"}</a>
+                <h4 className="text-zinc-500 font-bold uppercase tracking-wider text-[10px] font-mono leading-none mb-1">Social Media</h4>
+                <a href="https://instagram.com/frc1280" target="_blank" rel="noopener noreferrer" className="text-[#fcc307] font-bold text-sm hover:underline">@frc1280</a>
               </div>
             </div>
           </div>
@@ -170,7 +170,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex flex-col text-left">
                 <label className="text-xs font-bold text-zinc-400 uppercase tracking-wide mb-1.5 font-mono">
-                  {"First Name "} <span className="text-[#fcc307]">{"*"}</span>
+                  {"First Name "} <span className="text-[#fcc307]">*</span>
                 </label>
                 <input
                   type="text"
@@ -183,7 +183,7 @@ const Contact = () => {
               </div>
               <div className="flex flex-col text-left">
                 <label className="text-xs font-bold text-zinc-400 uppercase tracking-wide mb-1.5 font-mono">
-                  {"Last Name "} <span className="text-[#fcc307]">{"*"}</span>
+                  {"Last Name "} <span className="text-[#fcc307]">*</span>
                 </label>
                 <input
                   type="text"
@@ -198,7 +198,7 @@ const Contact = () => {
 
             <div className="flex flex-col text-left">
               <label className="text-xs font-bold text-zinc-400 uppercase tracking-wide mb-1.5 font-mono">
-                {"Email Address "} <span className="text-[#fcc307]">{"*"}</span>
+                {"Email Address "} <span className="text-[#fcc307]">*</span>
               </label>
               <input
                 type="email"
@@ -212,7 +212,7 @@ const Contact = () => {
 
             <div className="flex flex-col text-left">
               <label className="text-xs font-bold text-zinc-400 uppercase tracking-wide mb-1.5 font-mono">
-                {"Subject"}
+                Subject
               </label>
               <div className="relative">
                 <select
@@ -221,10 +221,10 @@ const Contact = () => {
                   onChange={handleChange}
                   className="w-full bg-[#151417] border border-zinc-800 focus:border-[#fcc307] text-sm px-4 py-3 rounded-sm outline-none transition-colors duration-200 text-white font-medium appearance-none cursor-pointer"
                 >
-                  <option value="General Inquiry">{"General Inquiry"}</option>
-                  <option value="Sponsorship & Partnership">{"Sponsorship & Partnership"}</option>
-                  <option value="Mentorship Opportunities">{"Mentorship Opportunities"}</option>
-                  <option value="Join the Team (Students)">{"Join the Team (Students)"}</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Sponsorship & Partnership">Sponsorship & Partnership</option>
+                  <option value="Mentorship Opportunities">Mentorship Opportunities</option>
+                  <option value="Join the Team (Students)">Join the Team (Students)</option>
                 </select>
                 <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-zinc-500">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
@@ -236,7 +236,7 @@ const Contact = () => {
 
             <div className="flex flex-col text-left">
               <label className="text-xs font-bold text-zinc-400 uppercase tracking-wide mb-1.5 font-mono">
-                {"Message "} <span className="text-[#fcc307]">{"*"}</span>
+                {"Message "} <span className="text-[#fcc307]">*</span>
               </label>
               <textarea
                 name="message"
@@ -267,11 +267,11 @@ const Contact = () => {
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth={4}></circle>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                   </svg>
-                  {"Sending..."}
+                  Sending...
                 </>
               ) : (
                 <>
-                  {"Send Message"}
+                  Send Message
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5 transform transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
                   </svg>

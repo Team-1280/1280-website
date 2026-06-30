@@ -27,7 +27,7 @@ const DropdownToggle = ({
       </span>
 
       {/* Content */}
-      {(isMobile || true) && isMobile && open && (
+      {isMobile && open && (
         <ul className="flex flex-col w-full bg-[#2a292e] rounded my-2 py-2">
           {children}
         </ul>
