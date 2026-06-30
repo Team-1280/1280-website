@@ -112,7 +112,7 @@ const Team = () => {
     { name: "Isaac Schmidt", role: "Team Captain", school: "SRVHS '27" },
     { name: "Gray Garson", role: "Team Captain", school: "SRVHS '28" },
     { name: "Grayson Manz", role: "Fabrication Officer", school: "SRVHS '27" },
-    { name: "Jayesh Rungta", role: "Design Officer", school: "CHS '29" },
+    { name: "Jayesh Rungta", role: "Design Officer", school: "Cal High '29" },
     { name: "Wendy Zhao", role: "Programming Officer", school: "SRVHS '29" },
     { name: "Briar Chang", role: "Outreach Officer", school: "SRVHS '27" }
   ];
